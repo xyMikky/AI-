@@ -1,0 +1,117 @@
+﻿{
+    "pos":  [
+                {
+                    "term":  "露营洗澡",
+                    "match":  [
+                                  "camping",
+                                  "festival",
+                                  "showers"
+                              ]
+                },
+                {
+                    "term":  "双电池续航",
+                    "match":  [
+                                  "two batteries",
+                                  "2nd battery",
+                                  "second battery",
+                                  "long",
+                                  "full charge"
+                              ]
+                },
+                {
+                    "term":  "水压够用",
+                    "match":  [
+                                  "water pressure",
+                                  "pressure",
+                                  "steady",
+                                  "sprayer"
+                              ]
+                },
+                {
+                    "term":  "易安装使用",
+                    "match":  [
+                                  "easy",
+                                  "submerse",
+                                  "works great",
+                                  "nice"
+                              ]
+                },
+                {
+                    "term":  "便携省空间",
+                    "match":  [
+                                  "portable",
+                                  "space",
+                                  "backpack",
+                                  "car trunk"
+                              ]
+                },
+                {
+                    "term":  "多场景清洗",
+                    "match":  [
+                                  "pet",
+                                  "car washing",
+                                  "plants",
+                                  "windows"
+                              ]
+                }
+            ],
+    "neg":  [
+                {
+                    "term":  "电池不充电",
+                    "match":  [
+                                  "battery",
+                                  "batteries",
+                                  "charge",
+                                  "charger",
+                                  "wont charge",
+                                  "doesnt hold the charge"
+                              ]
+                },
+                {
+                    "term":  "停止工作",
+                    "match":  [
+                                  "stopped working",
+                                  "not work",
+                                  "worked okay",
+                                  "unit",
+                                  "pump"
+                              ]
+                },
+                {
+                    "term":  "配件缺失",
+                    "match":  [
+                                  "missing parts",
+                                  "no charger",
+                                  "charger cable",
+                                  "electrical cord"
+                              ]
+                },
+                {
+                    "term":  "水压不足",
+                    "match":  [
+                                  "not enough pressure",
+                                  "weak",
+                                  "pressure",
+                                  "flow"
+                              ]
+                },
+                {
+                    "term":  "容器不适配",
+                    "match":  [
+                                  "aqua-tainer",
+                                  "opening",
+                                  "fit",
+                                  "bucket"
+                              ]
+                },
+                {
+                    "term":  "耐久疑虑",
+                    "match":  [
+                                  "months",
+                                  "one year",
+                                  "connection",
+                                  "reliably"
+                              ]
+                }
+            ]
+}

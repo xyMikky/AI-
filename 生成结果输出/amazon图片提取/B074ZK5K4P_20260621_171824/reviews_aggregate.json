@@ -1,0 +1,574 @@
+{
+  "input": "C:\\Users\\WIGOO00008\\Desktop\\AI工作助手\\生成结果输出\\amazon图片提取\\B074ZK5K4P_20260621_171824\\linkfox-amazon-reviews__20260621_171907_2e2edd__reviews_linkfox_raw.json",
+  "scope": "single_asin:B074ZK5K4P",
+  "distinct_asin_count": 1,
+  "distinct_asin": {
+    "B074ZK5K4P": 371
+  },
+  "raw_distinct_asin_count": 3,
+  "raw_distinct_asin": {
+    "B074ZK5K4P": 371,
+    "B09SSV1HG7": 38,
+    "B0BM8R7H96": 13
+  },
+  "global": {
+    "available": true,
+    "rating": 4.4,
+    "rating_count": 4559,
+    "histogram": [],
+    "avg": 4.4,
+    "avg_from_histogram": null,
+    "low_star_ratio_percent": null,
+    "source": "amazon_page_global_ratings"
+  },
+  "sample": {
+    "scope": "single_asin:B074ZK5K4P",
+    "total": 371,
+    "avg": 3.08,
+    "low_star_ratio_percent": 38.0,
+    "caveat": "样本均分/低星比受抓取星级配额影响（每星级上限 100 条，常按正/负配额抓取），会系统性放大低星占比，可能显著低于全局综合评分，仅用于挖掘抱怨主题。"
+  },
+  "total": 371,
+  "avg": 3.08,
+  "star_counts": {
+    "5": 80,
+    "4": 93,
+    "3": 57,
+    "2": 58,
+    "1": 83
+  },
+  "histogram": [
+    {
+      "star": 5,
+      "percent": 21.6
+    },
+    {
+      "star": 4,
+      "percent": 25.1
+    },
+    {
+      "star": 3,
+      "percent": 15.4
+    },
+    {
+      "star": 2,
+      "percent": 15.6
+    },
+    {
+      "star": 1,
+      "percent": 22.4
+    }
+  ],
+  "low_star_count": 141,
+  "low_star_ratio_percent": 38.0,
+  "theme_summary": {},
+  "positive_keywords": [
+    {
+      "text": "water",
+      "count": 66
+    },
+    {
+      "text": "shower",
+      "count": 48
+    },
+    {
+      "text": "batteries",
+      "count": 40
+    },
+    {
+      "text": "pump",
+      "count": 37
+    },
+    {
+      "text": "battery",
+      "count": 36
+    },
+    {
+      "text": "good",
+      "count": 36
+    },
+    {
+      "text": "easy",
+      "count": 34
+    },
+    {
+      "text": "shower head",
+      "count": 34
+    },
+    {
+      "text": "camping",
+      "count": 31
+    },
+    {
+      "text": "great",
+      "count": 29
+    },
+    {
+      "text": "works",
+      "count": 26
+    },
+    {
+      "text": "hose",
+      "count": 25
+    },
+    {
+      "text": "nice",
+      "count": 25
+    },
+    {
+      "text": "works great",
+      "count": 24
+    },
+    {
+      "text": "water pressure",
+      "count": 23
+    },
+    {
+      "text": "showers",
+      "count": 21
+    },
+    {
+      "text": "work",
+      "count": 20
+    },
+    {
+      "text": "de",
+      "count": 18
+    },
+    {
+      "text": "long",
+      "count": 18
+    },
+    {
+      "text": "pressure",
+      "count": 18
+    }
+  ],
+  "critical_keywords": [
+    {
+      "text": "battery",
+      "count": 53
+    },
+    {
+      "text": "batteries",
+      "count": 46
+    },
+    {
+      "text": "water",
+      "count": 43
+    },
+    {
+      "text": "pump",
+      "count": 35
+    },
+    {
+      "text": "not work",
+      "count": 33
+    },
+    {
+      "text": "worked",
+      "count": 30
+    },
+    {
+      "text": "stopped working",
+      "count": 25
+    },
+    {
+      "text": "charge",
+      "count": 24
+    },
+    {
+      "text": "shower",
+      "count": 23
+    },
+    {
+      "text": "first",
+      "count": 22
+    },
+    {
+      "text": "months",
+      "count": 19
+    },
+    {
+      "text": "good",
+      "count": 17
+    },
+    {
+      "text": "camping",
+      "count": 15
+    },
+    {
+      "text": "pressure",
+      "count": 14
+    },
+    {
+      "text": "charger",
+      "count": 13
+    },
+    {
+      "text": "until",
+      "count": 13
+    },
+    {
+      "text": "great",
+      "count": 13
+    },
+    {
+      "text": "unit",
+      "count": 12
+    },
+    {
+      "text": "enough",
+      "count": 12
+    },
+    {
+      "text": "another",
+      "count": 12
+    }
+  ],
+  "word_cloud": [
+    {
+      "text": "water",
+      "count": 66,
+      "sentiment": "pos",
+      "level": 3
+    },
+    {
+      "text": "battery",
+      "count": 53,
+      "sentiment": "neg",
+      "level": 3
+    },
+    {
+      "text": "shower",
+      "count": 48,
+      "sentiment": "pos",
+      "level": 3
+    },
+    {
+      "text": "batteries",
+      "count": 46,
+      "sentiment": "neg",
+      "level": 3
+    },
+    {
+      "text": "water",
+      "count": 43,
+      "sentiment": "neg",
+      "level": 2
+    },
+    {
+      "text": "batteries",
+      "count": 40,
+      "sentiment": "pos",
+      "level": 2
+    },
+    {
+      "text": "pump",
+      "count": 37,
+      "sentiment": "pos",
+      "level": 2
+    },
+    {
+      "text": "battery",
+      "count": 36,
+      "sentiment": "pos",
+      "level": 2
+    },
+    {
+      "text": "good",
+      "count": 36,
+      "sentiment": "pos",
+      "level": 2
+    },
+    {
+      "text": "pump",
+      "count": 35,
+      "sentiment": "neg",
+      "level": 2
+    },
+    {
+      "text": "easy",
+      "count": 34,
+      "sentiment": "pos",
+      "level": 2
+    },
+    {
+      "text": "shower head",
+      "count": 34,
+      "sentiment": "pos",
+      "level": 2
+    },
+    {
+      "text": "not work",
+      "count": 33,
+      "sentiment": "neg",
+      "level": 2
+    },
+    {
+      "text": "camping",
+      "count": 31,
+      "sentiment": "pos",
+      "level": 2
+    },
+    {
+      "text": "worked",
+      "count": 30,
+      "sentiment": "neg",
+      "level": 2
+    },
+    {
+      "text": "great",
+      "count": 29,
+      "sentiment": "pos",
+      "level": 2
+    },
+    {
+      "text": "works",
+      "count": 26,
+      "sentiment": "pos",
+      "level": 2
+    },
+    {
+      "text": "hose",
+      "count": 25,
+      "sentiment": "pos",
+      "level": 2
+    },
+    {
+      "text": "nice",
+      "count": 25,
+      "sentiment": "pos",
+      "level": 2
+    },
+    {
+      "text": "stopped working",
+      "count": 25,
+      "sentiment": "neg",
+      "level": 2
+    },
+    {
+      "text": "works great",
+      "count": 24,
+      "sentiment": "pos",
+      "level": 2
+    },
+    {
+      "text": "charge",
+      "count": 24,
+      "sentiment": "neg",
+      "level": 2
+    },
+    {
+      "text": "water pressure",
+      "count": 23,
+      "sentiment": "pos",
+      "level": 2
+    },
+    {
+      "text": "shower",
+      "count": 23,
+      "sentiment": "neg",
+      "level": 2
+    },
+    {
+      "text": "first",
+      "count": 22,
+      "sentiment": "neg",
+      "level": 2
+    },
+    {
+      "text": "showers",
+      "count": 21,
+      "sentiment": "pos",
+      "level": 1
+    },
+    {
+      "text": "work",
+      "count": 20,
+      "sentiment": "pos",
+      "level": 1
+    },
+    {
+      "text": "months",
+      "count": 19,
+      "sentiment": "neg",
+      "level": 1
+    },
+    {
+      "text": "de",
+      "count": 18,
+      "sentiment": "pos",
+      "level": 1
+    },
+    {
+      "text": "good",
+      "count": 17,
+      "sentiment": "neg",
+      "level": 1
+    },
+    {
+      "text": "camping",
+      "count": 15,
+      "sentiment": "neg",
+      "level": 1
+    },
+    {
+      "text": "pressure",
+      "count": 14,
+      "sentiment": "neg",
+      "level": 1
+    },
+    {
+      "text": "charger",
+      "count": 13,
+      "sentiment": "neg",
+      "level": 1
+    },
+    {
+      "text": "until",
+      "count": 13,
+      "sentiment": "neg",
+      "level": 1
+    },
+    {
+      "text": "great",
+      "count": 13,
+      "sentiment": "neg",
+      "level": 1
+    },
+    {
+      "text": "unit",
+      "count": 12,
+      "sentiment": "neg",
+      "level": 1
+    }
+  ],
+  "variant_breakdown": [
+    {
+      "label": "B074ZK5K4P",
+      "count": 371,
+      "avg": 3.08,
+      "low_star_pct": 38.0
+    }
+  ],
+  "variation_breakdown": [
+    {
+      "label": "（未知）",
+      "count": 371,
+      "avg": 3.08,
+      "low_star_pct": 38.0
+    }
+  ],
+  "country_breakdown": [
+    {
+      "label": "us",
+      "count": 371,
+      "avg": 3.08,
+      "low_star_pct": 38.0
+    }
+  ],
+  "vp_breakdown": [
+    {
+      "label": "Verified Purchase",
+      "count": 365,
+      "avg": 3.1,
+      "low_star_pct": 37.5
+    },
+    {
+      "label": "非 VP",
+      "count": 6,
+      "avg": 2.0,
+      "low_star_pct": 66.7
+    }
+  ],
+  "trend": {
+    "window_days": 90,
+    "max_date": "2026-05-29",
+    "recent_label": "近 90 天",
+    "recent_count": 10,
+    "recent_avg": 3.4,
+    "recent_low_pct": 40.0,
+    "hist_label": "90 天前",
+    "hist_count": 361,
+    "hist_avg": 3.07,
+    "hist_low_pct": 38.0,
+    "delta_low_pct": 2.0,
+    "verdict": "近期与历史基本持平"
+  },
+  "real_voice_candidates": [
+    {
+      "stars": 1,
+      "variation": "",
+      "asin": "B074ZK5K4P",
+      "text": "Neither battery pack charges, or the charger cable is faulty so never got to test any part of it."
+    },
+    {
+      "stars": 1,
+      "variation": "",
+      "asin": "B074ZK5K4P",
+      "text": "Unit came with missing parts. Instructions indicate very clearly that item 11 is the charger and so the unit it’s useless for me if there is no charger."
+    },
+    {
+      "stars": 1,
+      "variation": "",
+      "asin": "B074ZK5K4P",
+      "text": "Check this before you put it in a closet and wait for an emergency. I bought this a while back and I am not finding an electrical cord to charge the batteries now that we actually need it."
+    },
+    {
+      "stars": 2,
+      "variation": "",
+      "asin": "B074ZK5K4P",
+      "text": "For me, it worked exactly one year. The battery just doesn't hold the charge anymore."
+    },
+    {
+      "stars": 2,
+      "variation": "",
+      "asin": "B074ZK5K4P",
+      "text": "This was a five-star review until just recently won the unit stopped working reliably. If I wiggle the cable just right I can get it to work for a moment but it no longer just turns on and works the way it used to. Seems to be an issue with the connection between the battery and or the pump rather than a malfunction of the pump itself.Prior to that, I love it. Inexpensive, the pump fits through a "
+    },
+    {
+      "stars": 2,
+      "variation": "",
+      "asin": "B074ZK5K4P",
+      "text": "(review after usage) Worked okay for 6 months, then stopped working. The water wouldn't pump out. Batteries are good and still functioning but of no use."
+    },
+    {
+      "stars": 3,
+      "variation": "",
+      "asin": "B074ZK5K4P",
+      "text": "Over the past 8 years I have used numerous portable bidets/showers and this brand/product has been the best so far in terms of durability and quality. I own two bidet showers at home, which my family uses daily and they both arr 3 years old and are still working great.But recently I ordered a 3rd new one, and it never arrived even after a month. It was marked for 2 day delivery! After 4 delays ove"
+    },
+    {
+      "stars": 3,
+      "variation": "",
+      "asin": "B074ZK5K4P",
+      "text": "Works in a pinch. Happy it came with two batteries. But i have used better of the same type of shower and it sucks up the water quite quickly."
+    },
+    {
+      "stars": 3,
+      "variation": "",
+      "asin": "B074ZK5K4P",
+      "text": "Wanted to use this with a aqua-tainer 7 gal water storage cube but it wouldn’t fit into the opening. Didn’t even see if it worked, as this wouldn’t work for us."
+    },
+    {
+      "stars": 5,
+      "variation": "",
+      "asin": "B074ZK5K4P",
+      "text": "Good product. Had it 3 years and have no complaints."
+    },
+    {
+      "stars": 5,
+      "variation": "",
+      "asin": "B074ZK5K4P",
+      "text": "Esta ducha es lo mejor que he comprado me fuia a acampar y me pude bañar sin ningun problema. No coge mucho espacio y es fenomenal."
+    },
+    {
+      "stars": 5,
+      "variation": "",
+      "asin": "B074ZK5K4P",
+      "text": "This thing is incredible. I take this to camping festivals, and this thing paid for itself in 2 days from the money I saved on paying for showers. I shower 2-3x a day, and after 4 days, I never have even had to use the 2nd battery.  Easily the best product out here."
+    }
+  ],
+  "note": "【双口径】global=全局综合评分（覆盖全部评论，产品真实口碑主口径）；顶层 total/avg/histogram/low_star_* 与 sample 块均为抓取样本口径。样本受星级配额抓取放大低星，样本均分**不等同于** Amazon 页面全局评分，撰写报告/评分时综合分一律取 global，样本仅用于挖抱怨主题与真实原话。scope=all_variants 时样本覆盖文件内全部 ASIN（同系列不同款式/颜色）；关键词/主题均为数据驱动，可泛化任意品类。"
+}

@@ -1,0 +1,757 @@
+{
+  "asin": "B074ZK5K4P",
+  "country": "US",
+  "returned": 100,
+  "top_kw_sv": 27934,
+  "top_keywords": [
+    {
+      "kw": "portable shower",
+      "kw_zh": "便携式淋浴器",
+      "nat_rank": 67,
+      "ad_rank": 12,
+      "search_vol": 27934,
+      "traffic_share_pct": 18.74,
+      "positions": [
+        "自然位",
+        "SP广告"
+      ],
+      "markers": [
+        "主词",
+        "精准词"
+      ]
+    },
+    {
+      "kw": "portable shower head",
+      "kw_zh": "便携式淋浴喷头",
+      "nat_rank": 42,
+      "ad_rank": null,
+      "search_vol": 3338,
+      "traffic_share_pct": 13.23,
+      "positions": [
+        "自然位",
+        "SP广告",
+        "视频广告",
+        "推荐位"
+      ],
+      "markers": [
+        "主词",
+        "长尾词"
+      ]
+    },
+    {
+      "kw": "camping shower",
+      "kw_zh": "露营淋浴器",
+      "nat_rank": 52,
+      "ad_rank": 22,
+      "search_vol": 22914,
+      "traffic_share_pct": 11.94,
+      "positions": [
+        "自然位",
+        "SP广告",
+        "推荐位"
+      ],
+      "markers": [
+        "主词",
+        "精准词"
+      ]
+    },
+    {
+      "kw": "portable shower pump",
+      "kw_zh": "便携式淋浴泵",
+      "nat_rank": 12,
+      "ad_rank": 20,
+      "search_vol": 2010,
+      "traffic_share_pct": 7.49,
+      "positions": [
+        "自然位",
+        "SP广告",
+        "视频广告",
+        "推荐位"
+      ],
+      "markers": [
+        "主词",
+        "长尾词"
+      ]
+    },
+    {
+      "kw": "portable shower for camping",
+      "kw_zh": "露营便携式淋浴",
+      "nat_rank": 100,
+      "ad_rank": 20,
+      "search_vol": 11641,
+      "traffic_share_pct": 7.02,
+      "positions": [
+        "自然位",
+        "SP广告",
+        "推荐位"
+      ],
+      "markers": [
+        "主词",
+        "精准词"
+      ]
+    },
+    {
+      "kw": "camping shower pump",
+      "kw_zh": "露营淋浴泵",
+      "nat_rank": 8,
+      "ad_rank": null,
+      "search_vol": 2621,
+      "traffic_share_pct": 4.25,
+      "positions": [
+        "自然位",
+        "SP广告",
+        "推荐位"
+      ],
+      "markers": [
+        "长尾词"
+      ]
+    },
+    {
+      "kw": "camp shower",
+      "kw_zh": "露营淋浴",
+      "nat_rank": 44,
+      "ad_rank": null,
+      "search_vol": 8409,
+      "traffic_share_pct": 4.09,
+      "positions": [
+        "自然位"
+      ],
+      "markers": [
+        "精准词"
+      ]
+    },
+    {
+      "kw": "camp shower pump",
+      "kw_zh": "露营淋浴泵",
+      "nat_rank": 3,
+      "ad_rank": null,
+      "search_vol": 752,
+      "traffic_share_pct": 3.66,
+      "positions": [
+        "自然位"
+      ],
+      "markers": [
+        "长尾词"
+      ]
+    },
+    {
+      "kw": "portable camping shower",
+      "kw_zh": "便携式露营淋浴",
+      "nat_rank": 42,
+      "ad_rank": 34,
+      "search_vol": 3782,
+      "traffic_share_pct": 3.25,
+      "positions": [
+        "自然位",
+        "SP广告",
+        "推荐位"
+      ],
+      "markers": [
+        "长尾词"
+      ]
+    },
+    {
+      "kw": "camping showers",
+      "kw_zh": "露营淋浴器",
+      "nat_rank": 38,
+      "ad_rank": 24,
+      "search_vol": 2505,
+      "traffic_share_pct": 1.99,
+      "positions": [
+        "自然位",
+        "SP广告",
+        "推荐位"
+      ],
+      "markers": [
+        "精准词"
+      ]
+    },
+    {
+      "kw": "ducha portatil",
+      "kw_zh": "便携淋浴",
+      "nat_rank": 54,
+      "ad_rank": null,
+      "search_vol": 2242,
+      "traffic_share_pct": 1.69,
+      "positions": [
+        "自然位"
+      ],
+      "markers": [
+        "精准词"
+      ]
+    },
+    {
+      "kw": "koala gear portable shower kit",
+      "kw_zh": "考拉齿轮便携式淋浴套件",
+      "nat_rank": 13,
+      "ad_rank": 5,
+      "search_vol": 580,
+      "traffic_share_pct": 1.14,
+      "positions": [
+        "自然位",
+        "SP广告",
+        "视频广告",
+        "推荐位"
+      ],
+      "markers": [
+        "长尾词"
+      ]
+    },
+    {
+      "kw": "koala gear portable shower",
+      "kw_zh": "考拉便携户外淋浴装备",
+      "nat_rank": 44,
+      "ad_rank": null,
+      "search_vol": 1323,
+      "traffic_share_pct": 1.11,
+      "positions": [
+        "自然位",
+        "SP广告",
+        "视频广告",
+        "推荐位"
+      ],
+      "markers": [
+        "长尾词"
+      ]
+    },
+    {
+      "kw": "portable shower kit",
+      "kw_zh": "便携式淋浴套件",
+      "nat_rank": 14,
+      "ad_rank": null,
+      "search_vol": 393,
+      "traffic_share_pct": 1.07,
+      "positions": [
+        "自然位",
+        "视频广告"
+      ],
+      "markers": [
+        "长尾词"
+      ]
+    },
+    {
+      "kw": "camping water pump",
+      "kw_zh": "露营水泵",
+      "nat_rank": 16,
+      "ad_rank": null,
+      "search_vol": 767,
+      "traffic_share_pct": 0.87,
+      "positions": [
+        "自然位"
+      ],
+      "markers": [
+        "长尾词"
+      ]
+    },
+    {
+      "kw": "shower pump",
+      "kw_zh": "淋浴泵",
+      "nat_rank": 42,
+      "ad_rank": null,
+      "search_vol": 818,
+      "traffic_share_pct": 0.75,
+      "positions": [
+        "自然位"
+      ],
+      "markers": [
+        "精准词"
+      ]
+    },
+    {
+      "kw": "portable camping shower pump",
+      "kw_zh": "便携式露营淋浴泵",
+      "nat_rank": 9,
+      "ad_rank": null,
+      "search_vol": 398,
+      "traffic_share_pct": 0.72,
+      "positions": [
+        "自然位",
+        "SP广告",
+        "视频广告",
+        "推荐位"
+      ],
+      "markers": [
+        "长尾词"
+      ]
+    },
+    {
+      "kw": "shower for camping",
+      "kw_zh": "露营用淋浴",
+      "nat_rank": 65,
+      "ad_rank": null,
+      "search_vol": 1383,
+      "traffic_share_pct": 0.66,
+      "positions": [
+        "自然位"
+      ],
+      "markers": [
+        "长尾词"
+      ]
+    },
+    {
+      "kw": "portable shower head with hose",
+      "kw_zh": "带软管的便携式淋浴喷头",
+      "nat_rank": 36,
+      "ad_rank": null,
+      "search_vol": 333,
+      "traffic_share_pct": 0.61,
+      "positions": [
+        "自然位",
+        "视频广告"
+      ],
+      "markers": [
+        "长尾词"
+      ]
+    },
+    {
+      "kw": "flextail shower",
+      "kw_zh": "flextail 淋浴",
+      "nat_rank": 25,
+      "ad_rank": null,
+      "search_vol": 702,
+      "traffic_share_pct": 0.54,
+      "positions": [
+        "自然位"
+      ],
+      "markers": [
+        "精准词"
+      ]
+    },
+    {
+      "kw": "rechargeable water pump",
+      "kw_zh": "充电式水泵",
+      "nat_rank": 78,
+      "ad_rank": null,
+      "search_vol": 1782,
+      "traffic_share_pct": 0.52,
+      "positions": [
+        "自然位"
+      ],
+      "markers": [
+        "长尾词"
+      ]
+    },
+    {
+      "kw": "ducha portátil para camping",
+      "kw_zh": "露营便携淋浴",
+      "nat_rank": 77,
+      "ad_rank": null,
+      "search_vol": 1277,
+      "traffic_share_pct": 0.52,
+      "positions": [
+        "自然位"
+      ],
+      "markers": [
+        "长尾词"
+      ]
+    },
+    {
+      "kw": "shower camping",
+      "kw_zh": "露营淋浴",
+      "nat_rank": 81,
+      "ad_rank": null,
+      "search_vol": 1126,
+      "traffic_share_pct": 0.45,
+      "positions": [
+        "自然位",
+        "SP广告",
+        "推荐位"
+      ],
+      "markers": [
+        "精准词"
+      ]
+    },
+    {
+      "kw": "portable shower with heater",
+      "kw_zh": "带加热器的便携式淋浴",
+      "nat_rank": 79,
+      "ad_rank": null,
+      "search_vol": 914,
+      "traffic_share_pct": 0.4,
+      "positions": [
+        "自然位"
+      ],
+      "markers": [
+        "长尾词"
+      ]
+    },
+    {
+      "kw": "camper shower",
+      "kw_zh": "露营车淋浴",
+      "nat_rank": 22,
+      "ad_rank": null,
+      "search_vol": 459,
+      "traffic_share_pct": 0.4,
+      "positions": [
+        "自然位"
+      ],
+      "markers": [
+        "精准词"
+      ]
+    },
+    {
+      "kw": "battery powered water pump",
+      "kw_zh": "电池供电的水泵",
+      "nat_rank": 128,
+      "ad_rank": null,
+      "search_vol": 1888,
+      "traffic_share_pct": 0.39,
+      "positions": [
+        "自然位"
+      ],
+      "markers": [
+        "长尾词"
+      ]
+    },
+    {
+      "kw": "battery powered camping shower",
+      "kw_zh": "露营电池淋浴器",
+      "nat_rank": 15,
+      "ad_rank": 24,
+      "search_vol": 303,
+      "traffic_share_pct": 0.38,
+      "positions": [
+        "自然位",
+        "SP广告",
+        "推荐位"
+      ],
+      "markers": [
+        "长尾词"
+      ]
+    },
+    {
+      "kw": "camping shower head",
+      "kw_zh": "露营淋浴喷头",
+      "nat_rank": 38,
+      "ad_rank": 36,
+      "search_vol": 626,
+      "traffic_share_pct": 0.37,
+      "positions": [
+        "自然位",
+        "SP广告"
+      ],
+      "markers": [
+        "长尾词"
+      ]
+    },
+    {
+      "kw": "portable showers",
+      "kw_zh": "便携式淋浴",
+      "nat_rank": 60,
+      "ad_rank": null,
+      "search_vol": 651,
+      "traffic_share_pct": 0.36,
+      "positions": [
+        "自然位"
+      ],
+      "markers": [
+        "精准词"
+      ]
+    },
+    {
+      "kw": "outdoor shower head",
+      "kw_zh": "户外淋浴喷头",
+      "nat_rank": 133,
+      "ad_rank": null,
+      "search_vol": 2095,
+      "traffic_share_pct": 0.33,
+      "positions": [
+        "自然位"
+      ],
+      "markers": [
+        "长尾词"
+      ]
+    },
+    {
+      "kw": "portable outdoor shower",
+      "kw_zh": "便携式户外淋浴",
+      "nat_rank": 57,
+      "ad_rank": null,
+      "search_vol": 1484,
+      "traffic_share_pct": 0.31,
+      "positions": [
+        "自然位"
+      ],
+      "markers": []
+    },
+    {
+      "kw": "portable camp shower",
+      "kw_zh": "便携式露营淋浴",
+      "nat_rank": 44,
+      "ad_rank": 23,
+      "search_vol": 535,
+      "traffic_share_pct": 0.3,
+      "positions": [
+        "自然位",
+        "SP广告",
+        "推荐位"
+      ],
+      "markers": [
+        "长尾词"
+      ]
+    },
+    {
+      "kw": "portable shower hose",
+      "kw_zh": "便携式淋浴软管",
+      "nat_rank": 64,
+      "ad_rank": null,
+      "search_vol": 419,
+      "traffic_share_pct": 0.3,
+      "positions": [
+        "自然位",
+        "SP广告",
+        "视频广告",
+        "推荐位"
+      ],
+      "markers": [
+        "长尾词"
+      ]
+    },
+    {
+      "kw": "camping shower with heater",
+      "kw_zh": "带加热器的野营淋浴",
+      "nat_rank": 133,
+      "ad_rank": null,
+      "search_vol": 1444,
+      "traffic_share_pct": 0.29,
+      "positions": [
+        "自然位",
+        "SP广告",
+        "推荐位"
+      ],
+      "markers": [
+        "长尾词"
+      ]
+    },
+    {
+      "kw": "outdoor camping shower",
+      "kw_zh": "户外露营淋浴",
+      "nat_rank": 87,
+      "ad_rank": 20,
+      "search_vol": 742,
+      "traffic_share_pct": 0.29,
+      "positions": [
+        "自然位",
+        "SP广告"
+      ],
+      "markers": [
+        "长尾词"
+      ]
+    },
+    {
+      "kw": "heated camping shower",
+      "kw_zh": "加热露营淋浴器",
+      "nat_rank": 87,
+      "ad_rank": null,
+      "search_vol": 747,
+      "traffic_share_pct": 0.27,
+      "positions": [
+        "自然位"
+      ],
+      "markers": [
+        "长尾词"
+      ]
+    },
+    {
+      "kw": "portable water pump",
+      "kw_zh": "便携式水泵",
+      "nat_rank": 142,
+      "ad_rank": null,
+      "search_vol": 1969,
+      "traffic_share_pct": 0.22,
+      "positions": [
+        "自然位"
+      ],
+      "markers": []
+    },
+    {
+      "kw": "portable shower sprayer",
+      "kw_zh": "便携式淋浴喷头",
+      "nat_rank": 27,
+      "ad_rank": null,
+      "search_vol": 388,
+      "traffic_share_pct": 0.22,
+      "positions": [
+        "自然位"
+      ],
+      "markers": [
+        "长尾词"
+      ]
+    },
+    {
+      "kw": "solar shower",
+      "kw_zh": "太阳能淋浴",
+      "nat_rank": 140,
+      "ad_rank": null,
+      "search_vol": 6888,
+      "traffic_share_pct": 0.2,
+      "positions": [
+        "自然位"
+      ],
+      "markers": []
+    },
+    {
+      "kw": "camping shower kit",
+      "kw_zh": "露营淋浴套件",
+      "nat_rank": 114,
+      "ad_rank": null,
+      "search_vol": 782,
+      "traffic_share_pct": 0.2,
+      "positions": [
+        "自然位",
+        "SP广告",
+        "推荐位"
+      ],
+      "markers": [
+        "长尾词"
+      ]
+    },
+    {
+      "kw": "portable water sprayer",
+      "kw_zh": "便携式喷雾器",
+      "nat_rank": 135,
+      "ad_rank": null,
+      "search_vol": 1121,
+      "traffic_share_pct": 0.19,
+      "positions": [
+        "自然位"
+      ],
+      "markers": [
+        "长尾词"
+      ]
+    },
+    {
+      "kw": "regadera portatil",
+      "kw_zh": "便携式喷头",
+      "nat_rank": 60,
+      "ad_rank": null,
+      "search_vol": 373,
+      "traffic_share_pct": 0.18,
+      "positions": [
+        "自然位"
+      ],
+      "markers": [
+        "精准词"
+      ]
+    },
+    {
+      "kw": "travel shower",
+      "kw_zh": "旅行淋浴",
+      "nat_rank": 83,
+      "ad_rank": null,
+      "search_vol": 595,
+      "traffic_share_pct": 0.18,
+      "positions": [
+        "自然位"
+      ],
+      "markers": [
+        "精准词"
+      ]
+    },
+    {
+      "kw": "shower portable",
+      "kw_zh": "便携式淋浴",
+      "nat_rank": 75,
+      "ad_rank": null,
+      "search_vol": 626,
+      "traffic_share_pct": 0.17,
+      "positions": [
+        "自然位"
+      ],
+      "markers": [
+        "精准词"
+      ]
+    },
+    {
+      "kw": "rinse kit portable shower system",
+      "kw_zh": "便携式冲洗淋浴系统",
+      "nat_rank": 79,
+      "ad_rank": null,
+      "search_vol": 540,
+      "traffic_share_pct": 0.17,
+      "positions": [
+        "自然位",
+        "SP广告",
+        "推荐位"
+      ],
+      "markers": [
+        "长尾词"
+      ]
+    },
+    {
+      "kw": "camping portable shower",
+      "kw_zh": "露营便携淋浴",
+      "nat_rank": 61,
+      "ad_rank": null,
+      "search_vol": 464,
+      "traffic_share_pct": 0.17,
+      "positions": [
+        "自然位"
+      ],
+      "markers": [
+        "长尾词"
+      ]
+    },
+    {
+      "kw": "outdoor shower camping",
+      "kw_zh": "户外露营淋浴",
+      "nat_rank": 101,
+      "ad_rank": null,
+      "search_vol": 555,
+      "traffic_share_pct": 0.16,
+      "positions": [
+        "自然位"
+      ],
+      "markers": [
+        "长尾词"
+      ]
+    },
+    {
+      "kw": "road shower",
+      "kw_zh": "道路淋浴器",
+      "nat_rank": 57,
+      "ad_rank": null,
+      "search_vol": 333,
+      "traffic_share_pct": 0.15,
+      "positions": [
+        "自然位"
+      ],
+      "markers": [
+        "精准词"
+      ]
+    },
+    {
+      "kw": "camping sink with pump",
+      "kw_zh": "带泵的露营水槽",
+      "nat_rank": 58,
+      "ad_rank": null,
+      "search_vol": 343,
+      "traffic_share_pct": 0.15,
+      "positions": [
+        "自然位"
+      ],
+      "markers": [
+        "长尾词"
+      ]
+    },
+    {
+      "kw": "portable heated shower",
+      "kw_zh": "便携式加热淋浴器",
+      "nat_rank": 110,
+      "ad_rank": null,
+      "search_vol": 707,
+      "traffic_share_pct": 0.14,
+      "positions": [
+        "自然位"
+      ],
+      "markers": [
+        "长尾词"
+      ]
+    }
+  ],
+  "organic_share": 0.8168,
+  "paid_share": 0.1543,
+  "total_kw": 197,
+  "nf_count": 194,
+  "ad_count": 28.0
+}

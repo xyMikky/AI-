@@ -1,0 +1,597 @@
+{
+  "input": "C:\\Users\\WIGOO00008\\Desktop\\AI工作助手\\生成结果输出\\amazon图片提取\\B07WGMDBDF_20260621_164933\\linkfox-amazon-reviews__20260621_165528_0856ba__reviews_linkfox_raw.json",
+  "scope": "single_asin:B07WGMDBDF",
+  "distinct_asin_count": 1,
+  "distinct_asin": {
+    "B07WGMDBDF": 191
+  },
+  "raw_distinct_asin_count": 5,
+  "raw_distinct_asin": {
+    "B07WGMDBDF": 191,
+    "B0CTFB1XGC": 73,
+    "B08BHZNY9P": 36,
+    "B0DSVXPMT1": 31,
+    "UNKNOWN": 27
+  },
+  "global": {
+    "available": true,
+    "rating": 4.5,
+    "rating_count": 3440,
+    "histogram": [
+      {
+        "star": 5,
+        "percent": 73.0
+      },
+      {
+        "star": 4,
+        "percent": 15.0
+      },
+      {
+        "star": 3,
+        "percent": 5.0
+      },
+      {
+        "star": 2,
+        "percent": 2.0
+      },
+      {
+        "star": 1,
+        "percent": 5.0
+      }
+    ],
+    "avg": 4.5,
+    "avg_from_histogram": 4.49,
+    "low_star_ratio_percent": 7.0,
+    "source": "amazon_page_global_ratings"
+  },
+  "sample": {
+    "scope": "single_asin:B07WGMDBDF",
+    "total": 191,
+    "avg": 2.82,
+    "low_star_ratio_percent": 42.4,
+    "caveat": "样本均分/低星比受抓取星级配额影响（每星级上限 100 条，常按正/负配额抓取），会系统性放大低星占比，可能显著低于全局综合评分，仅用于挖掘抱怨主题。"
+  },
+  "total": 191,
+  "avg": 2.82,
+  "star_counts": {
+    "5": 30,
+    "4": 48,
+    "3": 32,
+    "2": 19,
+    "1": 62
+  },
+  "histogram": [
+    {
+      "star": 5,
+      "percent": 15.7
+    },
+    {
+      "star": 4,
+      "percent": 25.1
+    },
+    {
+      "star": 3,
+      "percent": 16.8
+    },
+    {
+      "star": 2,
+      "percent": 9.9
+    },
+    {
+      "star": 1,
+      "percent": 32.5
+    }
+  ],
+  "low_star_count": 81,
+  "low_star_ratio_percent": 42.4,
+  "theme_summary": {},
+  "positive_keywords": [
+    {
+      "text": "shower",
+      "count": 56
+    },
+    {
+      "text": "water",
+      "count": 45
+    },
+    {
+      "text": "pump",
+      "count": 33
+    },
+    {
+      "text": "battery",
+      "count": 32
+    },
+    {
+      "text": "great",
+      "count": 27
+    },
+    {
+      "text": "works",
+      "count": 25
+    },
+    {
+      "text": "camping",
+      "count": 22
+    },
+    {
+      "text": "good",
+      "count": 19
+    },
+    {
+      "text": "nice",
+      "count": 14
+    },
+    {
+      "text": "long",
+      "count": 14
+    },
+    {
+      "text": "charge",
+      "count": 13
+    },
+    {
+      "text": "first",
+      "count": 13
+    },
+    {
+      "text": "works great",
+      "count": 13
+    },
+    {
+      "text": "hose",
+      "count": 12
+    },
+    {
+      "text": "batteries",
+      "count": 12
+    },
+    {
+      "text": "turn",
+      "count": 12
+    },
+    {
+      "text": "worked",
+      "count": 11
+    },
+    {
+      "text": "easy",
+      "count": 11
+    },
+    {
+      "text": "power",
+      "count": 11
+    },
+    {
+      "text": "showers",
+      "count": 10
+    }
+  ],
+  "critical_keywords": [
+    {
+      "text": "battery",
+      "count": 29
+    },
+    {
+      "text": "batteries",
+      "count": 27
+    },
+    {
+      "text": "water",
+      "count": 23
+    },
+    {
+      "text": "not work",
+      "count": 19
+    },
+    {
+      "text": "pump",
+      "count": 17
+    },
+    {
+      "text": "shower",
+      "count": 17
+    },
+    {
+      "text": "stopped working",
+      "count": 15
+    },
+    {
+      "text": "works",
+      "count": 14
+    },
+    {
+      "text": "worked",
+      "count": 13
+    },
+    {
+      "text": "return",
+      "count": 11
+    },
+    {
+      "text": "great",
+      "count": 11
+    },
+    {
+      "text": "shower head",
+      "count": 10
+    },
+    {
+      "text": "showers",
+      "count": 9
+    },
+    {
+      "text": "hose",
+      "count": 9
+    },
+    {
+      "text": "second",
+      "count": 9
+    },
+    {
+      "text": "motor",
+      "count": 9
+    },
+    {
+      "text": "charging",
+      "count": 8
+    },
+    {
+      "text": "not charge",
+      "count": 8
+    },
+    {
+      "text": "turn",
+      "count": 8
+    },
+    {
+      "text": "months",
+      "count": 8
+    }
+  ],
+  "word_cloud": [
+    {
+      "text": "shower",
+      "count": 56,
+      "sentiment": "pos",
+      "level": 3
+    },
+    {
+      "text": "water",
+      "count": 45,
+      "sentiment": "pos",
+      "level": 3
+    },
+    {
+      "text": "pump",
+      "count": 33,
+      "sentiment": "pos",
+      "level": 2
+    },
+    {
+      "text": "battery",
+      "count": 32,
+      "sentiment": "pos",
+      "level": 2
+    },
+    {
+      "text": "battery",
+      "count": 29,
+      "sentiment": "neg",
+      "level": 2
+    },
+    {
+      "text": "great",
+      "count": 27,
+      "sentiment": "pos",
+      "level": 2
+    },
+    {
+      "text": "batteries",
+      "count": 27,
+      "sentiment": "neg",
+      "level": 2
+    },
+    {
+      "text": "works",
+      "count": 25,
+      "sentiment": "pos",
+      "level": 2
+    },
+    {
+      "text": "water",
+      "count": 23,
+      "sentiment": "neg",
+      "level": 2
+    },
+    {
+      "text": "camping",
+      "count": 22,
+      "sentiment": "pos",
+      "level": 2
+    },
+    {
+      "text": "good",
+      "count": 19,
+      "sentiment": "pos",
+      "level": 2
+    },
+    {
+      "text": "not work",
+      "count": 19,
+      "sentiment": "neg",
+      "level": 2
+    },
+    {
+      "text": "pump",
+      "count": 17,
+      "sentiment": "neg",
+      "level": 1
+    },
+    {
+      "text": "shower",
+      "count": 17,
+      "sentiment": "neg",
+      "level": 1
+    },
+    {
+      "text": "stopped working",
+      "count": 15,
+      "sentiment": "neg",
+      "level": 1
+    },
+    {
+      "text": "nice",
+      "count": 14,
+      "sentiment": "pos",
+      "level": 1
+    },
+    {
+      "text": "long",
+      "count": 14,
+      "sentiment": "pos",
+      "level": 1
+    },
+    {
+      "text": "works",
+      "count": 14,
+      "sentiment": "neg",
+      "level": 1
+    },
+    {
+      "text": "charge",
+      "count": 13,
+      "sentiment": "pos",
+      "level": 1
+    },
+    {
+      "text": "first",
+      "count": 13,
+      "sentiment": "pos",
+      "level": 1
+    },
+    {
+      "text": "works great",
+      "count": 13,
+      "sentiment": "pos",
+      "level": 1
+    },
+    {
+      "text": "worked",
+      "count": 13,
+      "sentiment": "neg",
+      "level": 1
+    },
+    {
+      "text": "hose",
+      "count": 12,
+      "sentiment": "pos",
+      "level": 1
+    },
+    {
+      "text": "batteries",
+      "count": 12,
+      "sentiment": "pos",
+      "level": 1
+    },
+    {
+      "text": "turn",
+      "count": 12,
+      "sentiment": "pos",
+      "level": 1
+    },
+    {
+      "text": "worked",
+      "count": 11,
+      "sentiment": "pos",
+      "level": 1
+    },
+    {
+      "text": "easy",
+      "count": 11,
+      "sentiment": "pos",
+      "level": 1
+    },
+    {
+      "text": "return",
+      "count": 11,
+      "sentiment": "neg",
+      "level": 1
+    },
+    {
+      "text": "great",
+      "count": 11,
+      "sentiment": "neg",
+      "level": 1
+    },
+    {
+      "text": "shower head",
+      "count": 10,
+      "sentiment": "neg",
+      "level": 1
+    },
+    {
+      "text": "showers",
+      "count": 9,
+      "sentiment": "neg",
+      "level": 1
+    },
+    {
+      "text": "hose",
+      "count": 9,
+      "sentiment": "neg",
+      "level": 1
+    },
+    {
+      "text": "second",
+      "count": 9,
+      "sentiment": "neg",
+      "level": 1
+    },
+    {
+      "text": "motor",
+      "count": 9,
+      "sentiment": "neg",
+      "level": 1
+    },
+    {
+      "text": "charging",
+      "count": 8,
+      "sentiment": "neg",
+      "level": 1
+    },
+    {
+      "text": "not charge",
+      "count": 8,
+      "sentiment": "neg",
+      "level": 1
+    }
+  ],
+  "variant_breakdown": [
+    {
+      "label": "B07WGMDBDF",
+      "count": 191,
+      "avg": 2.82,
+      "low_star_pct": 42.4
+    }
+  ],
+  "variation_breakdown": [
+    {
+      "label": "（未知）",
+      "count": 191,
+      "avg": 2.82,
+      "low_star_pct": 42.4
+    }
+  ],
+  "country_breakdown": [
+    {
+      "label": "us",
+      "count": 191,
+      "avg": 2.82,
+      "low_star_pct": 42.4
+    }
+  ],
+  "vp_breakdown": [
+    {
+      "label": "Verified Purchase",
+      "count": 184,
+      "avg": 2.82,
+      "low_star_pct": 42.4
+    },
+    {
+      "label": "非 VP",
+      "count": 7,
+      "avg": 2.86,
+      "low_star_pct": 42.9
+    }
+  ],
+  "trend": {
+    "window_days": 90,
+    "max_date": "2026-06-09",
+    "recent_label": "近 90 天",
+    "recent_count": 5,
+    "recent_avg": 3.2,
+    "recent_low_pct": 40.0,
+    "hist_label": "90 天前",
+    "hist_count": 186,
+    "hist_avg": 2.81,
+    "hist_low_pct": 42.5,
+    "delta_low_pct": -2.5,
+    "verdict": "近期与历史基本持平"
+  },
+  "real_voice_candidates": [
+    {
+      "stars": 1,
+      "variation": "",
+      "asin": "B07WGMDBDF",
+      "text": "The product stopped working after a month. The battery doesn’t turn on and the pump stopped working"
+    },
+    {
+      "stars": 1,
+      "variation": "",
+      "asin": "B07WGMDBDF",
+      "text": "The pump did not do anything day one. do not waist your time."
+    },
+    {
+      "stars": 1,
+      "variation": "",
+      "asin": "B07WGMDBDF",
+      "text": "So the item is not water proof ! Yet it's for water/showers ? It's chargeable but cannot touch water the chord is also so small it almost doesn't even make it out of a five gallon bucket .. if the chords for the product was much longer it would make the not water proof (charging part) make a little more sence.  Not satisfied at all"
+    },
+    {
+      "stars": 2,
+      "variation": "",
+      "asin": "B07WGMDBDF",
+      "text": "One of the batteries stopped working after 3 months. Replacement batteries aren't available. This was a waste of money."
+    },
+    {
+      "stars": 2,
+      "variation": "",
+      "asin": "B07WGMDBDF",
+      "text": "This is the second time I purchase this shower product the first time it lasted 2 years this time it last only three showers the batteries stopped working I can't even get a hold of the manufacturer I wouldn't recommend this product to no one"
+    },
+    {
+      "stars": 2,
+      "variation": "",
+      "asin": "B07WGMDBDF",
+      "text": "You can shut the water off when you want,should of got one whit a cut off on it."
+    },
+    {
+      "stars": 3,
+      "variation": "",
+      "asin": "B07WGMDBDF",
+      "text": "I wouldn't buy it again. The start button is difficult to press, and it's bulky and inconvenient to use when you're actually showering."
+    },
+    {
+      "stars": 3,
+      "variation": "",
+      "asin": "B07WGMDBDF",
+      "text": "Just a heads up it goes through about 2 gallons in 3 minuets if used consistently if you are being water conscious your best bet is to wet yourself down real fast. Try to keep as much of that water that has no soap in it to go back into whatever bucket it was coming out of and then turn it off soap yourself down turn it back on rinse yourself off for a few secondsturn it off scrub what you have le"
+    },
+    {
+      "stars": 3,
+      "variation": "",
+      "asin": "B07WGMDBDF",
+      "text": "I've only used this a few times, but the flow was to high.  Empties a bucket quickly.  Not high pressure, just high flow.  I put a kitchen sprayer flow restricted in it, fit perfect.  Now it lasts long enough to rince soap off."
+    },
+    {
+      "stars": 5,
+      "variation": "",
+      "asin": "B07WGMDBDF",
+      "text": "The BEST SHOWER TO HAVE !!! CAN USE IT ANYWHERE FOR ANYTHING!!! 2ND ONE I BOUGHT AND WOULD HIGHLY RECOMMEND TO ALL! HAS GREAT PRESSURE!! 👍🏾 BATTERY LIFE IS LONG AS WELL. CAN TAKE SEVERAL SHOWERS 🚿  ON ONE CHARGE AND ALSO HOLDS CHARGE LONG TIME!! GREAT 👍🏾"
+    },
+    {
+      "stars": 5,
+      "variation": "",
+      "asin": "B07WGMDBDF",
+      "text": "Worked great for our camping trip. Went to Big Dub 2026 and going again this year. This worked for us to use as aportable shower in a shower tent for about 7 people in our group. This year will be using this again."
+    },
+    {
+      "stars": 5,
+      "variation": "",
+      "asin": "B07WGMDBDF",
+      "text": "Gave to a neighbor and she loves it"
+    }
+  ],
+  "note": "【双口径】global=全局综合评分（覆盖全部评论，产品真实口碑主口径）；顶层 total/avg/histogram/low_star_* 与 sample 块均为抓取样本口径。样本受星级配额抓取放大低星，样本均分**不等同于** Amazon 页面全局评分，撰写报告/评分时综合分一律取 global，样本仅用于挖抱怨主题与真实原话。scope=all_variants 时样本覆盖文件内全部 ASIN（同系列不同款式/颜色）；关键词/主题均为数据驱动，可泛化任意品类。"
+}

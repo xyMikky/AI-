@@ -1,0 +1,22 @@
+{
+  "供电与电池": {
+    "电池无法充电": ["not charge", "charging", "battery", "batteries"],
+    "使用后失效": ["stopped working", "after a month", "after 3 months", "only three showers"],
+    "替换件缺失": ["replacement batteries", "manufacturer"]
+  },
+  "水泵与出水": {
+    "水泵不启动": ["pump did not", "not work", "did not do anything"],
+    "水流过快": ["goes through", "bucket quickly", "high flow"],
+    "水压体验": ["great pressure", "water pressure", "not high pressure"]
+  },
+  "结构与防水": {
+    "防水边界不清": ["not water proof", "cannot touch water", "water proof"],
+    "线长不够": ["chord is also so small", "cord", "longer"],
+    "开关操作不便": ["start button", "difficult to press", "turn it off"]
+  },
+  "使用场景": {
+    "露营淋浴": ["camping", "shower tent", "portable shower"],
+    "多人使用": ["7 people", "several showers", "group"],
+    "低频应急": ["neighbor", "anywhere", "anything"]
+  }
+}

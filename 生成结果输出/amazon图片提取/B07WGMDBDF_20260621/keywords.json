@@ -1,0 +1,20 @@
+{
+  "pos": [
+    {"term": "露营淋浴好用", "match": ["camping", "camp shower", "camping shower", "outdoor shower", "tent shower"]},
+    {"term": "便携 / 无线", "match": ["portable", "cordless", "lightweight", "easy to carry", "no cord"]},
+    {"term": "安装简便 / 易用", "match": ["easy to use", "easy setup", "simple to use", "convenient", "user friendly"]},
+    {"term": "淋浴体验好 / 推荐", "match": ["works great", "love it", "recommend", "great shower", "nice shower", "perfect for"]},
+    {"term": "双电池续航 praised", "match": ["two batteries", "dual battery", "long shower", "multiple showers"]},
+    {"term": "宠物 / 多场景", "match": ["pet wash", "dog wash", "beach", "surf", "hiking", "rv shower"]}
+  ],
+  "neg": [
+    {"term": "电池故障 / 不充电", "match": ["not charge", "wont charge", "dead battery", "stopped charging", "batteries stopped", "battery dead"]},
+    {"term": "停止工作 / 不工作", "match": ["stopped working", "not work", "doesnt work", "quit working", "no longer work"]},
+    {"term": "电池续航短", "match": ["battery life", "only last", "doesnt last", "few showers", "only got"]},
+    {"term": "出水弱 / 不出水", "match": ["no water", "weak pressure", "no pressure", "barely any water", "trickle"]},
+    {"term": "流量过大抽干桶", "match": ["drains quickly", "empty bucket", "too much water", "flow was too high", "empties"]},
+    {"term": "电机 / 泵体问题", "match": ["motor", "pump stopped", "burned out", "grinding"]},
+    {"term": "退货 / 浪费钱", "match": ["return", "waste of money", "waste your money", "not worth", "refund", "dont waste"]},
+    {"term": "喷头水管漏水", "match": ["hose", "shower head", "leak", "leaking", "sprayer"]}
+  ]
+}

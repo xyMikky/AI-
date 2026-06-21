@@ -1,0 +1,27 @@
+{
+  "asin": "B07WGMDBDF",
+  "composition": {
+    "nat": 0.278,
+    "sp": 0.168,
+    "sb": 0.044,
+    "sbv": 0.4197,
+    "rec": 0.1805
+  },
+  "organic_share": 0.278,
+  "paid_share": 0.6317,
+  "counts": {
+    "total_kw": 183,
+    "nf_count": 175,
+    "sp_count": 22,
+    "sb_count": null,
+    "sbv_count": 23,
+    "ac_count": 11
+  },
+  "period": {
+    "in": 38,
+    "out": 49,
+    "prev": 194
+  },
+  "exposure_score": 22430.27808165633,
+  "exposure_score_prev": 10075.068030313527
+}

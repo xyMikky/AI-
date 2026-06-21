@@ -1,0 +1,106 @@
+{
+  "success": true,
+  "source_html": "fetched_page.html",
+  "source_url": "https://www.amazon.com/dp/B07WGMDBDF",
+  "asin": "B07WGMDBDF",
+  "title": "innhom Portable Shower Camping Shower Outdoor Camp Shower Pump, Electric Rechargeable Portable Camping Shower, Powered by Rechargeable Battery",
+  "brand": "innhom",
+  "rating": 4.5,
+  "rating_count": 3440,
+  "price": {
+    "current": 36.96,
+    "list": 39.96,
+    "currency": "USD",
+    "main_offer_status": "available",
+    "variant_from_price": 29.97,
+    "variant_from_currency": "USD"
+  },
+  "category_rank": [],
+  "variations": {
+    "colors": {
+      "count": 4,
+      "values": [
+        "blue-2 batteries",
+        "green-2 batteries",
+        "green",
+        "white-black"
+      ]
+    },
+    "sizes": {
+      "count": 0,
+      "values": []
+    }
+  },
+  "bullets": [
+    "2 BATTERIES for 120 MINS RUNTIME: innhom portable shower for camping come with 2 detachable batteries and a charging cable, direct charge from USB port, car adapter or computer, laptop ( output of 5V/1A~2A ). Full charge of 2 batteries allows 90-120 mins of continuous use. LED light on battery switch can indicate the battery power.",
+    "MULTIPLE-USES PORTABLE SHOWER: Suitable for INDOOR/OUTDOOR showering, camping, BBQ, hiking, traveling, kid bathing, pet cleaning, car washing, plants watering, windows and backyard cleaning. Ideal gift for family, friends on Christmas, Birthday, Father's Day, Mother's Day, Children's Day, etc.",
+    "EASY ASSEMBLY AND OPERATION: Attach pump and shower head to the hose. Fully immerse the pump in water and press the switch on battery to start. The camping shower offers gentle and comfortable stream at 0.9 gal/min (3.5 L/min).",
+    "SMALL AND COMPACT: innhom camping shower kit comes with a convenient mesh storage bag, weights only 1.6 LB, make it easy to storage and carry. Provided suction cup can fix the shower head on any smooth flat surface. Hook lets you hang the showerhead safely on trees for a convenient shower.",
+    "PREMIUM DESIGN OUTDOOR CAMP SHOWER: innhom camp shower comes with water filter to ensure the water is clean and protect the shower head from being clogged. The O-ring protects water from escaping from the connection of the shower hose and showerhead."
+  ],
+  "specs": [
+    {
+      "label": "Battery configuration",
+      "value": "2 detachable batteries"
+    },
+    {
+      "label": "Runtime",
+      "value": "90-120 mins continuous use"
+    },
+    {
+      "label": "Charging input",
+      "value": "5V/1A~2A"
+    },
+    {
+      "label": "Flow rate",
+      "value": "0.9 gal/min (3.5 L/min)"
+    },
+    {
+      "label": "Item weight",
+      "value": "1.6 LB"
+    },
+    {
+      "label": "Included accessories",
+      "value": "mesh storage bag, suction cup, hook, water filter, O-ring, charging cable"
+    },
+    {
+      "label": "Use cases",
+      "value": "camping, pet cleaning, car washing, plant watering, backyard cleaning"
+    }
+  ],
+  "reviews": {
+    "available": true,
+    "histogram": [
+      {
+        "star": 5,
+        "percent": 73.0
+      },
+      {
+        "star": 4,
+        "percent": 15.0
+      },
+      {
+        "star": 3,
+        "percent": 5.0
+      },
+      {
+        "star": 2,
+        "percent": 2.0
+      },
+      {
+        "star": 1,
+        "percent": 5.0
+      }
+    ],
+    "items": [],
+    "positive_count": 0,
+    "critical_count": 0
+  },
+  "media": {
+    "gallery_count": 6,
+    "aplus_module_count": 0,
+    "aplus_image_count": 0,
+    "video_cover_count": null,
+    "aplus_module_top_level": null
+  }
+}

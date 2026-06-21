@@ -1,0 +1,46 @@
+{
+  "success": true,
+  "source": {
+    "kind": "html",
+    "value": "C:\\Users\\WIGOO00008\\Desktop\\AI工作助手\\生成结果输出\\amazon图片提取\\B07WGMDBDF_20260621\\fetched_page.html",
+    "final_url": ""
+  },
+  "base_url": "https://www.amazon.sg/Portable-Camping-Outdoor-Electric-Rechargeable/dp/B0DHCKGFFG",
+  "output_dir": ".",
+  "selectors_hit": {
+    "gallery": {
+      "colorImages.initial": 6,
+      "#landingImage": 0,
+      "#altImages li.image.item img": 0,
+      "#altImages img": 0,
+      "#altImages [data-old-hires]": 0,
+      "#altImages [data-a-dynamic-image]": 0
+    },
+    "aplus": {
+      "aplus_root": 1,
+      "aplus_module_top_level": 0,
+      "groups_built_from_fallback_flat": 0
+    }
+  },
+  "gallery": {
+    "url_count": 6,
+    "downloaded_count": 6,
+    "files": [
+      "gallery/01_f8fbb26a9f.jpg",
+      "gallery/02_784280db7a.jpg",
+      "gallery/03_df011a3e65.jpg",
+      "gallery/04_e3c8e52ed0.jpg",
+      "gallery/05_5d9c04510e.jpg",
+      "gallery/06_b75fe7a6da.jpg"
+    ],
+    "vertical_image": "gallery_vertical.png"
+  },
+  "aplus": {
+    "group_count": 0,
+    "groups": [],
+    "url_count": 0,
+    "downloaded_count": 0,
+    "vertical_image": null
+  },
+  "errors": []
+}

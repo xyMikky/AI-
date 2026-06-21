@@ -1,0 +1,256 @@
+{
+  "asin": "B07WGMDBDF",
+  "country": "US",
+  "returned": 100,
+  "top_kw_sv": 27934,
+  "top_keywords": [
+    {
+      "kw": "portable shower",
+      "kw_zh": "便携式淋浴器",
+      "nat_rank": 101,
+      "ad_rank": 2,
+      "search_vol": 27934,
+      "traffic_share_pct": 22.36,
+      "positions": [
+        "自然位",
+        "SP广告",
+        "视频广告",
+        "推荐位"
+      ],
+      "markers": [
+        "主词",
+        "精准词"
+      ]
+    },
+    {
+      "kw": "camping shower",
+      "kw_zh": "露营淋浴器",
+      "nat_rank": 69,
+      "ad_rank": 3,
+      "search_vol": 22914,
+      "traffic_share_pct": 17.62,
+      "positions": [
+        "自然位",
+        "SP广告",
+        "视频广告",
+        "推荐位"
+      ],
+      "markers": [
+        "主词",
+        "精准词"
+      ]
+    },
+    {
+      "kw": "portable shower for camping",
+      "kw_zh": "露营便携式淋浴",
+      "nat_rank": 65,
+      "ad_rank": 4,
+      "search_vol": 11641,
+      "traffic_share_pct": 12.81,
+      "positions": [
+        "自然位",
+        "SP广告",
+        "视频广告",
+        "推荐位"
+      ],
+      "markers": [
+        "主词",
+        "精准词"
+      ]
+    },
+    {
+      "kw": "camp shower",
+      "kw_zh": "露营淋浴",
+      "nat_rank": 33,
+      "ad_rank": 3,
+      "search_vol": 8409,
+      "traffic_share_pct": 9.09,
+      "positions": [
+        "自然位",
+        "SP广告",
+        "视频广告",
+        "推荐位"
+      ],
+      "markers": [
+        "主词",
+        "精准词"
+      ]
+    },
+    {
+      "kw": "camping shower pump",
+      "kw_zh": "露营淋浴泵",
+      "nat_rank": 16,
+      "ad_rank": 3,
+      "search_vol": 2621,
+      "traffic_share_pct": 5.99,
+      "positions": [
+        "自然位",
+        "SP广告",
+        "视频广告",
+        "推荐位"
+      ],
+      "markers": [
+        "主词",
+        "长尾词"
+      ]
+    },
+    {
+      "kw": "portable camping shower",
+      "kw_zh": "便携式露营淋浴",
+      "nat_rank": 41,
+      "ad_rank": 4,
+      "search_vol": 3782,
+      "traffic_share_pct": 5.49,
+      "positions": [
+        "自然位",
+        "SP广告",
+        "视频广告",
+        "推荐位"
+      ],
+      "markers": [
+        "主词",
+        "长尾词"
+      ]
+    },
+    {
+      "kw": "portable shower pump",
+      "kw_zh": "便携式淋浴泵",
+      "nat_rank": 29,
+      "ad_rank": 2,
+      "search_vol": 2010,
+      "traffic_share_pct": 3.67,
+      "positions": [
+        "自然位",
+        "SP广告",
+        "视频广告",
+        "推荐位"
+      ],
+      "markers": [
+        "长尾词"
+      ]
+    },
+    {
+      "kw": "portable shower head",
+      "kw_zh": "便携式淋浴喷头",
+      "nat_rank": 25,
+      "ad_rank": null,
+      "search_vol": 3338,
+      "traffic_share_pct": 2.83,
+      "positions": [
+        "自然位"
+      ],
+      "markers": [
+        "长尾词"
+      ]
+    },
+    {
+      "kw": "camp shower pump",
+      "kw_zh": "露营淋浴泵",
+      "nat_rank": 12,
+      "ad_rank": 13,
+      "search_vol": 752,
+      "traffic_share_pct": 2.63,
+      "positions": [
+        "自然位",
+        "SP广告",
+        "视频广告",
+        "推荐位"
+      ],
+      "markers": []
+    },
+    {
+      "kw": "camping showers",
+      "kw_zh": "露营淋浴器",
+      "nat_rank": 48,
+      "ad_rank": 25,
+      "search_vol": 2505,
+      "traffic_share_pct": 2.33,
+      "positions": [
+        "自然位",
+        "SP广告",
+        "视频广告",
+        "推荐位"
+      ],
+      "markers": [
+        "精准词"
+      ]
+    },
+    {
+      "kw": "shower pump",
+      "kw_zh": "淋浴泵",
+      "nat_rank": 7,
+      "ad_rank": 3,
+      "search_vol": 818,
+      "traffic_share_pct": 2.1,
+      "positions": [
+        "自然位",
+        "SP广告",
+        "视频广告",
+        "推荐位"
+      ],
+      "markers": [
+        "精准词"
+      ]
+    },
+    {
+      "kw": "ducha portátil para camping",
+      "kw_zh": "露营便携淋浴",
+      "nat_rank": 63,
+      "ad_rank": null,
+      "search_vol": 1277,
+      "traffic_share_pct": 1.11,
+      "positions": [
+        "自然位",
+        "视频广告"
+      ],
+      "markers": []
+    },
+    {
+      "kw": "ducha portatil",
+      "kw_zh": "便携淋浴",
+      "nat_rank": 79,
+      "ad_rank": null,
+      "search_vol": 2242,
+      "traffic_share_pct": 0.96,
+      "positions": [
+        "自然位",
+        "视频广告"
+      ],
+      "markers": []
+    },
+    {
+      "kw": "shower for camping",
+      "kw_zh": "露营用淋浴",
+      "nat_rank": 59,
+      "ad_rank": null,
+      "search_vol": 1383,
+      "traffic_share_pct": 0.94,
+      "positions": [
+        "自然位",
+        "SP广告",
+        "视频广告",
+        "推荐位"
+      ],
+      "markers": [
+        "长尾词"
+      ]
+    },
+    {
+      "kw": "outdoor shower",
+      "kw_zh": "户外淋浴",
+      "nat_rank": 130,
+      "ad_rank": null,
+      "search_vol": 18030,
+      "traffic_share_pct": 0.55,
+      "positions": [
+        "自然位"
+      ],
+      "markers": []
+    }
+  ],
+  "organic_share": 0.278,
+  "paid_share": 0.6317,
+  "total_kw": 183,
+  "nf_count": 175,
+  "ad_count": 45.0
+}

@@ -1,0 +1,42 @@
+{
+  "🔋 电池 & 续航": {
+    "polarity": "neg",
+    "issues": {
+      "无法充电 / 电池损坏": ["not charge", "wont charge", "dead battery", "stopped charging", "doesnt charge", "battery dead"],
+      "续航短 / 很快没电": ["battery life", "only last", "doesnt last", "few showers", "short battery", "only got"],
+      "备用电池也失效": ["second battery", "backup battery", "batteries stopped", "replacement batteries", "both batteries"]
+    }
+  },
+  "⚙️ 泵体 / 电机故障": {
+    "polarity": "neg",
+    "issues": {
+      "停止工作 / 不工作": ["stopped working", "not work", "doesnt work", "quit working", "no longer work", "stopped work"],
+      "电机 / 泵体异常": ["motor", "burned out", "pump stopped", "grinding", "loud noise"],
+      "开关难按 / 无法启动": ["switch", "button", "turn on", "wont turn", "hard to press"]
+    }
+  },
+  "💧 出水 & 水压": {
+    "polarity": "neg",
+    "issues": {
+      "不出水 / 水流弱": ["no water", "weak pressure", "no pressure", "barely any water", "trickle", "not enough water"],
+      "流量过大 / 很快抽干": ["drains quickly", "empty bucket", "too much water", "flow was too high", "empties"],
+      "喷头 / 水管问题": ["shower head", "hose", "sprayer", "leak", "leaking"]
+    }
+  },
+  "💸 价值 / 退货": {
+    "polarity": "neg",
+    "issues": {
+      "不值 / 浪费钱": ["waste of money", "waste your money", "not worth", "overpriced", "dont waste"],
+      "退货 / 失望": ["return", "refund", "disappointed", "garbage", "junk", "do not buy"]
+    }
+  },
+  "🏕️ 露营场景好评": {
+    "polarity": "pos",
+    "issues": {
+      "露营 / 户外好用": ["camping", "camp shower", "camping shower", "outdoor", "tent", "rv"],
+      "便携 / 无线方便": ["portable", "cordless", "lightweight", "easy to carry", "no cord"],
+      "安装 / 使用方便": ["easy to use", "easy setup", "convenient", "simple to use", "user friendly"],
+      "淋浴体验好 / 推荐": ["works great", "love it", "recommend", "great shower", "nice shower", "perfect for"]
+    }
+  }
+}

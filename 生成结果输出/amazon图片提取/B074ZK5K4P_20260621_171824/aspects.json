@@ -1,0 +1,93 @@
+﻿{
+    "电池与充电可靠性":  {
+                     "电池不充电/无法保持电量":  [
+                                          "battery",
+                                          "batteries",
+                                          "charge",
+                                          "charger",
+                                          "doesnt hold the charge",
+                                          "not charge",
+                                          "wont charge",
+                                          "charged"
+                                      ],
+                     "双电池续航与备用价值":  [
+                                        "two batteries",
+                                        "2nd battery",
+                                        "second battery",
+                                        "45",
+                                        "60",
+                                        "lasts",
+                                        "long",
+                                        "full charge"
+                                    ]
+                 },
+    "泵体与耐久":  {
+                  "停止工作/连接失效":  [
+                                    "stopped working",
+                                    "not work",
+                                    "worked okay",
+                                    "connection",
+                                    "pump",
+                                    "unit",
+                                    "motor"
+                                ],
+                  "长期使用稳定":  [
+                                 "3 years",
+                                 "daily",
+                                 "durability",
+                                 "quality",
+                                 "still working",
+                                 "no complaints"
+                             ]
+              },
+    "水压与水流体验":  {
+                    "水压满意":  [
+                                 "water pressure",
+                                 "pressure",
+                                 "steady",
+                                 "gentle shower",
+                                 "flow",
+                                 "sprayer"
+                             ],
+                    "水流偏弱或耗水快":  [
+                                     "not enough pressure",
+                                     "sucks up the water",
+                                     "weak",
+                                     "quickly",
+                                     "flow"
+                                 ]
+                },
+    "场景与适配":  {
+                  "露营/节日/户外洗澡":  [
+                                     "camping",
+                                     "festival",
+                                     "outdoors",
+                                     "shower",
+                                     "showers"
+                                 ],
+                  "宠物/车辆/家庭应急":  [
+                                     "pet",
+                                     "dog",
+                                     "car washing",
+                                     "emergency",
+                                     "home",
+                                     "plants"
+                                 ],
+                  "桶口/容器适配问题":  [
+                                    "aqua-tainer",
+                                    "opening",
+                                    "bucket",
+                                    "fit",
+                                    "wouldnt fit"
+                                ]
+              },
+    "配件与包装":  {
+                  "缺少充电线/配件":  [
+                                   "missing parts",
+                                   "no charger",
+                                   "charger cable",
+                                   "electrical cord",
+                                   "instructions"
+                               ]
+              }
+}

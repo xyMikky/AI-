@@ -1,0 +1,44 @@
+{
+  "success": true,
+  "source": {
+    "kind": "url",
+    "value": "https://www.amazon.com/dp/B074ZK5K4P",
+    "final_url": "https://www.amazon.com/dp/B074ZK5K4P"
+  },
+  "base_url": "https://www.amazon.com/dp/B074ZK5K4P",
+  "output_dir": ".",
+  "selectors_hit": {
+    "gallery": {
+      "colorImages.initial": 6,
+      "#landingImage": 0,
+      "#altImages li.image.item img": 0,
+      "#altImages img": 0,
+      "#altImages [data-old-hires]": 0,
+      "#altImages [data-a-dynamic-image]": 0
+    },
+    "aplus": {
+      "aplus_root": 0
+    }
+  },
+  "gallery": {
+    "url_count": 6,
+    "downloaded_count": 6,
+    "files": [
+      "gallery/01_ac2f742c7f.jpg",
+      "gallery/02_a1854404b5.jpg",
+      "gallery/03_d1f73ef413.jpg",
+      "gallery/04_2540ce204b.jpg",
+      "gallery/05_85a20f7c16.jpg",
+      "gallery/06_9cea855b7c.jpg"
+    ],
+    "vertical_image": "gallery_vertical.png"
+  },
+  "aplus": {
+    "group_count": 0,
+    "groups": [],
+    "url_count": 0,
+    "downloaded_count": 0,
+    "vertical_image": null
+  },
+  "errors": []
+}

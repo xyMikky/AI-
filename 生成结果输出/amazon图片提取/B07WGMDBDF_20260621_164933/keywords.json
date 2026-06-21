@@ -1,0 +1,16 @@
+{
+  "pos": [
+    { "term": "露营好用", "match": ["camping", "worked great", "portable shower"] },
+    { "term": "水压够用", "match": ["great pressure", "good pressure", "water pressure"] },
+    { "term": "续航较长", "match": ["battery life", "long charge", "one charge"] },
+    { "term": "安装简单", "match": ["easy", "simple", "works great"] },
+    { "term": "多场景使用", "match": ["anywhere", "anything", "shower tent"] }
+  ],
+  "neg": [
+    { "term": "电池失效", "match": ["battery", "batteries", "not charge", "stopped working"] },
+    { "term": "水泵不工作", "match": ["pump", "not work", "did not do anything"] },
+    { "term": "防水疑虑", "match": ["not water proof", "water proof", "cannot touch water"] },
+    { "term": "水量消耗快", "match": ["goes through", "bucket quickly", "high flow"] },
+    { "term": "开关不便", "match": ["start button", "difficult to press", "turn it off"] }
+  ]
+}

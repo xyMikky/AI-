@@ -1,0 +1,3195 @@
+{
+  "asin": "B07WGMDBDF",
+  "scope": "single_asin:B07WGMDBDF",
+  "overall": {
+    "count": 143,
+    "avg": 2.42,
+    "low_pct": 56.6,
+    "star_dist": {
+      "1": 62,
+      "2": 19,
+      "3": 32,
+      "4": 0,
+      "5": 30
+    }
+  },
+  "groups": [
+    {
+      "source": "keywords",
+      "polarity": "pos",
+      "label": "露营淋浴好用",
+      "terms": [
+        "camping",
+        "camp shower",
+        "camping shower",
+        "outdoor shower",
+        "tent shower"
+      ],
+      "count": 7,
+      "avg": 5.0,
+      "low_pct": 0.0,
+      "star_dist": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 7
+      },
+      "quotes": [
+        {
+          "stars": 5,
+          "date": "2025-05-29",
+          "snippet": "…shing my bathroom, I've moved this thing in with my camping gear because it's just such a great product."
+        },
+        {
+          "stars": 5,
+          "date": "2026-01-31",
+          "snippet": "…is thing：This thing is amazing. I brought it to a camping music festival in the middle of summer and everyone was so jealous! I was able to take a cool shower every si…"
+        },
+        {
+          "stars": 5,
+          "date": "2025-07-01",
+          "snippet": "Great little pump：Took this camping and worked fantastic. I needed the hose longer, so I put another one on the end and taping it to make sure it…"
+        },
+        {
+          "stars": 5,
+          "date": "2026-03-24",
+          "snippet": "…s couple of days in festival：Worked great for our camping trip. Went to Big Dub 2026 and going again this year. This worked for us to use as aportable shower in a show…"
+        },
+        {
+          "stars": 5,
+          "date": "2025-08-07",
+          "snippet": "Must buy：Amazing! A must for needed showers when camping, washing dog, absolutely love it. I had bought a prior where battery was submissive and went out shortly afte…"
+        }
+      ],
+      "reviews": [
+        {
+          "stars": 5,
+          "date": "2025-05-29",
+          "vp": true,
+          "title": "Hall of Fame product",
+          "body": "This is one of my favorite things I've ever bought on Amazon. During the process of renovating a house I needed a temp shower while rebuilding my bathroom. The reno took way longer than anticipated and I had to travel a bunch for work and so I ended up using this thing as my main shower *for two years*. The two batteries are clutch. I always kept one on a charger and never had an issue. Water pressure is great. Even after finishing my bathroom, I've moved this thing in with my camping gear because it's just such a great product."
+        },
+        {
+          "stars": 5,
+          "date": "2025-07-01",
+          "vp": true,
+          "title": "Great little pump",
+          "body": "Took this camping and worked fantastic. I needed the hose longer, so I put another one on the end and taping it to make sure it didn't come apart. I put the pump in a mesh bag and tied a rope on it, and another on to the on off switch, because the stream has a big washed out edge making the length of the hose short. It worked better than I expected. I filled the 5 gallon buckets and took showers with it. We go wilderness camping, not another soak around."
+        },
+        {
+          "stars": 5,
+          "date": "2025-08-07",
+          "vp": false,
+          "title": "Must buy",
+          "body": "Amazing! A must for needed showers when camping, washing dog, absolutely  love it. I had bought  a prior where battery was submissive and went out shortly after. I love having the external batteries."
+        },
+        {
+          "stars": 5,
+          "date": "2025-11-07",
+          "vp": true,
+          "title": "Manguera azul",
+          "body": "Me encantó tiene muy buena presión y sirve para diferentes cosas como camping o para uso de peluquería como es mi caso."
+        },
+        {
+          "stars": 5,
+          "date": "2025-12-17",
+          "vp": true,
+          "title": "Works great, just get it.",
+          "body": "Works perfectly and set up is quick and easy. We've used it for showering while camping and also for washing dishes while camping. I've also used it for watering plants on my porch, works great."
+        },
+        {
+          "stars": 5,
+          "date": "2026-01-31",
+          "vp": true,
+          "title": "Love this thing",
+          "body": "This thing is amazing. I brought it to a camping music festival in the middle of summer and everyone was so jealous! I was able to take a cool shower every single day and did not fully kill one battery. I even stared it a few times with others. It was probably used for 30-45 minutes over the course of four days and did not die. Even if it did, I still has a backup battery, which is great. I brought a five gallon bucket to use as my water container. I'll update about its longevity once I've used it a few times."
+        },
+        {
+          "stars": 5,
+          "date": "2026-03-24",
+          "vp": true,
+          "title": "Enough battery to last us couple of days in festival",
+          "body": "Worked great for our camping trip. Went to Big Dub 2026 and going again this year. This worked for us to use as aportable shower in a shower tent for about 7 people in our group. This year will be using this again."
+        }
+      ]
+    },
+    {
+      "source": "keywords",
+      "polarity": "pos",
+      "label": "便携 / 无线",
+      "terms": [
+        "portable",
+        "cordless",
+        "lightweight",
+        "easy to carry",
+        "no cord"
+      ],
+      "count": 1,
+      "avg": 5.0,
+      "low_pct": 0.0,
+      "star_dist": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 1
+      },
+      "quotes": [
+        {
+          "stars": 5,
+          "date": "2026-03-24",
+          "snippet": "…ng again this year. This worked for us to use as aportable shower in a shower tent for about 7 people in our group. This year will be using this again."
+        }
+      ],
+      "reviews": [
+        {
+          "stars": 5,
+          "date": "2026-03-24",
+          "vp": true,
+          "title": "Enough battery to last us couple of days in festival",
+          "body": "Worked great for our camping trip. Went to Big Dub 2026 and going again this year. This worked for us to use as aportable shower in a shower tent for about 7 people in our group. This year will be using this again."
+        }
+      ]
+    },
+    {
+      "source": "keywords",
+      "polarity": "pos",
+      "label": "安装简便 / 易用",
+      "terms": [
+        "easy to use",
+        "easy setup",
+        "simple to use",
+        "convenient",
+        "user friendly"
+      ],
+      "count": 3,
+      "avg": 5.0,
+      "low_pct": 0.0,
+      "star_dist": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 3
+      },
+      "quotes": [
+        {
+          "stars": 5,
+          "date": "2025-04-30",
+          "snippet": "…e battery/power switch outside the water is super convenient so I can easily turn the pump off and on without having to pull the pump out of the water. The small sprayer…"
+        },
+        {
+          "stars": 5,
+          "date": "2025-05-23",
+          "snippet": "…：Just absolutely love the shower it makes it very convenient currently my hot water tank is out and so I'm having to keep my water and shower using a bucket and hauling m…"
+        },
+        {
+          "stars": 5,
+          "date": "2025-10-21",
+          "snippet": "…great product. It has two batteries which is very convenient."
+        }
+      ],
+      "reviews": [
+        {
+          "stars": 5,
+          "date": "2025-04-30",
+          "vp": false,
+          "title": "Great pump, lots of pressure",
+          "body": "This is a great pump! We use this pump in a homemade water heater in our camper van. The water pressure is very strong. Having the battery/power switch outside the water is super convenient so I can easily turn the pump off and on without having to pull the pump out of the water. The small sprayer is convenient because it has an on/off lever that allows you to moderate, or stop, water flow without turning off the pump. The shower head is a nice spray but I'd like it better if it also had an on/off lever. I can't speak to longevity because we've only had it a month or so but so far, it's far exceeded my needs and expectations."
+        },
+        {
+          "stars": 5,
+          "date": "2025-05-23",
+          "vp": true,
+          "title": "Love the shower",
+          "body": "Just absolutely love the shower it makes it very convenient currently my hot water tank is out and so I'm having to keep my water and shower using a bucket and hauling my water in until it gets fixed and this has been a godsend. Functional."
+        },
+        {
+          "stars": 5,
+          "date": "2025-10-21",
+          "vp": true,
+          "title": "Long battery life",
+          "body": "This is a great product. It has two batteries which is very convenient."
+        }
+      ]
+    },
+    {
+      "source": "keywords",
+      "polarity": "pos",
+      "label": "淋浴体验好 / 推荐",
+      "terms": [
+        "works great",
+        "love it",
+        "recommend",
+        "great shower",
+        "nice shower",
+        "perfect for"
+      ],
+      "count": 8,
+      "avg": 5.0,
+      "low_pct": 0.0,
+      "star_dist": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 8
+      },
+      "quotes": [
+        {
+          "stars": 5,
+          "date": "2026-04-08",
+          "snippet": "…FOR ANYTHING!!! 2ND ONE I BOUGHT AND WOULD HIGHLY RECOMMEND TO ALL! HAS GREAT PRESSURE!! 👍🏾 BATTERY LIFE IS LONG AS WELL. CAN TAKE SEVERAL SHOWERS 🚿 ON ONE CHARGE AND AL…"
+        },
+        {
+          "stars": 5,
+          "date": "2025-08-07",
+          "snippet": "…ded showers when camping, washing dog, absolutely love it. I had bought a prior where battery was submissive and went out shortly after. I love having the external bat…"
+        },
+        {
+          "stars": 5,
+          "date": "2025-12-17",
+          "snippet": "Works great, just get it.：Works perfectly and set up is quick and easy. We've used it for showering while camping and als…"
+        },
+        {
+          "stars": 5,
+          "date": "2025-11-22",
+          "snippet": "…one of my junk boxes and I must say this is a very nice shower! Works perfect"
+        },
+        {
+          "stars": 5,
+          "date": "2025-07-09",
+          "snippet": "works great：got this for my friend to go with the tent, matress pad, & lantern. he's currently temporarily homeless"
+        }
+      ],
+      "reviews": [
+        {
+          "stars": 5,
+          "date": "2025-07-09",
+          "vp": true,
+          "title": "works great",
+          "body": "got this for my friend to go with the tent, matress pad, & lantern. he's currently temporarily homeless"
+        },
+        {
+          "stars": 5,
+          "date": "2025-08-02",
+          "vp": true,
+          "title": "Works well !",
+          "body": "Great shower  pump"
+        },
+        {
+          "stars": 5,
+          "date": "2025-08-07",
+          "vp": false,
+          "title": "Must buy",
+          "body": "Amazing! A must for needed showers when camping, washing dog, absolutely  love it. I had bought  a prior where battery was submissive and went out shortly after. I love having the external batteries."
+        },
+        {
+          "stars": 5,
+          "date": "2025-11-22",
+          "vp": true,
+          "title": "Missing parts",
+          "body": "Mine didn't come with a USB charger cord but I was able to find a charger cord in one of my junk boxes and I must say this is a very nice shower! Works perfect"
+        },
+        {
+          "stars": 5,
+          "date": "2025-11-24",
+          "vp": true,
+          "title": "get it",
+          "body": "works as advertised. perfect find. highly recommend. not cheap crap, its quality."
+        },
+        {
+          "stars": 5,
+          "date": "2025-12-17",
+          "vp": true,
+          "title": "Works great, just get it.",
+          "body": "Works perfectly and set up is quick and easy. We've used it for showering while camping and also for washing dishes while camping. I've also used it for watering plants on my porch, works great."
+        },
+        {
+          "stars": 5,
+          "date": "2026-01-09",
+          "vp": true,
+          "title": "It is useful on hot days especially in the summer time for the kids to have.",
+          "body": "It works great"
+        },
+        {
+          "stars": 5,
+          "date": "2026-04-08",
+          "vp": true,
+          "title": "BEST SHOWER!!🚿",
+          "body": "The BEST SHOWER TO HAVE !!! CAN USE IT ANYWHERE FOR ANYTHING!!! 2ND ONE I BOUGHT AND WOULD HIGHLY RECOMMEND TO ALL! HAS GREAT PRESSURE!! 👍🏾 BATTERY LIFE IS LONG AS WELL. CAN TAKE SEVERAL SHOWERS 🚿  ON ONE CHARGE AND ALSO HOLDS CHARGE LONG TIME!! GREAT 👍🏾"
+        }
+      ]
+    },
+    {
+      "source": "keywords",
+      "polarity": "pos",
+      "label": "双电池续航 praised",
+      "terms": [
+        "two batteries",
+        "dual battery",
+        "long shower",
+        "multiple showers"
+      ],
+      "count": 2,
+      "avg": 5.0,
+      "low_pct": 0.0,
+      "star_dist": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 2
+      },
+      "quotes": [
+        {
+          "stars": 5,
+          "date": "2025-05-29",
+          "snippet": "…this thing as my main shower *for two years*. The two batteries are clutch. I always kept one on a charger and never had an issue. Water pressure is great. Even after finis…"
+        },
+        {
+          "stars": 5,
+          "date": "2025-10-21",
+          "snippet": "Long battery life：This is a great product. It has two batteries which is very convenient."
+        }
+      ],
+      "reviews": [
+        {
+          "stars": 5,
+          "date": "2025-05-29",
+          "vp": true,
+          "title": "Hall of Fame product",
+          "body": "This is one of my favorite things I've ever bought on Amazon. During the process of renovating a house I needed a temp shower while rebuilding my bathroom. The reno took way longer than anticipated and I had to travel a bunch for work and so I ended up using this thing as my main shower *for two years*. The two batteries are clutch. I always kept one on a charger and never had an issue. Water pressure is great. Even after finishing my bathroom, I've moved this thing in with my camping gear because it's just such a great product."
+        },
+        {
+          "stars": 5,
+          "date": "2025-10-21",
+          "vp": true,
+          "title": "Long battery life",
+          "body": "This is a great product. It has two batteries which is very convenient."
+        }
+      ]
+    },
+    {
+      "source": "keywords",
+      "polarity": "pos",
+      "label": "宠物 / 多场景",
+      "terms": [
+        "pet wash",
+        "dog wash",
+        "beach",
+        "surf",
+        "hiking",
+        "rv shower"
+      ],
+      "count": 0,
+      "avg": 0,
+      "low_pct": 0,
+      "star_dist": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "quotes": [],
+      "reviews": []
+    },
+    {
+      "source": "keywords",
+      "polarity": "neg",
+      "label": "电池故障 / 不充电",
+      "terms": [
+        "not charge",
+        "wont charge",
+        "dead battery",
+        "stopped charging",
+        "batteries stopped",
+        "battery dead"
+      ],
+      "count": 8,
+      "avg": 1.38,
+      "low_pct": 100.0,
+      "star_dist": {
+        "1": 5,
+        "2": 3,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "quotes": [
+        {
+          "stars": 2,
+          "date": "2024-12-07",
+          "snippet": "…dishes and neither battery worked and also would not charge. I used a proper charger as stated. I would love to be able to return it but didnt even try to use it till re…"
+        },
+        {
+          "stars": 1,
+          "date": "2022-04-28",
+          "snippet": "Batteries would not charge：Used it once, ran great, but the batteries would not charge. They have a standard USB on one end of the charg…"
+        },
+        {
+          "stars": 2,
+          "date": "2025-09-20",
+          "snippet": "…2 years this time it last only three showers the batteries stopped working I can't even get a hold of the manufacturer I wouldn't recommend this product to no one"
+        },
+        {
+          "stars": 1,
+          "date": "2020-06-16",
+          "snippet": "…The on/off button stop working and then it would not charge. I was so aggravated that I just threw it away ."
+        },
+        {
+          "stars": 1,
+          "date": "2024-04-03",
+          "snippet": "…d be happy but one of the batteries is DOA , does not charge or turn on and can't find a way to contact. So not happy would not buy again."
+        }
+      ],
+      "reviews": [
+        {
+          "stars": 1,
+          "date": "2020-06-16",
+          "vp": true,
+          "title": "It did Not last",
+          "body": "I wish this item would have continued to work , it was great while lasted. It lasted for 2 weekend camping trips . The on/off button stop working and then it would not charge.  I was so aggravated that I just threw it away ."
+        },
+        {
+          "stars": 1,
+          "date": "2022-04-05",
+          "vp": true,
+          "title": "Doesn’t work",
+          "body": "Doesn’t work. Battery wont charge. Waste of money"
+        },
+        {
+          "stars": 1,
+          "date": "2022-04-28",
+          "vp": true,
+          "title": "Batteries would not charge",
+          "body": "Used it once, ran great, but the batteries would not charge.  They have a standard USB on one end of the charging cable, with a specialized plug on the battery end.  If you wiggled the cable in the battery, it might start it's flashing light indicating it was charging, but it would quit and go dark as soon as you turned loose of it.  Neither battery charged, so it was one and done.  Batteries are terrible, but the pump was adequate."
+        },
+        {
+          "stars": 1,
+          "date": "2023-05-24",
+          "vp": true,
+          "title": "Battery dead only 1 year.",
+          "body": "Battery dead only 1 year."
+        },
+        {
+          "stars": 1,
+          "date": "2024-04-03",
+          "vp": true,
+          "title": "One of the two batteries does not work",
+          "body": "It works ok and I would be happy but one of the batteries is DOA , does not charge or turn on and can't find a way to contact. So not happy would not buy again."
+        },
+        {
+          "stars": 2,
+          "date": "2024-12-07",
+          "vp": true,
+          "title": "Batteries Never Worked total bummer",
+          "body": "I bought this shower months ago to use at our cabin in the woods during our traditional Thanksgiving dinner. Tried to use it for dishes and neither battery worked and also would not charge. I used a proper charger as stated. I would love to be able to return it but didnt even try to use it till recent. Any suggestions or if this seller would replace the batteries. Not sure what to do. Be careful and test is as soon as you get it as to not end up like me."
+        },
+        {
+          "stars": 2,
+          "date": "2025-09-20",
+          "vp": true,
+          "title": "Product does not work as described",
+          "body": "This is the second time I purchase this shower product the first time it lasted 2 years this time it last only three showers the batteries stopped working I can't even get a hold of the manufacturer I wouldn't recommend this product to no one"
+        },
+        {
+          "stars": 2,
+          "date": "2025-10-25",
+          "vp": true,
+          "title": "Battery Stopped Working After 3 Months",
+          "body": "One of the batteries stopped working after 3 months. Replacement batteries aren't available. This was a waste of money."
+        }
+      ]
+    },
+    {
+      "source": "keywords",
+      "polarity": "neg",
+      "label": "停止工作 / 不工作",
+      "terms": [
+        "stopped working",
+        "not work",
+        "doesnt work",
+        "quit working",
+        "no longer work"
+      ],
+      "count": 24,
+      "avg": 1.29,
+      "low_pct": 100.0,
+      "star_dist": {
+        "1": 17,
+        "2": 7,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "quotes": [
+        {
+          "stars": 1,
+          "date": "2023-11-29",
+          "snippet": "Quit working after about 6 times used!：I was excited to get this. First time worked well, but tube does not stay connected…"
+        },
+        {
+          "stars": 2,
+          "date": "2020-09-23",
+          "snippet": "…power, easy to use HOWEVER 7 showers later and it no longer works! We actually used it excessively for the short amount of time we had it. In regular camping season it would…"
+        },
+        {
+          "stars": 1,
+          "date": "2021-12-05",
+          "snippet": "charging cable stopped working：this product was as described but without the charging cable working the entire system is useless. I really n…"
+        },
+        {
+          "stars": 2,
+          "date": "2023-10-02",
+          "snippet": "…orks fantastic the first few times. After that it stopped working. Ordered a replacement and the same thing happened. Between 2 units I got about 10 weekends of showers out of…"
+        },
+        {
+          "stars": 1,
+          "date": "2021-03-14",
+          "snippet": "Doesn’t work.：Tried to charge the batteries. Nothing! The lights came on the one but just flashed continuously. The other…"
+        }
+      ],
+      "reviews": [
+        {
+          "stars": 1,
+          "date": "2019-12-24",
+          "vp": true,
+          "title": "Stops working within a couple of months",
+          "body": "Has great power if the battery lasts! You don’t really get a year out of this product! If you use it often anyway. I had to have batteries replaced and sent to me on this and one works then doesn’t work two weeks later. The batteries are what makes this item not worth buying!!!"
+        },
+        {
+          "stars": 1,
+          "date": "2020-02-14",
+          "vp": true,
+          "title": "Water dosent reach shower head...no pressure.",
+          "body": "Dosent have enough power for the water to even come out of the showers head the battery pack is worthless and doesn’t work. Great idea but the pump inside is not strong enough."
+        },
+        {
+          "stars": 1,
+          "date": "2020-07-30",
+          "vp": true,
+          "title": "Not worth the money",
+          "body": "Stopped working on the second time I used it. Opened it up and saw that water got into the electric pump area."
+        },
+        {
+          "stars": 1,
+          "date": "2020-11-15",
+          "vp": true,
+          "title": "Doesn't last long",
+          "body": "It was easy to use, until it stopped working.  Used it for a month."
+        },
+        {
+          "stars": 1,
+          "date": "2020-12-27",
+          "vp": true,
+          "title": "if the on and off button would work it would be a great shower",
+          "body": "this portable shower is a piece of crap, the shower part work's okay but the on and off button doesn't work, I will never buy this item again"
+        },
+        {
+          "stars": 1,
+          "date": "2021-03-14",
+          "vp": true,
+          "title": "Doesn’t work.",
+          "body": "Tried to charge the batteries. Nothing! The lights came on the one but just flashed continuously. The other battery wouldn’t take a charge. Sad because we needed this for our camping trip. Luckily...I guess.. we have the 5 gallon bag shower. Just a pain to use. We were trying to step it up a little. 🤨"
+        },
+        {
+          "stars": 1,
+          "date": "2021-04-02",
+          "vp": true,
+          "title": "Does not work",
+          "body": "The battery did not work and would not take a charge to operate the device"
+        },
+        {
+          "stars": 1,
+          "date": "2021-06-18",
+          "vp": true,
+          "title": "Did not work",
+          "body": "Did not suction the water did not work. Need to return it"
+        },
+        {
+          "stars": 1,
+          "date": "2021-11-20",
+          "vp": true,
+          "title": "Stopped working",
+          "body": "Mine stopped working after 3rd use"
+        },
+        {
+          "stars": 1,
+          "date": "2021-12-05",
+          "vp": true,
+          "title": "charging cable stopped working",
+          "body": "this product was as described but without the charging cable working the entire system is useless. I really needed this to work, it's very unfortunate. It worked to charge some of one pack then stopped, i tried charging it in a car as well as with 5v or below charging ports. Never charged it above the 5v as instructed. very disappointed."
+        },
+        {
+          "stars": 1,
+          "date": "2022-04-05",
+          "vp": true,
+          "title": "Doesn’t work",
+          "body": "Doesn’t work. Battery wont charge. Waste of money"
+        },
+        {
+          "stars": 1,
+          "date": "2023-11-29",
+          "vp": true,
+          "title": "Quit working after about 6 times used!",
+          "body": "I was excited to get this. First time worked well, but tube does not stay connected. Tape will not help it. Have to keep untwisting the hose as well. Keeps kinking up. But after 6 times it just completely quit working. Cannot get it to stop kinking so water does not go through to shower head. Great idea but poorly made and waste of money! Too expensive to quit working so soon! Batteries worked okay but discharge quickly. I kept having to use second battery to finish shower. Constantly had to reconnect tube because tape would not even keep it connected to pump."
+        },
+        {
+          "stars": 1,
+          "date": "2023-12-02",
+          "vp": true,
+          "title": "Stopped working after a few months",
+          "body": "Stopped working after a few months"
+        },
+        {
+          "stars": 1,
+          "date": "2023-12-20",
+          "vp": true,
+          "title": "DO NOT BUY!!!",
+          "body": "DO NOT BUY THIS!!!The cord has a short in it after using one time.I purchased it in September but just opened it last week and its already not working properly. Amazon says my return window has closed because of the timeframe."
+        },
+        {
+          "stars": 1,
+          "date": "2024-04-03",
+          "vp": true,
+          "title": "One of the two batteries does not work",
+          "body": "It works ok and I would be happy but one of the batteries is DOA , does not charge or turn on and can't find a way to contact. So not happy would not buy again."
+        },
+        {
+          "stars": 1,
+          "date": "2024-09-23",
+          "vp": true,
+          "title": "Don’t waste your money",
+          "body": "It doesn’t work, literally zero water comes out. Turns on, makes the noises, but no water. Waste of money cheap piece of garbage."
+        },
+        {
+          "stars": 1,
+          "date": "2026-06-09",
+          "vp": true,
+          "title": "The product stopped working after a month.",
+          "body": "The product stopped working after a month. The battery doesn’t turn on and the pump stopped working"
+        },
+        {
+          "stars": 2,
+          "date": "2020-07-25",
+          "vp": true,
+          "title": "Doesn’t last",
+          "body": "Only lasted about a month, used maybe 8 times, then it just stopped working. Total bummer because I really liked it!"
+        },
+        {
+          "stars": 2,
+          "date": "2020-09-23",
+          "vp": true,
+          "title": "Too bad, just didn't last for the money I paid, not even a full season of camping 😕",
+          "body": "The short performance was 5 stars right out the door with excellent shower power, easy to use HOWEVER 7 showers later and it no longer works! We actually used it excessively for the short amount of time we had it. In regular camping season it would have been outside the exchange period also so I'd have to suggest finding a product with a more realistic trial for this kind of money! Too bad, I worldview given it another shot but I guess they made their $50 bucks so it didn't matter if they get repeat customers. What Shame!"
+        },
+        {
+          "stars": 2,
+          "date": "2023-03-01",
+          "vp": true,
+          "title": "It didn't last long at all.",
+          "body": "Quit working within a week and the cords are thin and unreliable. Package came quick but I will not be buying again."
+        },
+        {
+          "stars": 2,
+          "date": "2023-10-02",
+          "vp": true,
+          "title": "Works great when it works",
+          "body": "We go camping nearly every weekend to mine for minerals. (So we get  pretty dirty!)  This camp shower works fantastic the first few times. After that it stopped working. Ordered a replacement and the same thing happened. Between 2 units I got about 10 weekends of showers out of them before deciding to try a different brand."
+        },
+        {
+          "stars": 2,
+          "date": "2024-07-13",
+          "vp": true,
+          "title": "Bought two: one did not work",
+          "body": "One of the two I ordered did not work.  Its motor ran but just created turbulence in the water source without actually moving any water toward the shower head."
+        },
+        {
+          "stars": 2,
+          "date": "2025-09-20",
+          "vp": true,
+          "title": "Product does not work as described",
+          "body": "This is the second time I purchase this shower product the first time it lasted 2 years this time it last only three showers the batteries stopped working I can't even get a hold of the manufacturer I wouldn't recommend this product to no one"
+        },
+        {
+          "stars": 2,
+          "date": "2025-10-25",
+          "vp": true,
+          "title": "Battery Stopped Working After 3 Months",
+          "body": "One of the batteries stopped working after 3 months. Replacement batteries aren't available. This was a waste of money."
+        }
+      ]
+    },
+    {
+      "source": "keywords",
+      "polarity": "neg",
+      "label": "电池续航短",
+      "terms": [
+        "battery life",
+        "only last",
+        "doesnt last",
+        "few showers",
+        "only got"
+      ],
+      "count": 3,
+      "avg": 1.33,
+      "low_pct": 100.0,
+      "star_dist": {
+        "1": 2,
+        "2": 1,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "quotes": [
+        {
+          "stars": 1,
+          "date": "2023-08-24",
+          "snippet": "Doesn't last.：Worked great until the batteries failed. I had it for 4 1/2 weeks and all of a sudden they turned themselve…"
+        },
+        {
+          "stars": 2,
+          "date": "2020-07-25",
+          "snippet": "Doesn’t last：Only lasted about a month, used maybe 8 times, then it just stopped working. Total bummer because I really liked it!"
+        },
+        {
+          "stars": 1,
+          "date": "2020-11-15",
+          "snippet": "Doesn't last long：It was easy to use, until it stopped working. Used it for a month."
+        }
+      ],
+      "reviews": [
+        {
+          "stars": 1,
+          "date": "2020-11-15",
+          "vp": true,
+          "title": "Doesn't last long",
+          "body": "It was easy to use, until it stopped working.  Used it for a month."
+        },
+        {
+          "stars": 1,
+          "date": "2023-08-24",
+          "vp": true,
+          "title": "Doesn't last.",
+          "body": "Worked great until the batteries failed. I had it for 4 1/2 weeks and all of a sudden they turned themselves on then died."
+        },
+        {
+          "stars": 2,
+          "date": "2020-07-25",
+          "vp": true,
+          "title": "Doesn’t last",
+          "body": "Only lasted about a month, used maybe 8 times, then it just stopped working. Total bummer because I really liked it!"
+        }
+      ]
+    },
+    {
+      "source": "keywords",
+      "polarity": "neg",
+      "label": "出水弱 / 不出水",
+      "terms": [
+        "no water",
+        "weak pressure",
+        "no pressure",
+        "barely any water",
+        "trickle"
+      ],
+      "count": 4,
+      "avg": 1.0,
+      "low_pct": 100.0,
+      "star_dist": {
+        "1": 4,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "quotes": [
+        {
+          "stars": 1,
+          "date": "2020-12-18",
+          "snippet": "…top working but you can hear the pump working but no water, so you would have to pull it out of the power socket and plug it back in and then the water will flow again…"
+        },
+        {
+          "stars": 1,
+          "date": "2020-02-14",
+          "snippet": "Water dosent reach shower head...no pressure.：Dosent have enough power for the water to even come out of the showers head the battery pack is worthless an…"
+        },
+        {
+          "stars": 1,
+          "date": "2024-09-23",
+          "snippet": "…ro water comes out. Turns on, makes the noises, but no water. Waste of money cheap piece of garbage."
+        },
+        {
+          "stars": 1,
+          "date": "2022-10-15",
+          "snippet": "…t up but never worked - motor just strained and a trickle of water came from sprout"
+        }
+      ],
+      "reviews": [
+        {
+          "stars": 1,
+          "date": "2020-02-14",
+          "vp": true,
+          "title": "Water dosent reach shower head...no pressure.",
+          "body": "Dosent have enough power for the water to even come out of the showers head the battery pack is worthless and doesn’t work. Great idea but the pump inside is not strong enough."
+        },
+        {
+          "stars": 1,
+          "date": "2020-12-18",
+          "vp": true,
+          "title": "Totally not worth it!",
+          "body": "1st purchased this product at around Aug and it was basically defective out the box, it would turn on and stay on even you press the power button off. returned and replaced .. 2nd one came in and tested at home in sink and it was working like it should. Used it outdoors twice and it worked as it should ... then, it would again turn on and stay on until you pull the pump out of the water.  As for the power, I used the supplied cigarette light adapter, that also was glitchy as well, it would turn on and then stop working but you can hear the pump working but no water, so you would have to pull it out of the power socket and plug it back in and then the water will flow again .... totally not worth the headache with this!!!  dont' waste your $$ on this and buy something else that is better build!!!"
+        },
+        {
+          "stars": 1,
+          "date": "2022-10-15",
+          "vp": true,
+          "title": "Never worked",
+          "body": "Simple system and easy to set up but never worked - motor just strained and a trickle of water came from sprout"
+        },
+        {
+          "stars": 1,
+          "date": "2024-09-23",
+          "vp": true,
+          "title": "Don’t waste your money",
+          "body": "It doesn’t work, literally zero water comes out. Turns on, makes the noises, but no water. Waste of money cheap piece of garbage."
+        }
+      ]
+    },
+    {
+      "source": "keywords",
+      "polarity": "neg",
+      "label": "流量过大抽干桶",
+      "terms": [
+        "drains quickly",
+        "empty bucket",
+        "too much water",
+        "flow was too high",
+        "empties"
+      ],
+      "count": 0,
+      "avg": 0,
+      "low_pct": 0,
+      "star_dist": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "quotes": [],
+      "reviews": []
+    },
+    {
+      "source": "keywords",
+      "polarity": "neg",
+      "label": "电机 / 泵体问题",
+      "terms": [
+        "motor",
+        "pump stopped",
+        "burned out",
+        "grinding"
+      ],
+      "count": 8,
+      "avg": 1.38,
+      "low_pct": 100.0,
+      "star_dist": {
+        "1": 5,
+        "2": 3,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "quotes": [
+        {
+          "stars": 2,
+          "date": "2022-04-15",
+          "snippet": "…ow again after turning it back on. I can hear the motor running, it just won’t suck any water into the hose. I’ve tried both batteries after charging overnight, and…"
+        },
+        {
+          "stars": 2,
+          "date": "2024-10-21",
+          "snippet": "…we hated was that that cord that’s attached to the motor was not long enough for a 8 gallon bucket. And the hose was not long enough to reach the top of the tent. Bu…"
+        },
+        {
+          "stars": 1,
+          "date": "2022-11-14",
+          "snippet": "…works great for the first use but after that, the motor freezes up. I have purchased this item twice, once was an original purchase, the second was a replacement and…"
+        },
+        {
+          "stars": 1,
+          "date": "2022-05-28",
+          "snippet": "…rk well. Took it out camping the next day and the motor was already broken. Was really disappointed in the product, and the company’s customer service were no help.…"
+        },
+        {
+          "stars": 2,
+          "date": "2024-07-13",
+          "snippet": "…t work：One of the two I ordered did not work. Its motor ran but just created turbulence in the water source without actually moving any water toward the shower head."
+        }
+      ],
+      "reviews": [
+        {
+          "stars": 1,
+          "date": "2021-07-24",
+          "vp": true,
+          "title": "Motor whirls but nothing comes out the hose",
+          "body": "Motor whirls but nothing comes out the hose"
+        },
+        {
+          "stars": 1,
+          "date": "2022-05-28",
+          "vp": true,
+          "title": "Faulty",
+          "body": "I tested mine in the bathroom which seemed to work well. Took it out camping the next day and the motor was already broken. Was really disappointed in the product, and the company’s customer service were no help. Thankfully Amazon were cool and gave me a refund."
+        },
+        {
+          "stars": 1,
+          "date": "2022-10-15",
+          "vp": true,
+          "title": "Never worked",
+          "body": "Simple system and easy to set up but never worked - motor just strained and a trickle of water came from sprout"
+        },
+        {
+          "stars": 1,
+          "date": "2022-11-14",
+          "vp": true,
+          "title": "Worst product ever",
+          "body": "This product works great for the first use but after that, the motor freezes up. I have purchased this item twice, once was an original purchase, the second was a replacement and in both instances, the motor completely froze and I was not able to break it free even after taking the unit apart. I highly advise against this purchase."
+        },
+        {
+          "stars": 1,
+          "date": "2026-06-09",
+          "vp": true,
+          "title": "The product stopped working after a month.",
+          "body": "The product stopped working after a month. The battery doesn’t turn on and the pump stopped working"
+        },
+        {
+          "stars": 2,
+          "date": "2022-04-15",
+          "vp": true,
+          "title": "It works well, when it chooses to work.",
+          "body": "It works well, when it actually chooses to work. What typically happens is when I turn it off after wetting my hair, it will not suction and flow again after turning it back on. I can hear the motor running, it just won’t suck any water into the hose. I’ve tried both batteries after charging overnight, and I have the same problem, so I don’t think that is the issue. On the plus side, when it actually DOES work, it gives solid water pressure. Goes through a gallon of water in about 2-3 minutes. Overall, I would return it, but I stuck it up on a shelf after the second or third use and forgot about it, and I think I’m past the return window."
+        },
+        {
+          "stars": 2,
+          "date": "2024-07-13",
+          "vp": true,
+          "title": "Bought two: one did not work",
+          "body": "One of the two I ordered did not work.  Its motor ran but just created turbulence in the water source without actually moving any water toward the shower head."
+        },
+        {
+          "stars": 2,
+          "date": "2024-10-21",
+          "vp": true,
+          "title": "Cord is to short, buy one with a longer cord and hose.",
+          "body": "I bought this and forgot I had it. We went camping last weekend and took it with us. We loved that it came with two batteries. We loved that it worked, and worked well. The two thing we hated was that that cord that’s attached to the motor was not long enough for a 8 gallon bucket. And the hose was not long enough to reach the top of the tent. Buy one with a longer cord and hose."
+        }
+      ]
+    },
+    {
+      "source": "keywords",
+      "polarity": "neg",
+      "label": "退货 / 浪费钱",
+      "terms": [
+        "return",
+        "waste of money",
+        "waste your money",
+        "not worth",
+        "refund",
+        "dont waste"
+      ],
+      "count": 26,
+      "avg": 1.15,
+      "low_pct": 100.0,
+      "star_dist": {
+        "1": 22,
+        "2": 4,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "quotes": [
+        {
+          "stars": 2,
+          "date": "2021-07-06",
+          "snippet": "…d the next day. This went back to Amazon for a full refund. If you're looking to a good camping showerhead I highly recommend the one made by IVATION."
+        },
+        {
+          "stars": 1,
+          "date": "2020-12-18",
+          "snippet": "…and stay on even you press the power button off. returned and replaced .. 2nd one came in and tested at home in sink and it was working like it should. Used it outdo…"
+        },
+        {
+          "stars": 2,
+          "date": "2022-04-15",
+          "snippet": "…llon of water in about 2-3 minutes. Overall, I would return it, but I stuck it up on a shelf after the second or third use and forgot about it, and I think I’m past t…"
+        },
+        {
+          "stars": 1,
+          "date": "2021-04-26",
+          "snippet": "…rcoat and the product was okay for bathing puppy. Not worth $40. Maybe $20. Going to try to find different product with stronger shower stream."
+        },
+        {
+          "stars": 1,
+          "date": "2023-11-29",
+          "snippet": "…gh to shower head. Great idea but poorly made and waste of money! Too expensive to quit working so soon! Batteries worked okay but discharge quickly. I kept having to use sec…"
+        }
+      ],
+      "reviews": [
+        {
+          "stars": 1,
+          "date": "2019-12-24",
+          "vp": true,
+          "title": "Stops working within a couple of months",
+          "body": "Has great power if the battery lasts! You don’t really get a year out of this product! If you use it often anyway. I had to have batteries replaced and sent to me on this and one works then doesn’t work two weeks later. The batteries are what makes this item not worth buying!!!"
+        },
+        {
+          "stars": 1,
+          "date": "2020-07-12",
+          "vp": true,
+          "title": "Only good for one use",
+          "body": "I bought this product and used it for one camping trip. It was great for 3 showers. Great pressure. Then it wouldn’t shut off. The switch clicked on and off, but wouldn’t shut off. I went to go return it and I’m 3 days past when I could return it of course. So only good for one camping trip."
+        },
+        {
+          "stars": 1,
+          "date": "2020-07-30",
+          "vp": true,
+          "title": "Not worth the money",
+          "body": "Stopped working on the second time I used it. Opened it up and saw that water got into the electric pump area."
+        },
+        {
+          "stars": 1,
+          "date": "2020-10-26",
+          "vp": true,
+          "title": "Junk - Didn't Even Last One Camping Trip",
+          "body": "This was great while it worked - we got maybe 5 showers out of it.Took it camping, lasted 3 days - 5 showers. First it wouldn't shut off, then it just wouldn't take charge or run. After all the fuss, it was just easier to heat water in buckets and use a pot of water to wet, wash and rinse in a shower tent.This product was a TOTAL disappointment & waste of money."
+        },
+        {
+          "stars": 1,
+          "date": "2020-12-17",
+          "vp": true,
+          "title": "Broke on me after 1 time!",
+          "body": "Broke after second use! It was very hard to figure out how to charge it as well.  I finally did figure it out, and charged both before use for hours.The first time was mediocre water pressure and I used it for probably 5 minutes.  The second time it didn’t even have anything more than a tiny sprinkle of water.  Junk!  I’m still waiting on my refund."
+        },
+        {
+          "stars": 1,
+          "date": "2020-12-18",
+          "vp": true,
+          "title": "Totally not worth it!",
+          "body": "1st purchased this product at around Aug and it was basically defective out the box, it would turn on and stay on even you press the power button off. returned and replaced .. 2nd one came in and tested at home in sink and it was working like it should. Used it outdoors twice and it worked as it should ... then, it would again turn on and stay on until you pull the pump out of the water.  As for the power, I used the supplied cigarette light adapter, that also was glitchy as well, it would turn on and then stop working but you can hear the pump working but no water, so you would have to pull it out of the power socket and plug it back in and then the water will flow again .... totally not worth the headache with this!!!  dont' waste your $$ on this and buy something else that is better build!!!"
+        },
+        {
+          "stars": 1,
+          "date": "2021-04-26",
+          "vp": true,
+          "title": "ONLY WORKED TWICE (and for very short duration)",
+          "body": "Product arrived very, very late.  Just used it to bathe my senior (English/British) yellow lab.  Shower stream too weak to be an effective tool for giving dog a bath.  Need more powerful pump.  Not even going to be good enough to use to wash off spring mud and dirt after a walk.  Product is good if you just need a gentle shower, like for an infant or watering plants.  I also have 8 wk old lab puppy who does not have his full undercoat and the product was okay for bathing puppy.  Not worth $40.  Maybe $20.  Going to try to find different product with stronger shower stream."
+        },
+        {
+          "stars": 1,
+          "date": "2021-06-18",
+          "vp": true,
+          "title": "Did not work",
+          "body": "Did not suction the water did not work. Need to return it"
+        },
+        {
+          "stars": 1,
+          "date": "2021-09-24",
+          "vp": true,
+          "title": "dangerous! it falls when being hanged on a tree.",
+          "body": "dangerous as it fell down on my child's head. because the design of the hook is not enough to hold tge whole shower head, it falls forward. I contacted them and they asked me for pictures. i already packed camping and headed back home. went back to reality like work so I cant have pictures. i don't need refund. I just want them to know their product can be better."
+        },
+        {
+          "stars": 1,
+          "date": "2021-10-31",
+          "vp": true,
+          "title": "Do not buy this product",
+          "body": "Water pump is not strong enough to provide flow. Water came at a rrivkle or not at all at times. Tried to return but I waited too long. Avoid buying this product."
+        },
+        {
+          "stars": 1,
+          "date": "2022-04-05",
+          "vp": true,
+          "title": "Doesn’t work",
+          "body": "Doesn’t work. Battery wont charge. Waste of money"
+        },
+        {
+          "stars": 1,
+          "date": "2022-05-28",
+          "vp": true,
+          "title": "Faulty",
+          "body": "I tested mine in the bathroom which seemed to work well. Took it out camping the next day and the motor was already broken. Was really disappointed in the product, and the company’s customer service were no help. Thankfully Amazon were cool and gave me a refund."
+        },
+        {
+          "stars": 1,
+          "date": "2022-09-14",
+          "vp": true,
+          "title": "Garbage, don't waste your money",
+          "body": "What a waste of money, sent it back"
+        },
+        {
+          "stars": 1,
+          "date": "2023-07-14",
+          "vp": true,
+          "title": "Battery does not hold charge past 1 day",
+          "body": "Bought this to go camping. Charged it and tried it an hour after charge and it worked. However, after I charged it and then waited to use it a day later there was no power. Absolutely, do not buy this product as it is a piece of crap. Also, warranty is awful and they will not let me return it. Lost my money."
+        },
+        {
+          "stars": 1,
+          "date": "2023-07-23",
+          "vp": true,
+          "title": "Product is cheap",
+          "body": "We bought these, and by the time we went to use them. It was to late to return them. They don’t work! We charged the batteries over night. Went to use them on a camping trip. Wouldn’t work!"
+        },
+        {
+          "stars": 1,
+          "date": "2023-11-29",
+          "vp": true,
+          "title": "Quit working after about 6 times used!",
+          "body": "I was excited to get this. First time worked well, but tube does not stay connected. Tape will not help it. Have to keep untwisting the hose as well. Keeps kinking up. But after 6 times it just completely quit working. Cannot get it to stop kinking so water does not go through to shower head. Great idea but poorly made and waste of money! Too expensive to quit working so soon! Batteries worked okay but discharge quickly. I kept having to use second battery to finish shower. Constantly had to reconnect tube because tape would not even keep it connected to pump."
+        },
+        {
+          "stars": 1,
+          "date": "2023-12-20",
+          "vp": true,
+          "title": "DO NOT BUY!!!",
+          "body": "DO NOT BUY THIS!!!The cord has a short in it after using one time.I purchased it in September but just opened it last week and its already not working properly. Amazon says my return window has closed because of the timeframe."
+        },
+        {
+          "stars": 1,
+          "date": "2024-08-23",
+          "vp": true,
+          "title": "Product arrived used",
+          "body": "I began return process and I'm a week away from my camping trip I hope I find a good shower head since I received this one used. Found hair and calcium already built up in the creases."
+        },
+        {
+          "stars": 1,
+          "date": "2024-09-23",
+          "vp": true,
+          "title": "Don’t waste your money",
+          "body": "It doesn’t work, literally zero water comes out. Turns on, makes the noises, but no water. Waste of money cheap piece of garbage."
+        },
+        {
+          "stars": 1,
+          "date": "2024-10-11",
+          "vp": true,
+          "title": "Used, not new",
+          "body": "The supposedly brand new shower was covered in a mysterious white powdery substance revealing it has been used before and as such had to be immediately returned."
+        },
+        {
+          "stars": 1,
+          "date": "2024-11-08",
+          "vp": true,
+          "title": "No USB Charger",
+          "body": "I think I got a returned item.  Box was open and there wasn't a USB charger included.Totally worthless without a way to charge it.Messed up my camping trip this weekend......"
+        },
+        {
+          "stars": 1,
+          "date": "2024-12-31",
+          "vp": true,
+          "title": "Oh well",
+          "body": "The batteries charged up just fine but unfortunately I am having no luck getting it to pump water. It sounds like it is trying really hard but sadly it’s not pumping water. I guess I got a dud. Will return it for a replacement."
+        },
+        {
+          "stars": 2,
+          "date": "2021-07-06",
+          "vp": true,
+          "title": "Poor quality.  Complicated set up.",
+          "body": "I purchased this product to replace another camp shower head thinking that it would be better based on product reviews and the design of the pump.  Boy was I wrong!  Straight out of the box the product had 2 batteries a pump and of course the shower head, my previous device had the battery and the pump integrated into one module.  Charging was simple however, what I didn't like if that you have the pump and the battery sort of together, the pump gets submerged in water while the battery has to stay out of the water.  The pressure generated by the pump was mediocre in comparison IVATION CAMP SHOWER HEAD that this replaced.  What broke the camel's back, so to speak, is that the hose that went into the shower head and the shower head separated from each other 2 days into use.  I put the hose back into the shower head thinking that it was a fluke, however, the same thing happened the next day.  This went back to Amazon for a full refund.  If you're looking to a good camping showerhead I highly recommend the one made by IVATION."
+        },
+        {
+          "stars": 2,
+          "date": "2022-04-15",
+          "vp": true,
+          "title": "It works well, when it chooses to work.",
+          "body": "It works well, when it actually chooses to work. What typically happens is when I turn it off after wetting my hair, it will not suction and flow again after turning it back on. I can hear the motor running, it just won’t suck any water into the hose. I’ve tried both batteries after charging overnight, and I have the same problem, so I don’t think that is the issue. On the plus side, when it actually DOES work, it gives solid water pressure. Goes through a gallon of water in about 2-3 minutes. Overall, I would return it, but I stuck it up on a shelf after the second or third use and forgot about it, and I think I’m past the return window."
+        },
+        {
+          "stars": 2,
+          "date": "2024-12-07",
+          "vp": true,
+          "title": "Batteries Never Worked total bummer",
+          "body": "I bought this shower months ago to use at our cabin in the woods during our traditional Thanksgiving dinner. Tried to use it for dishes and neither battery worked and also would not charge. I used a proper charger as stated. I would love to be able to return it but didnt even try to use it till recent. Any suggestions or if this seller would replace the batteries. Not sure what to do. Be careful and test is as soon as you get it as to not end up like me."
+        },
+        {
+          "stars": 2,
+          "date": "2025-10-25",
+          "vp": true,
+          "title": "Battery Stopped Working After 3 Months",
+          "body": "One of the batteries stopped working after 3 months. Replacement batteries aren't available. This was a waste of money."
+        }
+      ]
+    },
+    {
+      "source": "keywords",
+      "polarity": "neg",
+      "label": "喷头水管漏水",
+      "terms": [
+        "hose",
+        "shower head",
+        "leak",
+        "leaking",
+        "sprayer"
+      ],
+      "count": 9,
+      "avg": 1.44,
+      "low_pct": 100.0,
+      "star_dist": {
+        "1": 5,
+        "2": 4,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "quotes": [
+        {
+          "stars": 2,
+          "date": "2021-07-06",
+          "snippet": "…at broke the camel's back, so to speak, is that the hose that went into the shower head and the shower head separated from each other 2 days into use. I put the hos…"
+        },
+        {
+          "stars": 2,
+          "date": "2022-04-15",
+          "snippet": "…tor running, it just won’t suck any water into the hose. I’ve tried both batteries after charging overnight, and I have the same problem, so I don’t think that is t…"
+        },
+        {
+          "stars": 1,
+          "date": "2023-11-29",
+          "snippet": "…ape will not help it. Have to keep untwisting the hose as well. Keeps kinking up. But after 6 times it just completely quit working. Cannot get it to stop kinking s…"
+        },
+        {
+          "stars": 2,
+          "date": "2024-10-21",
+          "snippet": "Cord is to short, buy one with a longer cord and hose.：I bought this and forgot I had it. We went camping last weekend and took it with us. We loved that it came w…"
+        },
+        {
+          "stars": 1,
+          "date": "2021-09-24",
+          "snippet": "…design of the hook is not enough to hold tge whole shower head, it falls forward. I contacted them and they asked me for pictures. i already packed camping and headed back…"
+        }
+      ],
+      "reviews": [
+        {
+          "stars": 1,
+          "date": "2020-02-14",
+          "vp": true,
+          "title": "Water dosent reach shower head...no pressure.",
+          "body": "Dosent have enough power for the water to even come out of the showers head the battery pack is worthless and doesn’t work. Great idea but the pump inside is not strong enough."
+        },
+        {
+          "stars": 1,
+          "date": "2021-07-24",
+          "vp": true,
+          "title": "Motor whirls but nothing comes out the hose",
+          "body": "Motor whirls but nothing comes out the hose"
+        },
+        {
+          "stars": 1,
+          "date": "2021-09-24",
+          "vp": true,
+          "title": "dangerous! it falls when being hanged on a tree.",
+          "body": "dangerous as it fell down on my child's head. because the design of the hook is not enough to hold tge whole shower head, it falls forward. I contacted them and they asked me for pictures. i already packed camping and headed back home. went back to reality like work so I cant have pictures. i don't need refund. I just want them to know their product can be better."
+        },
+        {
+          "stars": 1,
+          "date": "2023-11-29",
+          "vp": true,
+          "title": "Quit working after about 6 times used!",
+          "body": "I was excited to get this. First time worked well, but tube does not stay connected. Tape will not help it. Have to keep untwisting the hose as well. Keeps kinking up. But after 6 times it just completely quit working. Cannot get it to stop kinking so water does not go through to shower head. Great idea but poorly made and waste of money! Too expensive to quit working so soon! Batteries worked okay but discharge quickly. I kept having to use second battery to finish shower. Constantly had to reconnect tube because tape would not even keep it connected to pump."
+        },
+        {
+          "stars": 1,
+          "date": "2024-08-23",
+          "vp": true,
+          "title": "Product arrived used",
+          "body": "I began return process and I'm a week away from my camping trip I hope I find a good shower head since I received this one used. Found hair and calcium already built up in the creases."
+        },
+        {
+          "stars": 2,
+          "date": "2021-07-06",
+          "vp": true,
+          "title": "Poor quality.  Complicated set up.",
+          "body": "I purchased this product to replace another camp shower head thinking that it would be better based on product reviews and the design of the pump.  Boy was I wrong!  Straight out of the box the product had 2 batteries a pump and of course the shower head, my previous device had the battery and the pump integrated into one module.  Charging was simple however, what I didn't like if that you have the pump and the battery sort of together, the pump gets submerged in water while the battery has to stay out of the water.  The pressure generated by the pump was mediocre in comparison IVATION CAMP SHOWER HEAD that this replaced.  What broke the camel's back, so to speak, is that the hose that went into the shower head and the shower head separated from each other 2 days into use.  I put the hose back into the shower head thinking that it was a fluke, however, the same thing happened the next day.  This went back to Amazon for a full refund.  If you're looking to a good camping showerhead I highly recommend the one made by IVATION."
+        },
+        {
+          "stars": 2,
+          "date": "2022-04-15",
+          "vp": true,
+          "title": "It works well, when it chooses to work.",
+          "body": "It works well, when it actually chooses to work. What typically happens is when I turn it off after wetting my hair, it will not suction and flow again after turning it back on. I can hear the motor running, it just won’t suck any water into the hose. I’ve tried both batteries after charging overnight, and I have the same problem, so I don’t think that is the issue. On the plus side, when it actually DOES work, it gives solid water pressure. Goes through a gallon of water in about 2-3 minutes. Overall, I would return it, but I stuck it up on a shelf after the second or third use and forgot about it, and I think I’m past the return window."
+        },
+        {
+          "stars": 2,
+          "date": "2024-07-13",
+          "vp": true,
+          "title": "Bought two: one did not work",
+          "body": "One of the two I ordered did not work.  Its motor ran but just created turbulence in the water source without actually moving any water toward the shower head."
+        },
+        {
+          "stars": 2,
+          "date": "2024-10-21",
+          "vp": true,
+          "title": "Cord is to short, buy one with a longer cord and hose.",
+          "body": "I bought this and forgot I had it. We went camping last weekend and took it with us. We loved that it came with two batteries. We loved that it worked, and worked well. The two thing we hated was that that cord that’s attached to the motor was not long enough for a 8 gallon bucket. And the hose was not long enough to reach the top of the tent. Buy one with a longer cord and hose."
+        }
+      ]
+    },
+    {
+      "source": "aspects",
+      "polarity": "neg",
+      "label": "🔋 电池 & 续航 · 无法充电 / 电池损坏",
+      "terms": [
+        "not charge",
+        "wont charge",
+        "dead battery",
+        "stopped charging",
+        "doesnt charge",
+        "battery dead"
+      ],
+      "count": 8,
+      "avg": 1.62,
+      "low_pct": 75.0,
+      "star_dist": {
+        "1": 5,
+        "2": 1,
+        "3": 2,
+        "4": 0,
+        "5": 0
+      },
+      "quotes": [
+        {
+          "stars": 2,
+          "date": "2024-12-07",
+          "snippet": "…dishes and neither battery worked and also would not charge. I used a proper charger as stated. I would love to be able to return it but didnt even try to use it till re…"
+        },
+        {
+          "stars": 1,
+          "date": "2022-04-28",
+          "snippet": "Batteries would not charge：Used it once, ran great, but the batteries would not charge. They have a standard USB on one end of the charg…"
+        },
+        {
+          "stars": 3,
+          "date": "2022-09-05",
+          "snippet": "…ne of the batteries has already taken a dump. Will not charge anymore.Suction is good but need to prime first by putting shower head lower then the extended height."
+        },
+        {
+          "stars": 1,
+          "date": "2020-06-16",
+          "snippet": "…The on/off button stop working and then it would not charge. I was so aggravated that I just threw it away ."
+        },
+        {
+          "stars": 1,
+          "date": "2024-04-03",
+          "snippet": "…d be happy but one of the batteries is DOA , does not charge or turn on and can't find a way to contact. So not happy would not buy again."
+        }
+      ],
+      "reviews": [
+        {
+          "stars": 1,
+          "date": "2020-06-16",
+          "vp": true,
+          "title": "It did Not last",
+          "body": "I wish this item would have continued to work , it was great while lasted. It lasted for 2 weekend camping trips . The on/off button stop working and then it would not charge.  I was so aggravated that I just threw it away ."
+        },
+        {
+          "stars": 1,
+          "date": "2022-04-05",
+          "vp": true,
+          "title": "Doesn’t work",
+          "body": "Doesn’t work. Battery wont charge. Waste of money"
+        },
+        {
+          "stars": 1,
+          "date": "2022-04-28",
+          "vp": true,
+          "title": "Batteries would not charge",
+          "body": "Used it once, ran great, but the batteries would not charge.  They have a standard USB on one end of the charging cable, with a specialized plug on the battery end.  If you wiggled the cable in the battery, it might start it's flashing light indicating it was charging, but it would quit and go dark as soon as you turned loose of it.  Neither battery charged, so it was one and done.  Batteries are terrible, but the pump was adequate."
+        },
+        {
+          "stars": 1,
+          "date": "2023-05-24",
+          "vp": true,
+          "title": "Battery dead only 1 year.",
+          "body": "Battery dead only 1 year."
+        },
+        {
+          "stars": 1,
+          "date": "2024-04-03",
+          "vp": true,
+          "title": "One of the two batteries does not work",
+          "body": "It works ok and I would be happy but one of the batteries is DOA , does not charge or turn on and can't find a way to contact. So not happy would not buy again."
+        },
+        {
+          "stars": 2,
+          "date": "2024-12-07",
+          "vp": true,
+          "title": "Batteries Never Worked total bummer",
+          "body": "I bought this shower months ago to use at our cabin in the woods during our traditional Thanksgiving dinner. Tried to use it for dishes and neither battery worked and also would not charge. I used a proper charger as stated. I would love to be able to return it but didnt even try to use it till recent. Any suggestions or if this seller would replace the batteries. Not sure what to do. Be careful and test is as soon as you get it as to not end up like me."
+        },
+        {
+          "stars": 3,
+          "date": "2022-05-03",
+          "vp": true,
+          "title": "Worked great but battery wont charge",
+          "body": "It worked great but the batteries will not charge and died rather quickly"
+        },
+        {
+          "stars": 3,
+          "date": "2022-09-05",
+          "vp": true,
+          "title": "This is super easy with knowing small things",
+          "body": "This pump was perfect for camping and the battery had a good charge, didn't have to charge in a week of 1 shower per day, of about 7min use.But since purchasing in June one of the batteries has already taken a dump. Will not charge anymore.Suction is good but need to prime first by putting shower head lower then the extended height."
+        }
+      ]
+    },
+    {
+      "source": "aspects",
+      "polarity": "neg",
+      "label": "🔋 电池 & 续航 · 续航短 / 很快没电",
+      "terms": [
+        "battery life",
+        "only last",
+        "doesnt last",
+        "few showers",
+        "short battery",
+        "only got"
+      ],
+      "count": 5,
+      "avg": 2.0,
+      "low_pct": 60.0,
+      "star_dist": {
+        "1": 2,
+        "2": 1,
+        "3": 2,
+        "4": 0,
+        "5": 0
+      },
+      "quotes": [
+        {
+          "stars": 3,
+          "date": "2022-04-10",
+          "snippet": "…ather, but bring them into the house to protect the battery life. One star off because I would really love it if they could make the black cord that attaches to the battery…"
+        },
+        {
+          "stars": 3,
+          "date": "2022-12-09",
+          "snippet": "…r the most part you have to get creative with mounting.Battery life is excellent. The pump is lower power, and you can expect at least 5 showers on a charge.I've used this…"
+        },
+        {
+          "stars": 1,
+          "date": "2023-08-24",
+          "snippet": "Doesn't last.：Worked great until the batteries failed. I had it for 4 1/2 weeks and all of a sudden they turned themselve…"
+        },
+        {
+          "stars": 2,
+          "date": "2020-07-25",
+          "snippet": "Doesn’t last：Only lasted about a month, used maybe 8 times, then it just stopped working. Total bummer because I really liked it!"
+        },
+        {
+          "stars": 1,
+          "date": "2020-11-15",
+          "snippet": "Doesn't last long：It was easy to use, until it stopped working. Used it for a month."
+        }
+      ],
+      "reviews": [
+        {
+          "stars": 1,
+          "date": "2020-11-15",
+          "vp": true,
+          "title": "Doesn't last long",
+          "body": "It was easy to use, until it stopped working.  Used it for a month."
+        },
+        {
+          "stars": 1,
+          "date": "2023-08-24",
+          "vp": true,
+          "title": "Doesn't last.",
+          "body": "Worked great until the batteries failed. I had it for 4 1/2 weeks and all of a sudden they turned themselves on then died."
+        },
+        {
+          "stars": 2,
+          "date": "2020-07-25",
+          "vp": true,
+          "title": "Doesn’t last",
+          "body": "Only lasted about a month, used maybe 8 times, then it just stopped working. Total bummer because I really liked it!"
+        },
+        {
+          "stars": 3,
+          "date": "2022-04-10",
+          "vp": true,
+          "title": "New battery pack style difficult to install and remove",
+          "body": "11/2022 Update:  Unfortunately the company has changed the design of the battery packs and the new style is difficult to remove and install on the camp shower.  I will not be purchasing more.  3 battery packs have failed of the 4 that I own.  One more star removed from this review.Original review: I use this in my house call pet grooming business, to help mix and distribute shampoo and conditioner onto the pets, as well as rinse them.  I replaced the opaque hose with a clear hose (from local hardware store), and I don't use the sprayer nozzle (as it frightens the pets), I just wrap a rubberized hair band around the end of the hose to make it easier to grasp.  I like having the clear hose, as it makes it easier to make sure the hose is getting dry and not growing mold. I use it at least once or twice a week and it has lasted two years before one of the battery packs failed (it would be nice to be able to buy battery packs separately). The pump is quiet, and efficient at delivering the product/rinse water onto the pets.  I have bought 2 units to have spare batteries around, although one battery pack can usually last through one large dog.  I like to have back up chargers in my car and house, and back up batteries on hand in my grooming kit.  I don't leave the batteries out in the car heat and freezing weather, but bring them into the house to protect the battery life. One star off because I would really love it if they could make the black cord that attaches to the battery pack longer by about 12\" (and a clear hose and housing and sprayer head would be awesome!) I actually link this product on my business Facebook page to recommend to my clients and friends for bathing their own dogs.  I have gotten feedback that it is also a great toy for the the grandkids, for washing cars, and camping!"
+        },
+        {
+          "stars": 3,
+          "date": "2022-12-09",
+          "vp": true,
+          "title": "Gets the job done... barely",
+          "body": "For a camp shower, this gets the job done. Barely. It works ok if you are not washing your hair. It will do the job if you have short hair. If you have long hair, don't even bother.Water output is low. You end up waiting to get wet, which actually causes you to use more water than normal, especially washing and rinsing hair.Pressure is low, and the water goes maybe 1 foot before it falls. That's why the shower head is angled down, because it wont' \"shoot out\" water at all. It works best when it can be pointed down, or close to down.The volume of water delivered is also low. The shower head is designed with only a few holes, so it seems like you are getting good flow... until you actually use it.The whole motor assembly sits in the water. I don't care how much you waterproof things, the motor is going to eventually get wet. It's nearly impossible to clean, and you have to pry off the lid to clean it. Bad design.The included mounting accessories are not super useful, for the most part you have to get creative with mounting.Battery life is excellent. The pump is lower power, and you can expect at least 5 showers on a charge.I've used this in a camp setting, in a pop-up shower enclosure. I have also used it in a home shower during a plumbing issue. Yes, it will get the job done, and it is better than nothing.  Ironically this camp shower uses twice as much water as it should because it takes far longer to shower than it should.If you plan on multiple showers during a longer camp outing, or need something for more than a single use, or want to use less water, this is not the best choice. For a zombie bug out bag... maybe."
+        }
+      ]
+    },
+    {
+      "source": "aspects",
+      "polarity": "neg",
+      "label": "🔋 电池 & 续航 · 备用电池也失效",
+      "terms": [
+        "second battery",
+        "backup battery",
+        "batteries stopped",
+        "replacement batteries",
+        "both batteries"
+      ],
+      "count": 8,
+      "avg": 1.62,
+      "low_pct": 100.0,
+      "star_dist": {
+        "1": 3,
+        "2": 5,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "quotes": [
+        {
+          "stars": 2,
+          "date": "2022-04-15",
+          "snippet": "…just won’t suck any water into the hose. I’ve tried both batteries after charging overnight, and I have the same problem, so I don’t think that is the issue. On the plus side…"
+        },
+        {
+          "stars": 1,
+          "date": "2023-11-29",
+          "snippet": "…okay but discharge quickly. I kept having to use second battery to finish shower. Constantly had to reconnect tube because tape would not even keep it connected to pump."
+        },
+        {
+          "stars": 1,
+          "date": "2020-04-17",
+          "snippet": "…u have no options, your $40 is gone. You cannot buy replacement batteries that are reliable, the device cannot be powered by other means.This is a Scam and it's a real shame that it…"
+        },
+        {
+          "stars": 1,
+          "date": "2022-03-09",
+          "snippet": "…ng power outages. We even bought a spare battery. Both batteries though plugged in prior to the storm and allegedly charged failed to operate when we went to use them. Forget…"
+        },
+        {
+          "stars": 2,
+          "date": "2025-09-20",
+          "snippet": "…2 years this time it last only three showers the batteries stopped working I can't even get a hold of the manufacturer I wouldn't recommend this product to no one"
+        }
+      ],
+      "reviews": [
+        {
+          "stars": 1,
+          "date": "2020-04-17",
+          "vp": false,
+          "title": "You are spending over $40 for about 3 to 5 low pressure showers",
+          "body": "This company has continuously provided a faulty battery for over 5 years now.  The company changes their name, then resells the same faulty product, that has a different color. It's the same worthless product. When the battery dies after you've used it a handful of times, you have no options, your $40 is gone. You cannot buy replacement batteries that are reliable, the device cannot be powered by other means.This is a Scam and it's a real shame that it is allowed to continue for so many years."
+        },
+        {
+          "stars": 1,
+          "date": "2022-03-09",
+          "vp": true,
+          "title": "Failed When Needed It",
+          "body": "We bought this for use during power outages. We even bought a spare battery. Both batteries though plugged in prior to the storm and allegedly charged failed to operate when we went to use them. Forget this electric garbage and get yourself a good old fashioned hanging bag style.  (And no you can't use the name 'Electric Garbage' for your band name I already called it!)"
+        },
+        {
+          "stars": 1,
+          "date": "2023-11-29",
+          "vp": true,
+          "title": "Quit working after about 6 times used!",
+          "body": "I was excited to get this. First time worked well, but tube does not stay connected. Tape will not help it. Have to keep untwisting the hose as well. Keeps kinking up. But after 6 times it just completely quit working. Cannot get it to stop kinking so water does not go through to shower head. Great idea but poorly made and waste of money! Too expensive to quit working so soon! Batteries worked okay but discharge quickly. I kept having to use second battery to finish shower. Constantly had to reconnect tube because tape would not even keep it connected to pump."
+        },
+        {
+          "stars": 2,
+          "date": "2022-04-15",
+          "vp": true,
+          "title": "It works well, when it chooses to work.",
+          "body": "It works well, when it actually chooses to work. What typically happens is when I turn it off after wetting my hair, it will not suction and flow again after turning it back on. I can hear the motor running, it just won’t suck any water into the hose. I’ve tried both batteries after charging overnight, and I have the same problem, so I don’t think that is the issue. On the plus side, when it actually DOES work, it gives solid water pressure. Goes through a gallon of water in about 2-3 minutes. Overall, I would return it, but I stuck it up on a shelf after the second or third use and forgot about it, and I think I’m past the return window."
+        },
+        {
+          "stars": 2,
+          "date": "2022-06-22",
+          "vp": true,
+          "title": "Just quit mid shower",
+          "body": "This worked great for one shower and then quit 10 seconds into the second use. Tried recharging both batteries, neither worked. Left me showerless all weekend."
+        },
+        {
+          "stars": 2,
+          "date": "2023-09-19",
+          "vp": true,
+          "title": "Good pump but Battery defective",
+          "body": "The pump works good and produces a nice flow but after multiple use one of the two battery died. And there are no replacement batteries offered by the company."
+        },
+        {
+          "stars": 2,
+          "date": "2025-09-20",
+          "vp": true,
+          "title": "Product does not work as described",
+          "body": "This is the second time I purchase this shower product the first time it lasted 2 years this time it last only three showers the batteries stopped working I can't even get a hold of the manufacturer I wouldn't recommend this product to no one"
+        },
+        {
+          "stars": 2,
+          "date": "2025-10-25",
+          "vp": true,
+          "title": "Battery Stopped Working After 3 Months",
+          "body": "One of the batteries stopped working after 3 months. Replacement batteries aren't available. This was a waste of money."
+        }
+      ]
+    },
+    {
+      "source": "aspects",
+      "polarity": "neg",
+      "label": "⚙️ 泵体 / 电机故障 · 停止工作 / 不工作",
+      "terms": [
+        "stopped working",
+        "not work",
+        "doesnt work",
+        "quit working",
+        "no longer work",
+        "stopped work"
+      ],
+      "count": 28,
+      "avg": 1.54,
+      "low_pct": 85.7,
+      "star_dist": {
+        "1": 17,
+        "2": 7,
+        "3": 4,
+        "4": 0,
+        "5": 0
+      },
+      "quotes": [
+        {
+          "stars": 1,
+          "date": "2023-11-29",
+          "snippet": "Quit working after about 6 times used!：I was excited to get this. First time worked well, but tube does not stay connected…"
+        },
+        {
+          "stars": 2,
+          "date": "2020-09-23",
+          "snippet": "…power, easy to use HOWEVER 7 showers later and it no longer works! We actually used it excessively for the short amount of time we had it. In regular camping season it would…"
+        },
+        {
+          "stars": 3,
+          "date": "2020-06-17",
+          "snippet": "…st 2 uses, but on the third use the on off switch quit working. I had to unplug the battery unit to turn the shower off. This was tricky since I needed to shut it off befor…"
+        },
+        {
+          "stars": 1,
+          "date": "2021-12-05",
+          "snippet": "charging cable stopped working：this product was as described but without the charging cable working the entire system is useless. I really n…"
+        },
+        {
+          "stars": 2,
+          "date": "2023-10-02",
+          "snippet": "…orks fantastic the first few times. After that it stopped working. Ordered a replacement and the same thing happened. Between 2 units I got about 10 weekends of showers out of…"
+        }
+      ],
+      "reviews": [
+        {
+          "stars": 1,
+          "date": "2019-12-24",
+          "vp": true,
+          "title": "Stops working within a couple of months",
+          "body": "Has great power if the battery lasts! You don’t really get a year out of this product! If you use it often anyway. I had to have batteries replaced and sent to me on this and one works then doesn’t work two weeks later. The batteries are what makes this item not worth buying!!!"
+        },
+        {
+          "stars": 1,
+          "date": "2020-02-14",
+          "vp": true,
+          "title": "Water dosent reach shower head...no pressure.",
+          "body": "Dosent have enough power for the water to even come out of the showers head the battery pack is worthless and doesn’t work. Great idea but the pump inside is not strong enough."
+        },
+        {
+          "stars": 1,
+          "date": "2020-07-30",
+          "vp": true,
+          "title": "Not worth the money",
+          "body": "Stopped working on the second time I used it. Opened it up and saw that water got into the electric pump area."
+        },
+        {
+          "stars": 1,
+          "date": "2020-11-15",
+          "vp": true,
+          "title": "Doesn't last long",
+          "body": "It was easy to use, until it stopped working.  Used it for a month."
+        },
+        {
+          "stars": 1,
+          "date": "2020-12-27",
+          "vp": true,
+          "title": "if the on and off button would work it would be a great shower",
+          "body": "this portable shower is a piece of crap, the shower part work's okay but the on and off button doesn't work, I will never buy this item again"
+        },
+        {
+          "stars": 1,
+          "date": "2021-03-14",
+          "vp": true,
+          "title": "Doesn’t work.",
+          "body": "Tried to charge the batteries. Nothing! The lights came on the one but just flashed continuously. The other battery wouldn’t take a charge. Sad because we needed this for our camping trip. Luckily...I guess.. we have the 5 gallon bag shower. Just a pain to use. We were trying to step it up a little. 🤨"
+        },
+        {
+          "stars": 1,
+          "date": "2021-04-02",
+          "vp": true,
+          "title": "Does not work",
+          "body": "The battery did not work and would not take a charge to operate the device"
+        },
+        {
+          "stars": 1,
+          "date": "2021-06-18",
+          "vp": true,
+          "title": "Did not work",
+          "body": "Did not suction the water did not work. Need to return it"
+        },
+        {
+          "stars": 1,
+          "date": "2021-11-20",
+          "vp": true,
+          "title": "Stopped working",
+          "body": "Mine stopped working after 3rd use"
+        },
+        {
+          "stars": 1,
+          "date": "2021-12-05",
+          "vp": true,
+          "title": "charging cable stopped working",
+          "body": "this product was as described but without the charging cable working the entire system is useless. I really needed this to work, it's very unfortunate. It worked to charge some of one pack then stopped, i tried charging it in a car as well as with 5v or below charging ports. Never charged it above the 5v as instructed. very disappointed."
+        },
+        {
+          "stars": 1,
+          "date": "2022-04-05",
+          "vp": true,
+          "title": "Doesn’t work",
+          "body": "Doesn’t work. Battery wont charge. Waste of money"
+        },
+        {
+          "stars": 1,
+          "date": "2023-11-29",
+          "vp": true,
+          "title": "Quit working after about 6 times used!",
+          "body": "I was excited to get this. First time worked well, but tube does not stay connected. Tape will not help it. Have to keep untwisting the hose as well. Keeps kinking up. But after 6 times it just completely quit working. Cannot get it to stop kinking so water does not go through to shower head. Great idea but poorly made and waste of money! Too expensive to quit working so soon! Batteries worked okay but discharge quickly. I kept having to use second battery to finish shower. Constantly had to reconnect tube because tape would not even keep it connected to pump."
+        },
+        {
+          "stars": 1,
+          "date": "2023-12-02",
+          "vp": true,
+          "title": "Stopped working after a few months",
+          "body": "Stopped working after a few months"
+        },
+        {
+          "stars": 1,
+          "date": "2023-12-20",
+          "vp": true,
+          "title": "DO NOT BUY!!!",
+          "body": "DO NOT BUY THIS!!!The cord has a short in it after using one time.I purchased it in September but just opened it last week and its already not working properly. Amazon says my return window has closed because of the timeframe."
+        },
+        {
+          "stars": 1,
+          "date": "2024-04-03",
+          "vp": true,
+          "title": "One of the two batteries does not work",
+          "body": "It works ok and I would be happy but one of the batteries is DOA , does not charge or turn on and can't find a way to contact. So not happy would not buy again."
+        },
+        {
+          "stars": 1,
+          "date": "2024-09-23",
+          "vp": true,
+          "title": "Don’t waste your money",
+          "body": "It doesn’t work, literally zero water comes out. Turns on, makes the noises, but no water. Waste of money cheap piece of garbage."
+        },
+        {
+          "stars": 1,
+          "date": "2026-06-09",
+          "vp": true,
+          "title": "The product stopped working after a month.",
+          "body": "The product stopped working after a month. The battery doesn’t turn on and the pump stopped working"
+        },
+        {
+          "stars": 2,
+          "date": "2020-07-25",
+          "vp": true,
+          "title": "Doesn’t last",
+          "body": "Only lasted about a month, used maybe 8 times, then it just stopped working. Total bummer because I really liked it!"
+        },
+        {
+          "stars": 2,
+          "date": "2020-09-23",
+          "vp": true,
+          "title": "Too bad, just didn't last for the money I paid, not even a full season of camping 😕",
+          "body": "The short performance was 5 stars right out the door with excellent shower power, easy to use HOWEVER 7 showers later and it no longer works! We actually used it excessively for the short amount of time we had it. In regular camping season it would have been outside the exchange period also so I'd have to suggest finding a product with a more realistic trial for this kind of money! Too bad, I worldview given it another shot but I guess they made their $50 bucks so it didn't matter if they get repeat customers. What Shame!"
+        },
+        {
+          "stars": 2,
+          "date": "2023-03-01",
+          "vp": true,
+          "title": "It didn't last long at all.",
+          "body": "Quit working within a week and the cords are thin and unreliable. Package came quick but I will not be buying again."
+        },
+        {
+          "stars": 2,
+          "date": "2023-10-02",
+          "vp": true,
+          "title": "Works great when it works",
+          "body": "We go camping nearly every weekend to mine for minerals. (So we get  pretty dirty!)  This camp shower works fantastic the first few times. After that it stopped working. Ordered a replacement and the same thing happened. Between 2 units I got about 10 weekends of showers out of them before deciding to try a different brand."
+        },
+        {
+          "stars": 2,
+          "date": "2024-07-13",
+          "vp": true,
+          "title": "Bought two: one did not work",
+          "body": "One of the two I ordered did not work.  Its motor ran but just created turbulence in the water source without actually moving any water toward the shower head."
+        },
+        {
+          "stars": 2,
+          "date": "2025-09-20",
+          "vp": true,
+          "title": "Product does not work as described",
+          "body": "This is the second time I purchase this shower product the first time it lasted 2 years this time it last only three showers the batteries stopped working I can't even get a hold of the manufacturer I wouldn't recommend this product to no one"
+        },
+        {
+          "stars": 2,
+          "date": "2025-10-25",
+          "vp": true,
+          "title": "Battery Stopped Working After 3 Months",
+          "body": "One of the batteries stopped working after 3 months. Replacement batteries aren't available. This was a waste of money."
+        },
+        {
+          "stars": 3,
+          "date": "2020-06-17",
+          "vp": true,
+          "title": "This product would be great if the on/off switch worked",
+          "body": "I really liked this shower the first 2 uses, but on the third use the on off switch quit working. I had to unplug the battery unit to turn the shower off. This was tricky since I needed to shut it off before the water level in my bucket got too low and would burn up the motor. I would be happy if I could get a replacement battery pack/switch."
+        },
+        {
+          "stars": 3,
+          "date": "2020-07-21",
+          "vp": true,
+          "title": "Worked the first couple of times",
+          "body": "This worked great at first but on the third use the power button stopped working and just stays on now so have to plug in and unplug the battery when using. Needs better quality control. I’ll probably see if they’ll fix or replace the battery."
+        },
+        {
+          "stars": 3,
+          "date": "2022-07-25",
+          "vp": true,
+          "title": "The electric chord stopped working right away.",
+          "body": "This shower has a very nice stream for a satisfying shower, and is fairly easy to use.  However The USB chord that runs the shower from a 12-volt stopped working right away, and I would like another.Also, I can't find the battery recharger and would like to purchase another recharger."
+        },
+        {
+          "stars": 3,
+          "date": "2023-01-29",
+          "vp": true,
+          "title": "Great shower, if it lasted",
+          "body": "When i first bought the portable shower, I loved it. After sorting for the winter, the Batteries are dead, the shower does not work even though it looks brand new! I took good care of it too! It's lacking in quality and dependability"
+        }
+      ]
+    },
+    {
+      "source": "aspects",
+      "polarity": "neg",
+      "label": "⚙️ 泵体 / 电机故障 · 电机 / 泵体异常",
+      "terms": [
+        "motor",
+        "burned out",
+        "pump stopped",
+        "grinding",
+        "loud noise"
+      ],
+      "count": 10,
+      "avg": 1.7,
+      "low_pct": 80.0,
+      "star_dist": {
+        "1": 5,
+        "2": 3,
+        "3": 2,
+        "4": 0,
+        "5": 0
+      },
+      "quotes": [
+        {
+          "stars": 3,
+          "date": "2022-12-09",
+          "snippet": "…ing good flow... until you actually use it.The whole motor assembly sits in the water. I don't care how much you waterproof things, the motor is going to eventually…"
+        },
+        {
+          "stars": 2,
+          "date": "2022-04-15",
+          "snippet": "…ow again after turning it back on. I can hear the motor running, it just won’t suck any water into the hose. I’ve tried both batteries after charging overnight, and…"
+        },
+        {
+          "stars": 2,
+          "date": "2024-10-21",
+          "snippet": "…we hated was that that cord that’s attached to the motor was not long enough for a 8 gallon bucket. And the hose was not long enough to reach the top of the tent. Bu…"
+        },
+        {
+          "stars": 3,
+          "date": "2020-06-17",
+          "snippet": "…el in my bucket got too low and would burn up the motor. I would be happy if I could get a replacement battery pack/switch."
+        },
+        {
+          "stars": 1,
+          "date": "2022-11-14",
+          "snippet": "…works great for the first use but after that, the motor freezes up. I have purchased this item twice, once was an original purchase, the second was a replacement and…"
+        }
+      ],
+      "reviews": [
+        {
+          "stars": 1,
+          "date": "2021-07-24",
+          "vp": true,
+          "title": "Motor whirls but nothing comes out the hose",
+          "body": "Motor whirls but nothing comes out the hose"
+        },
+        {
+          "stars": 1,
+          "date": "2022-05-28",
+          "vp": true,
+          "title": "Faulty",
+          "body": "I tested mine in the bathroom which seemed to work well. Took it out camping the next day and the motor was already broken. Was really disappointed in the product, and the company’s customer service were no help. Thankfully Amazon were cool and gave me a refund."
+        },
+        {
+          "stars": 1,
+          "date": "2022-10-15",
+          "vp": true,
+          "title": "Never worked",
+          "body": "Simple system and easy to set up but never worked - motor just strained and a trickle of water came from sprout"
+        },
+        {
+          "stars": 1,
+          "date": "2022-11-14",
+          "vp": true,
+          "title": "Worst product ever",
+          "body": "This product works great for the first use but after that, the motor freezes up. I have purchased this item twice, once was an original purchase, the second was a replacement and in both instances, the motor completely froze and I was not able to break it free even after taking the unit apart. I highly advise against this purchase."
+        },
+        {
+          "stars": 1,
+          "date": "2026-06-09",
+          "vp": true,
+          "title": "The product stopped working after a month.",
+          "body": "The product stopped working after a month. The battery doesn’t turn on and the pump stopped working"
+        },
+        {
+          "stars": 2,
+          "date": "2022-04-15",
+          "vp": true,
+          "title": "It works well, when it chooses to work.",
+          "body": "It works well, when it actually chooses to work. What typically happens is when I turn it off after wetting my hair, it will not suction and flow again after turning it back on. I can hear the motor running, it just won’t suck any water into the hose. I’ve tried both batteries after charging overnight, and I have the same problem, so I don’t think that is the issue. On the plus side, when it actually DOES work, it gives solid water pressure. Goes through a gallon of water in about 2-3 minutes. Overall, I would return it, but I stuck it up on a shelf after the second or third use and forgot about it, and I think I’m past the return window."
+        },
+        {
+          "stars": 2,
+          "date": "2024-07-13",
+          "vp": true,
+          "title": "Bought two: one did not work",
+          "body": "One of the two I ordered did not work.  Its motor ran but just created turbulence in the water source without actually moving any water toward the shower head."
+        },
+        {
+          "stars": 2,
+          "date": "2024-10-21",
+          "vp": true,
+          "title": "Cord is to short, buy one with a longer cord and hose.",
+          "body": "I bought this and forgot I had it. We went camping last weekend and took it with us. We loved that it came with two batteries. We loved that it worked, and worked well. The two thing we hated was that that cord that’s attached to the motor was not long enough for a 8 gallon bucket. And the hose was not long enough to reach the top of the tent. Buy one with a longer cord and hose."
+        },
+        {
+          "stars": 3,
+          "date": "2020-06-17",
+          "vp": true,
+          "title": "This product would be great if the on/off switch worked",
+          "body": "I really liked this shower the first 2 uses, but on the third use the on off switch quit working. I had to unplug the battery unit to turn the shower off. This was tricky since I needed to shut it off before the water level in my bucket got too low and would burn up the motor. I would be happy if I could get a replacement battery pack/switch."
+        },
+        {
+          "stars": 3,
+          "date": "2022-12-09",
+          "vp": true,
+          "title": "Gets the job done... barely",
+          "body": "For a camp shower, this gets the job done. Barely. It works ok if you are not washing your hair. It will do the job if you have short hair. If you have long hair, don't even bother.Water output is low. You end up waiting to get wet, which actually causes you to use more water than normal, especially washing and rinsing hair.Pressure is low, and the water goes maybe 1 foot before it falls. That's why the shower head is angled down, because it wont' \"shoot out\" water at all. It works best when it can be pointed down, or close to down.The volume of water delivered is also low. The shower head is designed with only a few holes, so it seems like you are getting good flow... until you actually use it.The whole motor assembly sits in the water. I don't care how much you waterproof things, the motor is going to eventually get wet. It's nearly impossible to clean, and you have to pry off the lid to clean it. Bad design.The included mounting accessories are not super useful, for the most part you have to get creative with mounting.Battery life is excellent. The pump is lower power, and you can expect at least 5 showers on a charge.I've used this in a camp setting, in a pop-up shower enclosure. I have also used it in a home shower during a plumbing issue. Yes, it will get the job done, and it is better than nothing.  Ironically this camp shower uses twice as much water as it should because it takes far longer to shower than it should.If you plan on multiple showers during a longer camp outing, or need something for more than a single use, or want to use less water, this is not the best choice. For a zombie bug out bag... maybe."
+        }
+      ]
+    },
+    {
+      "source": "aspects",
+      "polarity": "neg",
+      "label": "⚙️ 泵体 / 电机故障 · 开关难按 / 无法启动",
+      "terms": [
+        "switch",
+        "button",
+        "turn on",
+        "wont turn",
+        "hard to press"
+      ],
+      "count": 20,
+      "avg": 2.05,
+      "low_pct": 50.0,
+      "star_dist": {
+        "1": 9,
+        "2": 1,
+        "3": 10,
+        "4": 0,
+        "5": 0
+      },
+      "quotes": [
+        {
+          "stars": 3,
+          "date": "2025-05-21",
+          "snippet": "…s because you have to keep turning the on and off button on and off ha ha ha, which I feel like with the amount of water, moisture, and soap on hands could lead to fu…"
+        },
+        {
+          "stars": 3,
+          "date": "2021-05-22",
+          "snippet": "…to turn off and on while showering. 2) The on/off button is kind of a pain. You have to hold it down for about 4 seconds to turn it on each time you turn it off. In t…"
+        },
+        {
+          "stars": 1,
+          "date": "2020-12-18",
+          "snippet": "…ould turn on and stay on even you press the power button off. returned and replaced .. 2nd one came in and tested at home in sink and it was working like it should. U…"
+        },
+        {
+          "stars": 3,
+          "date": "2021-12-16",
+          "snippet": "…attery wet. They need to provide a waterproof power switch somewhere else. Also, make the shower tube longer. I have to bend down to keep the pump at the bottom of th…"
+        },
+        {
+          "stars": 3,
+          "date": "2022-05-01",
+          "snippet": "…arged the batteries until stop flashing, it would turn on, however no water pumped out.updatedcharged the battery overnight on a wall usb outlet anyway. turn it on, th…"
+        }
+      ],
+      "reviews": [
+        {
+          "stars": 1,
+          "date": "2020-06-16",
+          "vp": true,
+          "title": "It did Not last",
+          "body": "I wish this item would have continued to work , it was great while lasted. It lasted for 2 weekend camping trips . The on/off button stop working and then it would not charge.  I was so aggravated that I just threw it away ."
+        },
+        {
+          "stars": 1,
+          "date": "2020-07-12",
+          "vp": true,
+          "title": "Only good for one use",
+          "body": "I bought this product and used it for one camping trip. It was great for 3 showers. Great pressure. Then it wouldn’t shut off. The switch clicked on and off, but wouldn’t shut off. I went to go return it and I’m 3 days past when I could return it of course. So only good for one camping trip."
+        },
+        {
+          "stars": 1,
+          "date": "2020-07-24",
+          "vp": true,
+          "title": "Disappointed",
+          "body": "I was excited to receive this product to make our trips to the beach easier to manage. On the second run of this device the power button began malfunctioning and would not turn off. I was really hoping this could last me longer than two trips to the beach but unfortunately it did not."
+        },
+        {
+          "stars": 1,
+          "date": "2020-12-18",
+          "vp": true,
+          "title": "Totally not worth it!",
+          "body": "1st purchased this product at around Aug and it was basically defective out the box, it would turn on and stay on even you press the power button off. returned and replaced .. 2nd one came in and tested at home in sink and it was working like it should. Used it outdoors twice and it worked as it should ... then, it would again turn on and stay on until you pull the pump out of the water.  As for the power, I used the supplied cigarette light adapter, that also was glitchy as well, it would turn on and then stop working but you can hear the pump working but no water, so you would have to pull it out of the power socket and plug it back in and then the water will flow again .... totally not worth the headache with this!!!  dont' waste your $$ on this and buy something else that is better build!!!"
+        },
+        {
+          "stars": 1,
+          "date": "2020-12-27",
+          "vp": true,
+          "title": "if the on and off button would work it would be a great shower",
+          "body": "this portable shower is a piece of crap, the shower part work's okay but the on and off button doesn't work, I will never buy this item again"
+        },
+        {
+          "stars": 1,
+          "date": "2021-02-16",
+          "vp": true,
+          "title": "Works only when it wants to.",
+          "body": "Battery some times works, other times it doesn't or it'll randomly turn on."
+        },
+        {
+          "stars": 1,
+          "date": "2024-04-03",
+          "vp": true,
+          "title": "One of the two batteries does not work",
+          "body": "It works ok and I would be happy but one of the batteries is DOA , does not charge or turn on and can't find a way to contact. So not happy would not buy again."
+        },
+        {
+          "stars": 1,
+          "date": "2024-11-11",
+          "vp": true,
+          "title": "No Shut off Button",
+          "body": "Well NOT HAPPY! I bought this as a replacement for another brand cause I liked the color. I used it for the 1st time today n I was in the “tub” n soaped up before I realized I couldn’t shut it off without disconnecting the battery!!! I camp off grid n need to conserve water! Would NOT buy again."
+        },
+        {
+          "stars": 1,
+          "date": "2026-06-09",
+          "vp": true,
+          "title": "The product stopped working after a month.",
+          "body": "The product stopped working after a month. The battery doesn’t turn on and the pump stopped working"
+        },
+        {
+          "stars": 2,
+          "date": "2021-01-29",
+          "vp": true,
+          "title": "Batteries won't turn off",
+          "body": "This worked well the first time i used it. But after a couple of uses the power button on the battery packs don't work so it doesn't turn off unless you unplug it."
+        },
+        {
+          "stars": 3,
+          "date": "2020-06-17",
+          "vp": true,
+          "title": "This product would be great if the on/off switch worked",
+          "body": "I really liked this shower the first 2 uses, but on the third use the on off switch quit working. I had to unplug the battery unit to turn the shower off. This was tricky since I needed to shut it off before the water level in my bucket got too low and would burn up the motor. I would be happy if I could get a replacement battery pack/switch."
+        },
+        {
+          "stars": 3,
+          "date": "2020-07-21",
+          "vp": true,
+          "title": "Worked the first couple of times",
+          "body": "This worked great at first but on the third use the power button stopped working and just stays on now so have to plug in and unplug the battery when using. Needs better quality control. I’ll probably see if they’ll fix or replace the battery."
+        },
+        {
+          "stars": 3,
+          "date": "2020-08-16",
+          "vp": true,
+          "title": "Very practical",
+          "body": "I like the item but the button gets stuck sometimes, I will like to see if I can get a replacement for that part only."
+        },
+        {
+          "stars": 3,
+          "date": "2020-09-18",
+          "vp": true,
+          "title": "Battery not waterproof.",
+          "body": "Battery not waterproof if it gets wet in the shower the on off switch won't shut off."
+        },
+        {
+          "stars": 3,
+          "date": "2021-02-22",
+          "vp": true,
+          "title": "Bad and very cheaply made on/off switch",
+          "body": "Both of the batteries with the on/off button broke-down after about 5 or 6 use and now we have to keep disconnecting the power cord from the pump in the middle of the use to stop the water !!!! Otherwise the pump doesn’t stop !!!!!!"
+        },
+        {
+          "stars": 3,
+          "date": "2021-05-22",
+          "vp": true,
+          "title": "It could be better...",
+          "body": "So far it works, with a few issues. 1) The cord on the battery is too short. Makes it very inconvenient to turn off and on while showering. 2) The on/off button is kind of a pain. You have to hold it down for about 4 seconds to turn it on each time you turn it off. In the middle of a shower it's annoying. 3) The biggest problem we have is that there is no way to control the spray volume or pressure. It puts out plenty of water but it goes through 5 gallons really fast. It's a challenge to get 2 decent showers from 5 gallons of water. If you have an unlimited supply of water then I guess it would be fine. 4) The clip that holds the shower head is poorly designed. If you unclip it during your shower, reclipping it is a hassle... especially if you have soap in your eyes!All-in-all it's OK, but it could be a lot better. I'm sorry we paid $40 for this product."
+        },
+        {
+          "stars": 3,
+          "date": "2021-12-16",
+          "vp": true,
+          "title": "Great, but needs a few modifications to be perfect",
+          "body": "Since you're not supposed to get the battery wet, I found myself putting it in a ziplock when using. The power cord needs to be longer to get it out of the way. The way to turn on this thing is to hold the button on the battery which makes zero sense considering you're not supposed to get the battery wet. They need to provide a waterproof power switch somewhere else. Also, make the shower tube longer. I have to bend down to keep the pump at the bottom of the bucket."
+        },
+        {
+          "stars": 3,
+          "date": "2022-05-01",
+          "vp": true,
+          "title": "it does work",
+          "body": "followed the instruction, charged the batteries until stop flashing,  it would turn on, however no water pumped out.updatedcharged the battery overnight on a wall usb outlet anyway. turn it on, the water pump out from the hose, still no water from the shower head. clean the shower head with small needle. It finally works.check the battery status, it indicates 50% power level, even with overnight charge."
+        },
+        {
+          "stars": 3,
+          "date": "2025-05-21",
+          "vp": true,
+          "title": "It uses a lot of water fast",
+          "body": "Just a heads up it goes through about 2 gallons in 3 minuets if used consistently if you are being water conscious your best bet is to wet yourself down real fast. Try to keep as much of that water that has no soap in it to go back into whatever bucket it was coming out of and then turn it off soap yourself down turn it back on rinse yourself off for a few secondsturn it off scrub what you have left on your soap wise so you bring it all to the surface and then then rinse off a second time possibly a third but do it in phases of about 15 to 30 seconds for the whole process. It sucks because you have to keep turning the on and off button on and off ha ha ha, which I feel like with the amount of water, moisture, and soap on hands could lead to future issues with the apparatus. If water is not an issue and you’re close to a water source than this thing is clutch"
+        },
+        {
+          "stars": 3,
+          "date": "2025-10-23",
+          "vp": true,
+          "title": "Not for me.",
+          "body": "I wouldn't buy it again. The start button is difficult to press, and it's bulky and inconvenient to use when you're actually showering."
+        }
+      ]
+    },
+    {
+      "source": "aspects",
+      "polarity": "neg",
+      "label": "💧 出水 & 水压 · 不出水 / 水流弱",
+      "terms": [
+        "no water",
+        "weak pressure",
+        "no pressure",
+        "barely any water",
+        "trickle",
+        "not enough water"
+      ],
+      "count": 6,
+      "avg": 1.67,
+      "low_pct": 66.7,
+      "star_dist": {
+        "1": 4,
+        "2": 0,
+        "3": 2,
+        "4": 0,
+        "5": 0
+      },
+      "quotes": [
+        {
+          "stars": 1,
+          "date": "2020-12-18",
+          "snippet": "…top working but you can hear the pump working but no water, so you would have to pull it out of the power socket and plug it back in and then the water will flow again…"
+        },
+        {
+          "stars": 3,
+          "date": "2022-05-01",
+          "snippet": "…es until stop flashing, it would turn on, however no water pumped out.updatedcharged the battery overnight on a wall usb outlet anyway. turn it on, the water pump out f…"
+        },
+        {
+          "stars": 1,
+          "date": "2020-02-14",
+          "snippet": "Water dosent reach shower head...no pressure.：Dosent have enough power for the water to even come out of the showers head the battery pack is worthless an…"
+        },
+        {
+          "stars": 3,
+          "date": "2021-08-23",
+          "snippet": "…r. I have to shower in a squat position or I have no water flow. If I stand up it all but stops. Otherwise not bad."
+        },
+        {
+          "stars": 1,
+          "date": "2024-09-23",
+          "snippet": "…ro water comes out. Turns on, makes the noises, but no water. Waste of money cheap piece of garbage."
+        }
+      ],
+      "reviews": [
+        {
+          "stars": 1,
+          "date": "2020-02-14",
+          "vp": true,
+          "title": "Water dosent reach shower head...no pressure.",
+          "body": "Dosent have enough power for the water to even come out of the showers head the battery pack is worthless and doesn’t work. Great idea but the pump inside is not strong enough."
+        },
+        {
+          "stars": 1,
+          "date": "2020-12-18",
+          "vp": true,
+          "title": "Totally not worth it!",
+          "body": "1st purchased this product at around Aug and it was basically defective out the box, it would turn on and stay on even you press the power button off. returned and replaced .. 2nd one came in and tested at home in sink and it was working like it should. Used it outdoors twice and it worked as it should ... then, it would again turn on and stay on until you pull the pump out of the water.  As for the power, I used the supplied cigarette light adapter, that also was glitchy as well, it would turn on and then stop working but you can hear the pump working but no water, so you would have to pull it out of the power socket and plug it back in and then the water will flow again .... totally not worth the headache with this!!!  dont' waste your $$ on this and buy something else that is better build!!!"
+        },
+        {
+          "stars": 1,
+          "date": "2022-10-15",
+          "vp": true,
+          "title": "Never worked",
+          "body": "Simple system and easy to set up but never worked - motor just strained and a trickle of water came from sprout"
+        },
+        {
+          "stars": 1,
+          "date": "2024-09-23",
+          "vp": true,
+          "title": "Don’t waste your money",
+          "body": "It doesn’t work, literally zero water comes out. Turns on, makes the noises, but no water. Waste of money cheap piece of garbage."
+        },
+        {
+          "stars": 3,
+          "date": "2021-08-23",
+          "vp": true,
+          "title": "Need to be shorter than 3 ft.",
+          "body": "Probably got what I paid for. I have to shower in a squat position or I have no water flow. If I stand up it all but stops. Otherwise not bad."
+        },
+        {
+          "stars": 3,
+          "date": "2022-05-01",
+          "vp": true,
+          "title": "it does work",
+          "body": "followed the instruction, charged the batteries until stop flashing,  it would turn on, however no water pumped out.updatedcharged the battery overnight on a wall usb outlet anyway. turn it on, the water pump out from the hose, still no water from the shower head. clean the shower head with small needle. It finally works.check the battery status, it indicates 50% power level, even with overnight charge."
+        }
+      ]
+    },
+    {
+      "source": "aspects",
+      "polarity": "neg",
+      "label": "💧 出水 & 水压 · 流量过大 / 很快抽干",
+      "terms": [
+        "drains quickly",
+        "empty bucket",
+        "too much water",
+        "flow was too high",
+        "empties"
+      ],
+      "count": 2,
+      "avg": 3.0,
+      "low_pct": 0.0,
+      "star_dist": {
+        "1": 0,
+        "2": 0,
+        "3": 2,
+        "4": 0,
+        "5": 0
+      },
+      "quotes": [
+        {
+          "stars": 3,
+          "date": "2024-10-29",
+          "snippet": "…y used this a few times, but the flow was to high. Empties a bucket quickly. Not high pressure, just high flow. I put a kitchen sprayer flow restricted in it, fit perf…"
+        },
+        {
+          "stars": 3,
+          "date": "2021-09-08",
+          "snippet": "It’s ok：It pumps so much so fast. Literally empties a gallon of water in seconds. You have to turn it off and on during your shower."
+        }
+      ],
+      "reviews": [
+        {
+          "stars": 3,
+          "date": "2021-09-08",
+          "vp": true,
+          "title": "It’s ok",
+          "body": "It pumps so much so fast. Literally empties a gallon of water in seconds. You have to turn it off and on during your shower."
+        },
+        {
+          "stars": 3,
+          "date": "2024-10-29",
+          "vp": true,
+          "title": "Flow is to high",
+          "body": "I've only used this a few times, but the flow was to high.  Empties a bucket quickly.  Not high pressure, just high flow.  I put a kitchen sprayer flow restricted in it, fit perfect.  Now it lasts long enough to rince soap off."
+        }
+      ]
+    },
+    {
+      "source": "aspects",
+      "polarity": "neg",
+      "label": "💧 出水 & 水压 · 喷头 / 水管问题",
+      "terms": [
+        "shower head",
+        "hose",
+        "sprayer",
+        "leak",
+        "leaking"
+      ],
+      "count": 18,
+      "avg": 2.22,
+      "low_pct": 50.0,
+      "star_dist": {
+        "1": 5,
+        "2": 4,
+        "3": 9,
+        "4": 0,
+        "5": 0
+      },
+      "quotes": [
+        {
+          "stars": 3,
+          "date": "2022-04-10",
+          "snippet": "…ets, as well as rinse them. I replaced the opaque hose with a clear hose (from local hardware store), and I don't use the sprayer nozzle (as it frightens the pets),…"
+        },
+        {
+          "stars": 3,
+          "date": "2022-12-09",
+          "snippet": "…r goes maybe 1 foot before it falls. That's why the shower head is angled down, because it wont' \"shoot out\" water at all. It works best when it can be pointed down, or cl…"
+        },
+        {
+          "stars": 2,
+          "date": "2021-07-06",
+          "snippet": "…：I purchased this product to replace another camp shower head thinking that it would be better based on product reviews and the design of the pump. Boy was I wrong! Straig…"
+        },
+        {
+          "stars": 3,
+          "date": "2021-05-22",
+          "snippet": "…guess it would be fine. 4) The clip that holds the shower head is poorly designed. If you unclip it during your shower, reclipping it is a hassle... especially if you hav…"
+        },
+        {
+          "stars": 2,
+          "date": "2022-04-15",
+          "snippet": "…tor running, it just won’t suck any water into the hose. I’ve tried both batteries after charging overnight, and I have the same problem, so I don’t think that is t…"
+        }
+      ],
+      "reviews": [
+        {
+          "stars": 1,
+          "date": "2020-02-14",
+          "vp": true,
+          "title": "Water dosent reach shower head...no pressure.",
+          "body": "Dosent have enough power for the water to even come out of the showers head the battery pack is worthless and doesn’t work. Great idea but the pump inside is not strong enough."
+        },
+        {
+          "stars": 1,
+          "date": "2021-07-24",
+          "vp": true,
+          "title": "Motor whirls but nothing comes out the hose",
+          "body": "Motor whirls but nothing comes out the hose"
+        },
+        {
+          "stars": 1,
+          "date": "2021-09-24",
+          "vp": true,
+          "title": "dangerous! it falls when being hanged on a tree.",
+          "body": "dangerous as it fell down on my child's head. because the design of the hook is not enough to hold tge whole shower head, it falls forward. I contacted them and they asked me for pictures. i already packed camping and headed back home. went back to reality like work so I cant have pictures. i don't need refund. I just want them to know their product can be better."
+        },
+        {
+          "stars": 1,
+          "date": "2023-11-29",
+          "vp": true,
+          "title": "Quit working after about 6 times used!",
+          "body": "I was excited to get this. First time worked well, but tube does not stay connected. Tape will not help it. Have to keep untwisting the hose as well. Keeps kinking up. But after 6 times it just completely quit working. Cannot get it to stop kinking so water does not go through to shower head. Great idea but poorly made and waste of money! Too expensive to quit working so soon! Batteries worked okay but discharge quickly. I kept having to use second battery to finish shower. Constantly had to reconnect tube because tape would not even keep it connected to pump."
+        },
+        {
+          "stars": 1,
+          "date": "2024-08-23",
+          "vp": true,
+          "title": "Product arrived used",
+          "body": "I began return process and I'm a week away from my camping trip I hope I find a good shower head since I received this one used. Found hair and calcium already built up in the creases."
+        },
+        {
+          "stars": 2,
+          "date": "2021-07-06",
+          "vp": true,
+          "title": "Poor quality.  Complicated set up.",
+          "body": "I purchased this product to replace another camp shower head thinking that it would be better based on product reviews and the design of the pump.  Boy was I wrong!  Straight out of the box the product had 2 batteries a pump and of course the shower head, my previous device had the battery and the pump integrated into one module.  Charging was simple however, what I didn't like if that you have the pump and the battery sort of together, the pump gets submerged in water while the battery has to stay out of the water.  The pressure generated by the pump was mediocre in comparison IVATION CAMP SHOWER HEAD that this replaced.  What broke the camel's back, so to speak, is that the hose that went into the shower head and the shower head separated from each other 2 days into use.  I put the hose back into the shower head thinking that it was a fluke, however, the same thing happened the next day.  This went back to Amazon for a full refund.  If you're looking to a good camping showerhead I highly recommend the one made by IVATION."
+        },
+        {
+          "stars": 2,
+          "date": "2022-04-15",
+          "vp": true,
+          "title": "It works well, when it chooses to work.",
+          "body": "It works well, when it actually chooses to work. What typically happens is when I turn it off after wetting my hair, it will not suction and flow again after turning it back on. I can hear the motor running, it just won’t suck any water into the hose. I’ve tried both batteries after charging overnight, and I have the same problem, so I don’t think that is the issue. On the plus side, when it actually DOES work, it gives solid water pressure. Goes through a gallon of water in about 2-3 minutes. Overall, I would return it, but I stuck it up on a shelf after the second or third use and forgot about it, and I think I’m past the return window."
+        },
+        {
+          "stars": 2,
+          "date": "2024-07-13",
+          "vp": true,
+          "title": "Bought two: one did not work",
+          "body": "One of the two I ordered did not work.  Its motor ran but just created turbulence in the water source without actually moving any water toward the shower head."
+        },
+        {
+          "stars": 2,
+          "date": "2024-10-21",
+          "vp": true,
+          "title": "Cord is to short, buy one with a longer cord and hose.",
+          "body": "I bought this and forgot I had it. We went camping last weekend and took it with us. We loved that it came with two batteries. We loved that it worked, and worked well. The two thing we hated was that that cord that’s attached to the motor was not long enough for a 8 gallon bucket. And the hose was not long enough to reach the top of the tent. Buy one with a longer cord and hose."
+        },
+        {
+          "stars": 3,
+          "date": "2021-05-22",
+          "vp": true,
+          "title": "It could be better...",
+          "body": "So far it works, with a few issues. 1) The cord on the battery is too short. Makes it very inconvenient to turn off and on while showering. 2) The on/off button is kind of a pain. You have to hold it down for about 4 seconds to turn it on each time you turn it off. In the middle of a shower it's annoying. 3) The biggest problem we have is that there is no way to control the spray volume or pressure. It puts out plenty of water but it goes through 5 gallons really fast. It's a challenge to get 2 decent showers from 5 gallons of water. If you have an unlimited supply of water then I guess it would be fine. 4) The clip that holds the shower head is poorly designed. If you unclip it during your shower, reclipping it is a hassle... especially if you have soap in your eyes!All-in-all it's OK, but it could be a lot better. I'm sorry we paid $40 for this product."
+        },
+        {
+          "stars": 3,
+          "date": "2021-07-04",
+          "vp": true,
+          "title": "Good but hand nozzle leaks",
+          "body": "Good but the hand nozzle leaks where the hose enters it. NO way that I can see to fix it."
+        },
+        {
+          "stars": 3,
+          "date": "2022-04-10",
+          "vp": true,
+          "title": "New battery pack style difficult to install and remove",
+          "body": "11/2022 Update:  Unfortunately the company has changed the design of the battery packs and the new style is difficult to remove and install on the camp shower.  I will not be purchasing more.  3 battery packs have failed of the 4 that I own.  One more star removed from this review.Original review: I use this in my house call pet grooming business, to help mix and distribute shampoo and conditioner onto the pets, as well as rinse them.  I replaced the opaque hose with a clear hose (from local hardware store), and I don't use the sprayer nozzle (as it frightens the pets), I just wrap a rubberized hair band around the end of the hose to make it easier to grasp.  I like having the clear hose, as it makes it easier to make sure the hose is getting dry and not growing mold. I use it at least once or twice a week and it has lasted two years before one of the battery packs failed (it would be nice to be able to buy battery packs separately). The pump is quiet, and efficient at delivering the product/rinse water onto the pets.  I have bought 2 units to have spare batteries around, although one battery pack can usually last through one large dog.  I like to have back up chargers in my car and house, and back up batteries on hand in my grooming kit.  I don't leave the batteries out in the car heat and freezing weather, but bring them into the house to protect the battery life. One star off because I would really love it if they could make the black cord that attaches to the battery pack longer by about 12\" (and a clear hose and housing and sprayer head would be awesome!) I actually link this product on my business Facebook page to recommend to my clients and friends for bathing their own dogs.  I have gotten feedback that it is also a great toy for the the grandkids, for washing cars, and camping!"
+        },
+        {
+          "stars": 3,
+          "date": "2022-05-01",
+          "vp": true,
+          "title": "it does work",
+          "body": "followed the instruction, charged the batteries until stop flashing,  it would turn on, however no water pumped out.updatedcharged the battery overnight on a wall usb outlet anyway. turn it on, the water pump out from the hose, still no water from the shower head. clean the shower head with small needle. It finally works.check the battery status, it indicates 50% power level, even with overnight charge."
+        },
+        {
+          "stars": 3,
+          "date": "2022-09-05",
+          "vp": true,
+          "title": "This is super easy with knowing small things",
+          "body": "This pump was perfect for camping and the battery had a good charge, didn't have to charge in a week of 1 shower per day, of about 7min use.But since purchasing in June one of the batteries has already taken a dump. Will not charge anymore.Suction is good but need to prime first by putting shower head lower then the extended height."
+        },
+        {
+          "stars": 3,
+          "date": "2022-12-09",
+          "vp": true,
+          "title": "Gets the job done... barely",
+          "body": "For a camp shower, this gets the job done. Barely. It works ok if you are not washing your hair. It will do the job if you have short hair. If you have long hair, don't even bother.Water output is low. You end up waiting to get wet, which actually causes you to use more water than normal, especially washing and rinsing hair.Pressure is low, and the water goes maybe 1 foot before it falls. That's why the shower head is angled down, because it wont' \"shoot out\" water at all. It works best when it can be pointed down, or close to down.The volume of water delivered is also low. The shower head is designed with only a few holes, so it seems like you are getting good flow... until you actually use it.The whole motor assembly sits in the water. I don't care how much you waterproof things, the motor is going to eventually get wet. It's nearly impossible to clean, and you have to pry off the lid to clean it. Bad design.The included mounting accessories are not super useful, for the most part you have to get creative with mounting.Battery life is excellent. The pump is lower power, and you can expect at least 5 showers on a charge.I've used this in a camp setting, in a pop-up shower enclosure. I have also used it in a home shower during a plumbing issue. Yes, it will get the job done, and it is better than nothing.  Ironically this camp shower uses twice as much water as it should because it takes far longer to shower than it should.If you plan on multiple showers during a longer camp outing, or need something for more than a single use, or want to use less water, this is not the best choice. For a zombie bug out bag... maybe."
+        },
+        {
+          "stars": 3,
+          "date": "2024-07-17",
+          "vp": true,
+          "title": "Tick Tock Made me try it",
+          "body": "What can I say, the concept is simple, use it on the boat to rinse off. Could use a little more power but for what it is and does… nothing super fancy, would like a longer hose which I can buy from hardware store."
+        },
+        {
+          "stars": 3,
+          "date": "2024-08-26",
+          "vp": true,
+          "title": "Get KEDSUM instead. Its dish attachment with trigger is was more useful than shower head.",
+          "body": "Get KEDSUM instead. Its dish attachment with trigger is way more useful than shower head only."
+        },
+        {
+          "stars": 3,
+          "date": "2024-10-29",
+          "vp": true,
+          "title": "Flow is to high",
+          "body": "I've only used this a few times, but the flow was to high.  Empties a bucket quickly.  Not high pressure, just high flow.  I put a kitchen sprayer flow restricted in it, fit perfect.  Now it lasts long enough to rince soap off."
+        }
+      ]
+    },
+    {
+      "source": "aspects",
+      "polarity": "neg",
+      "label": "💸 价值 / 退货 · 不值 / 浪费钱",
+      "terms": [
+        "waste of money",
+        "waste your money",
+        "not worth",
+        "overpriced",
+        "dont waste"
+      ],
+      "count": 10,
+      "avg": 1.1,
+      "low_pct": 100.0,
+      "star_dist": {
+        "1": 9,
+        "2": 1,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "quotes": [
+        {
+          "stars": 1,
+          "date": "2020-12-18",
+          "snippet": "Totally not worth it!：1st purchased this product at around Aug and it was basically defective out the box, it would turn on and…"
+        },
+        {
+          "stars": 1,
+          "date": "2021-04-26",
+          "snippet": "…rcoat and the product was okay for bathing puppy. Not worth $40. Maybe $20. Going to try to find different product with stronger shower stream."
+        },
+        {
+          "stars": 1,
+          "date": "2023-11-29",
+          "snippet": "…gh to shower head. Great idea but poorly made and waste of money! Too expensive to quit working so soon! Batteries worked okay but discharge quickly. I kept having to use sec…"
+        },
+        {
+          "stars": 1,
+          "date": "2020-10-26",
+          "snippet": "…hower tent.This product was a TOTAL disappointment & waste of money."
+        },
+        {
+          "stars": 1,
+          "date": "2019-12-24",
+          "snippet": "…weeks later. The batteries are what makes this item not worth buying!!!"
+        }
+      ],
+      "reviews": [
+        {
+          "stars": 1,
+          "date": "2019-12-24",
+          "vp": true,
+          "title": "Stops working within a couple of months",
+          "body": "Has great power if the battery lasts! You don’t really get a year out of this product! If you use it often anyway. I had to have batteries replaced and sent to me on this and one works then doesn’t work two weeks later. The batteries are what makes this item not worth buying!!!"
+        },
+        {
+          "stars": 1,
+          "date": "2020-07-30",
+          "vp": true,
+          "title": "Not worth the money",
+          "body": "Stopped working on the second time I used it. Opened it up and saw that water got into the electric pump area."
+        },
+        {
+          "stars": 1,
+          "date": "2020-10-26",
+          "vp": true,
+          "title": "Junk - Didn't Even Last One Camping Trip",
+          "body": "This was great while it worked - we got maybe 5 showers out of it.Took it camping, lasted 3 days - 5 showers. First it wouldn't shut off, then it just wouldn't take charge or run. After all the fuss, it was just easier to heat water in buckets and use a pot of water to wet, wash and rinse in a shower tent.This product was a TOTAL disappointment & waste of money."
+        },
+        {
+          "stars": 1,
+          "date": "2020-12-18",
+          "vp": true,
+          "title": "Totally not worth it!",
+          "body": "1st purchased this product at around Aug and it was basically defective out the box, it would turn on and stay on even you press the power button off. returned and replaced .. 2nd one came in and tested at home in sink and it was working like it should. Used it outdoors twice and it worked as it should ... then, it would again turn on and stay on until you pull the pump out of the water.  As for the power, I used the supplied cigarette light adapter, that also was glitchy as well, it would turn on and then stop working but you can hear the pump working but no water, so you would have to pull it out of the power socket and plug it back in and then the water will flow again .... totally not worth the headache with this!!!  dont' waste your $$ on this and buy something else that is better build!!!"
+        },
+        {
+          "stars": 1,
+          "date": "2021-04-26",
+          "vp": true,
+          "title": "ONLY WORKED TWICE (and for very short duration)",
+          "body": "Product arrived very, very late.  Just used it to bathe my senior (English/British) yellow lab.  Shower stream too weak to be an effective tool for giving dog a bath.  Need more powerful pump.  Not even going to be good enough to use to wash off spring mud and dirt after a walk.  Product is good if you just need a gentle shower, like for an infant or watering plants.  I also have 8 wk old lab puppy who does not have his full undercoat and the product was okay for bathing puppy.  Not worth $40.  Maybe $20.  Going to try to find different product with stronger shower stream."
+        },
+        {
+          "stars": 1,
+          "date": "2022-04-05",
+          "vp": true,
+          "title": "Doesn’t work",
+          "body": "Doesn’t work. Battery wont charge. Waste of money"
+        },
+        {
+          "stars": 1,
+          "date": "2022-09-14",
+          "vp": true,
+          "title": "Garbage, don't waste your money",
+          "body": "What a waste of money, sent it back"
+        },
+        {
+          "stars": 1,
+          "date": "2023-11-29",
+          "vp": true,
+          "title": "Quit working after about 6 times used!",
+          "body": "I was excited to get this. First time worked well, but tube does not stay connected. Tape will not help it. Have to keep untwisting the hose as well. Keeps kinking up. But after 6 times it just completely quit working. Cannot get it to stop kinking so water does not go through to shower head. Great idea but poorly made and waste of money! Too expensive to quit working so soon! Batteries worked okay but discharge quickly. I kept having to use second battery to finish shower. Constantly had to reconnect tube because tape would not even keep it connected to pump."
+        },
+        {
+          "stars": 1,
+          "date": "2024-09-23",
+          "vp": true,
+          "title": "Don’t waste your money",
+          "body": "It doesn’t work, literally zero water comes out. Turns on, makes the noises, but no water. Waste of money cheap piece of garbage."
+        },
+        {
+          "stars": 2,
+          "date": "2025-10-25",
+          "vp": true,
+          "title": "Battery Stopped Working After 3 Months",
+          "body": "One of the batteries stopped working after 3 months. Replacement batteries aren't available. This was a waste of money."
+        }
+      ]
+    },
+    {
+      "source": "aspects",
+      "polarity": "neg",
+      "label": "💸 价值 / 退货 · 退货 / 失望",
+      "terms": [
+        "return",
+        "refund",
+        "disappointed",
+        "garbage",
+        "junk",
+        "do not buy"
+      ],
+      "count": 26,
+      "avg": 1.19,
+      "low_pct": 96.2,
+      "star_dist": {
+        "1": 22,
+        "2": 3,
+        "3": 1,
+        "4": 0,
+        "5": 0
+      },
+      "quotes": [
+        {
+          "stars": 2,
+          "date": "2021-07-06",
+          "snippet": "…d the next day. This went back to Amazon for a full refund. If you're looking to a good camping showerhead I highly recommend the one made by IVATION."
+        },
+        {
+          "stars": 1,
+          "date": "2020-12-18",
+          "snippet": "…and stay on even you press the power button off. returned and replaced .. 2nd one came in and tested at home in sink and it was working like it should. Used it outdo…"
+        },
+        {
+          "stars": 2,
+          "date": "2022-04-15",
+          "snippet": "…llon of water in about 2-3 minutes. Overall, I would return it, but I stuck it up on a shelf after the second or third use and forgot about it, and I think I’m past t…"
+        },
+        {
+          "stars": 2,
+          "date": "2024-12-07",
+          "snippet": "…per charger as stated. I would love to be able to return it but didnt even try to use it till recent. Any suggestions or if this seller would replace the batteries. N…"
+        },
+        {
+          "stars": 1,
+          "date": "2022-03-09",
+          "snippet": "…te when we went to use them. Forget this electric garbage and get yourself a good old fashioned hanging bag style. (And no you can't use the name 'Electric Garbage' fo…"
+        }
+      ],
+      "reviews": [
+        {
+          "stars": 1,
+          "date": "2020-06-15",
+          "vp": true,
+          "title": "Limited use",
+          "body": "I purchased this product and was only able to use about 8 uses, then nothing.  Very disappointed.  It was difficult to charge from auto only.  That is a design flaw that needs to be corrected."
+        },
+        {
+          "stars": 1,
+          "date": "2020-07-12",
+          "vp": true,
+          "title": "Only good for one use",
+          "body": "I bought this product and used it for one camping trip. It was great for 3 showers. Great pressure. Then it wouldn’t shut off. The switch clicked on and off, but wouldn’t shut off. I went to go return it and I’m 3 days past when I could return it of course. So only good for one camping trip."
+        },
+        {
+          "stars": 1,
+          "date": "2020-07-24",
+          "vp": true,
+          "title": "Disappointed",
+          "body": "I was excited to receive this product to make our trips to the beach easier to manage. On the second run of this device the power button began malfunctioning and would not turn off. I was really hoping this could last me longer than two trips to the beach but unfortunately it did not."
+        },
+        {
+          "stars": 1,
+          "date": "2020-10-26",
+          "vp": true,
+          "title": "Junk - Didn't Even Last One Camping Trip",
+          "body": "This was great while it worked - we got maybe 5 showers out of it.Took it camping, lasted 3 days - 5 showers. First it wouldn't shut off, then it just wouldn't take charge or run. After all the fuss, it was just easier to heat water in buckets and use a pot of water to wet, wash and rinse in a shower tent.This product was a TOTAL disappointment & waste of money."
+        },
+        {
+          "stars": 1,
+          "date": "2020-12-17",
+          "vp": true,
+          "title": "Broke on me after 1 time!",
+          "body": "Broke after second use! It was very hard to figure out how to charge it as well.  I finally did figure it out, and charged both before use for hours.The first time was mediocre water pressure and I used it for probably 5 minutes.  The second time it didn’t even have anything more than a tiny sprinkle of water.  Junk!  I’m still waiting on my refund."
+        },
+        {
+          "stars": 1,
+          "date": "2020-12-18",
+          "vp": true,
+          "title": "Totally not worth it!",
+          "body": "1st purchased this product at around Aug and it was basically defective out the box, it would turn on and stay on even you press the power button off. returned and replaced .. 2nd one came in and tested at home in sink and it was working like it should. Used it outdoors twice and it worked as it should ... then, it would again turn on and stay on until you pull the pump out of the water.  As for the power, I used the supplied cigarette light adapter, that also was glitchy as well, it would turn on and then stop working but you can hear the pump working but no water, so you would have to pull it out of the power socket and plug it back in and then the water will flow again .... totally not worth the headache with this!!!  dont' waste your $$ on this and buy something else that is better build!!!"
+        },
+        {
+          "stars": 1,
+          "date": "2021-06-18",
+          "vp": true,
+          "title": "Did not work",
+          "body": "Did not suction the water did not work. Need to return it"
+        },
+        {
+          "stars": 1,
+          "date": "2021-07-19",
+          "vp": false,
+          "title": "Battery only works for about 10 seconds then is dead.",
+          "body": "This never worked for longer than 10 seconds from the time I purchased it. And I never received two batteries. Very disappointed for the money I paid. ☹"
+        },
+        {
+          "stars": 1,
+          "date": "2021-09-24",
+          "vp": true,
+          "title": "dangerous! it falls when being hanged on a tree.",
+          "body": "dangerous as it fell down on my child's head. because the design of the hook is not enough to hold tge whole shower head, it falls forward. I contacted them and they asked me for pictures. i already packed camping and headed back home. went back to reality like work so I cant have pictures. i don't need refund. I just want them to know their product can be better."
+        },
+        {
+          "stars": 1,
+          "date": "2021-10-31",
+          "vp": true,
+          "title": "Do not buy this product",
+          "body": "Water pump is not strong enough to provide flow. Water came at a rrivkle or not at all at times. Tried to return but I waited too long. Avoid buying this product."
+        },
+        {
+          "stars": 1,
+          "date": "2021-12-05",
+          "vp": true,
+          "title": "charging cable stopped working",
+          "body": "this product was as described but without the charging cable working the entire system is useless. I really needed this to work, it's very unfortunate. It worked to charge some of one pack then stopped, i tried charging it in a car as well as with 5v or below charging ports. Never charged it above the 5v as instructed. very disappointed."
+        },
+        {
+          "stars": 1,
+          "date": "2022-03-09",
+          "vp": true,
+          "title": "Failed When Needed It",
+          "body": "We bought this for use during power outages. We even bought a spare battery. Both batteries though plugged in prior to the storm and allegedly charged failed to operate when we went to use them. Forget this electric garbage and get yourself a good old fashioned hanging bag style.  (And no you can't use the name 'Electric Garbage' for your band name I already called it!)"
+        },
+        {
+          "stars": 1,
+          "date": "2022-05-28",
+          "vp": true,
+          "title": "Faulty",
+          "body": "I tested mine in the bathroom which seemed to work well. Took it out camping the next day and the motor was already broken. Was really disappointed in the product, and the company’s customer service were no help. Thankfully Amazon were cool and gave me a refund."
+        },
+        {
+          "stars": 1,
+          "date": "2022-09-14",
+          "vp": true,
+          "title": "Garbage, don't waste your money",
+          "body": "What a waste of money, sent it back"
+        },
+        {
+          "stars": 1,
+          "date": "2023-07-14",
+          "vp": true,
+          "title": "Battery does not hold charge past 1 day",
+          "body": "Bought this to go camping. Charged it and tried it an hour after charge and it worked. However, after I charged it and then waited to use it a day later there was no power. Absolutely, do not buy this product as it is a piece of crap. Also, warranty is awful and they will not let me return it. Lost my money."
+        },
+        {
+          "stars": 1,
+          "date": "2023-07-23",
+          "vp": true,
+          "title": "Product is cheap",
+          "body": "We bought these, and by the time we went to use them. It was to late to return them. They don’t work! We charged the batteries over night. Went to use them on a camping trip. Wouldn’t work!"
+        },
+        {
+          "stars": 1,
+          "date": "2023-12-20",
+          "vp": true,
+          "title": "DO NOT BUY!!!",
+          "body": "DO NOT BUY THIS!!!The cord has a short in it after using one time.I purchased it in September but just opened it last week and its already not working properly. Amazon says my return window has closed because of the timeframe."
+        },
+        {
+          "stars": 1,
+          "date": "2024-08-23",
+          "vp": true,
+          "title": "Product arrived used",
+          "body": "I began return process and I'm a week away from my camping trip I hope I find a good shower head since I received this one used. Found hair and calcium already built up in the creases."
+        },
+        {
+          "stars": 1,
+          "date": "2024-09-23",
+          "vp": true,
+          "title": "Don’t waste your money",
+          "body": "It doesn’t work, literally zero water comes out. Turns on, makes the noises, but no water. Waste of money cheap piece of garbage."
+        },
+        {
+          "stars": 1,
+          "date": "2024-10-11",
+          "vp": true,
+          "title": "Used, not new",
+          "body": "The supposedly brand new shower was covered in a mysterious white powdery substance revealing it has been used before and as such had to be immediately returned."
+        },
+        {
+          "stars": 1,
+          "date": "2024-11-08",
+          "vp": true,
+          "title": "No USB Charger",
+          "body": "I think I got a returned item.  Box was open and there wasn't a USB charger included.Totally worthless without a way to charge it.Messed up my camping trip this weekend......"
+        },
+        {
+          "stars": 1,
+          "date": "2024-12-31",
+          "vp": true,
+          "title": "Oh well",
+          "body": "The batteries charged up just fine but unfortunately I am having no luck getting it to pump water. It sounds like it is trying really hard but sadly it’s not pumping water. I guess I got a dud. Will return it for a replacement."
+        },
+        {
+          "stars": 2,
+          "date": "2021-07-06",
+          "vp": true,
+          "title": "Poor quality.  Complicated set up.",
+          "body": "I purchased this product to replace another camp shower head thinking that it would be better based on product reviews and the design of the pump.  Boy was I wrong!  Straight out of the box the product had 2 batteries a pump and of course the shower head, my previous device had the battery and the pump integrated into one module.  Charging was simple however, what I didn't like if that you have the pump and the battery sort of together, the pump gets submerged in water while the battery has to stay out of the water.  The pressure generated by the pump was mediocre in comparison IVATION CAMP SHOWER HEAD that this replaced.  What broke the camel's back, so to speak, is that the hose that went into the shower head and the shower head separated from each other 2 days into use.  I put the hose back into the shower head thinking that it was a fluke, however, the same thing happened the next day.  This went back to Amazon for a full refund.  If you're looking to a good camping showerhead I highly recommend the one made by IVATION."
+        },
+        {
+          "stars": 2,
+          "date": "2022-04-15",
+          "vp": true,
+          "title": "It works well, when it chooses to work.",
+          "body": "It works well, when it actually chooses to work. What typically happens is when I turn it off after wetting my hair, it will not suction and flow again after turning it back on. I can hear the motor running, it just won’t suck any water into the hose. I’ve tried both batteries after charging overnight, and I have the same problem, so I don’t think that is the issue. On the plus side, when it actually DOES work, it gives solid water pressure. Goes through a gallon of water in about 2-3 minutes. Overall, I would return it, but I stuck it up on a shelf after the second or third use and forgot about it, and I think I’m past the return window."
+        },
+        {
+          "stars": 2,
+          "date": "2024-12-07",
+          "vp": true,
+          "title": "Batteries Never Worked total bummer",
+          "body": "I bought this shower months ago to use at our cabin in the woods during our traditional Thanksgiving dinner. Tried to use it for dishes and neither battery worked and also would not charge. I used a proper charger as stated. I would love to be able to return it but didnt even try to use it till recent. Any suggestions or if this seller would replace the batteries. Not sure what to do. Be careful and test is as soon as you get it as to not end up like me."
+        },
+        {
+          "stars": 3,
+          "date": "2020-07-14",
+          "vp": true,
+          "title": "Worked great  1st weekend then died company was great to work with",
+          "body": "When the pump 1st arrived it was great.  We used it maybe 6 times  then the pump died.  Myself and my husband read and followed  the instructions to be sure we used and charged it properly.  Would like to add I reached out to the company and they responded right away and offered an exchange or refund.  They were very easy to work with."
+        }
+      ]
+    },
+    {
+      "source": "aspects",
+      "polarity": "pos",
+      "label": "🏕️ 露营场景好评 · 露营 / 户外好用",
+      "terms": [
+        "camping",
+        "camp shower",
+        "camping shower",
+        "outdoor",
+        "tent",
+        "rv"
+      ],
+      "count": 8,
+      "avg": 5.0,
+      "low_pct": 0.0,
+      "star_dist": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 8
+      },
+      "quotes": [
+        {
+          "stars": 5,
+          "date": "2025-05-29",
+          "snippet": "…shing my bathroom, I've moved this thing in with my camping gear because it's just such a great product."
+        },
+        {
+          "stars": 5,
+          "date": "2026-01-31",
+          "snippet": "…is thing：This thing is amazing. I brought it to a camping music festival in the middle of summer and everyone was so jealous! I was able to take a cool shower every si…"
+        },
+        {
+          "stars": 5,
+          "date": "2025-07-01",
+          "snippet": "Great little pump：Took this camping and worked fantastic. I needed the hose longer, so I put another one on the end and taping it to make sure it…"
+        },
+        {
+          "stars": 5,
+          "date": "2026-03-24",
+          "snippet": "…s couple of days in festival：Worked great for our camping trip. Went to Big Dub 2026 and going again this year. This worked for us to use as aportable shower in a show…"
+        },
+        {
+          "stars": 5,
+          "date": "2025-08-07",
+          "snippet": "Must buy：Amazing! A must for needed showers when camping, washing dog, absolutely love it. I had bought a prior where battery was submissive and went out shortly afte…"
+        }
+      ],
+      "reviews": [
+        {
+          "stars": 5,
+          "date": "2025-05-29",
+          "vp": true,
+          "title": "Hall of Fame product",
+          "body": "This is one of my favorite things I've ever bought on Amazon. During the process of renovating a house I needed a temp shower while rebuilding my bathroom. The reno took way longer than anticipated and I had to travel a bunch for work and so I ended up using this thing as my main shower *for two years*. The two batteries are clutch. I always kept one on a charger and never had an issue. Water pressure is great. Even after finishing my bathroom, I've moved this thing in with my camping gear because it's just such a great product."
+        },
+        {
+          "stars": 5,
+          "date": "2025-07-01",
+          "vp": true,
+          "title": "Great little pump",
+          "body": "Took this camping and worked fantastic. I needed the hose longer, so I put another one on the end and taping it to make sure it didn't come apart. I put the pump in a mesh bag and tied a rope on it, and another on to the on off switch, because the stream has a big washed out edge making the length of the hose short. It worked better than I expected. I filled the 5 gallon buckets and took showers with it. We go wilderness camping, not another soak around."
+        },
+        {
+          "stars": 5,
+          "date": "2025-07-09",
+          "vp": true,
+          "title": "works great",
+          "body": "got this for my friend to go with the tent, matress pad, & lantern. he's currently temporarily homeless"
+        },
+        {
+          "stars": 5,
+          "date": "2025-08-07",
+          "vp": false,
+          "title": "Must buy",
+          "body": "Amazing! A must for needed showers when camping, washing dog, absolutely  love it. I had bought  a prior where battery was submissive and went out shortly after. I love having the external batteries."
+        },
+        {
+          "stars": 5,
+          "date": "2025-11-07",
+          "vp": true,
+          "title": "Manguera azul",
+          "body": "Me encantó tiene muy buena presión y sirve para diferentes cosas como camping o para uso de peluquería como es mi caso."
+        },
+        {
+          "stars": 5,
+          "date": "2025-12-17",
+          "vp": true,
+          "title": "Works great, just get it.",
+          "body": "Works perfectly and set up is quick and easy. We've used it for showering while camping and also for washing dishes while camping. I've also used it for watering plants on my porch, works great."
+        },
+        {
+          "stars": 5,
+          "date": "2026-01-31",
+          "vp": true,
+          "title": "Love this thing",
+          "body": "This thing is amazing. I brought it to a camping music festival in the middle of summer and everyone was so jealous! I was able to take a cool shower every single day and did not fully kill one battery. I even stared it a few times with others. It was probably used for 30-45 minutes over the course of four days and did not die. Even if it did, I still has a backup battery, which is great. I brought a five gallon bucket to use as my water container. I'll update about its longevity once I've used it a few times."
+        },
+        {
+          "stars": 5,
+          "date": "2026-03-24",
+          "vp": true,
+          "title": "Enough battery to last us couple of days in festival",
+          "body": "Worked great for our camping trip. Went to Big Dub 2026 and going again this year. This worked for us to use as aportable shower in a shower tent for about 7 people in our group. This year will be using this again."
+        }
+      ]
+    },
+    {
+      "source": "aspects",
+      "polarity": "pos",
+      "label": "🏕️ 露营场景好评 · 便携 / 无线方便",
+      "terms": [
+        "portable",
+        "cordless",
+        "lightweight",
+        "easy to carry",
+        "no cord"
+      ],
+      "count": 1,
+      "avg": 5.0,
+      "low_pct": 0.0,
+      "star_dist": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 1
+      },
+      "quotes": [
+        {
+          "stars": 5,
+          "date": "2026-03-24",
+          "snippet": "…ng again this year. This worked for us to use as aportable shower in a shower tent for about 7 people in our group. This year will be using this again."
+        }
+      ],
+      "reviews": [
+        {
+          "stars": 5,
+          "date": "2026-03-24",
+          "vp": true,
+          "title": "Enough battery to last us couple of days in festival",
+          "body": "Worked great for our camping trip. Went to Big Dub 2026 and going again this year. This worked for us to use as aportable shower in a shower tent for about 7 people in our group. This year will be using this again."
+        }
+      ]
+    },
+    {
+      "source": "aspects",
+      "polarity": "pos",
+      "label": "🏕️ 露营场景好评 · 安装 / 使用方便",
+      "terms": [
+        "easy to use",
+        "easy setup",
+        "convenient",
+        "simple to use",
+        "user friendly"
+      ],
+      "count": 3,
+      "avg": 5.0,
+      "low_pct": 0.0,
+      "star_dist": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 3
+      },
+      "quotes": [
+        {
+          "stars": 5,
+          "date": "2025-04-30",
+          "snippet": "…e battery/power switch outside the water is super convenient so I can easily turn the pump off and on without having to pull the pump out of the water. The small sprayer…"
+        },
+        {
+          "stars": 5,
+          "date": "2025-05-23",
+          "snippet": "…：Just absolutely love the shower it makes it very convenient currently my hot water tank is out and so I'm having to keep my water and shower using a bucket and hauling m…"
+        },
+        {
+          "stars": 5,
+          "date": "2025-10-21",
+          "snippet": "…great product. It has two batteries which is very convenient."
+        }
+      ],
+      "reviews": [
+        {
+          "stars": 5,
+          "date": "2025-04-30",
+          "vp": false,
+          "title": "Great pump, lots of pressure",
+          "body": "This is a great pump! We use this pump in a homemade water heater in our camper van. The water pressure is very strong. Having the battery/power switch outside the water is super convenient so I can easily turn the pump off and on without having to pull the pump out of the water. The small sprayer is convenient because it has an on/off lever that allows you to moderate, or stop, water flow without turning off the pump. The shower head is a nice spray but I'd like it better if it also had an on/off lever. I can't speak to longevity because we've only had it a month or so but so far, it's far exceeded my needs and expectations."
+        },
+        {
+          "stars": 5,
+          "date": "2025-05-23",
+          "vp": true,
+          "title": "Love the shower",
+          "body": "Just absolutely love the shower it makes it very convenient currently my hot water tank is out and so I'm having to keep my water and shower using a bucket and hauling my water in until it gets fixed and this has been a godsend. Functional."
+        },
+        {
+          "stars": 5,
+          "date": "2025-10-21",
+          "vp": true,
+          "title": "Long battery life",
+          "body": "This is a great product. It has two batteries which is very convenient."
+        }
+      ]
+    },
+    {
+      "source": "aspects",
+      "polarity": "pos",
+      "label": "🏕️ 露营场景好评 · 淋浴体验好 / 推荐",
+      "terms": [
+        "works great",
+        "love it",
+        "recommend",
+        "great shower",
+        "nice shower",
+        "perfect for"
+      ],
+      "count": 8,
+      "avg": 5.0,
+      "low_pct": 0.0,
+      "star_dist": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 8
+      },
+      "quotes": [
+        {
+          "stars": 5,
+          "date": "2026-04-08",
+          "snippet": "…FOR ANYTHING!!! 2ND ONE I BOUGHT AND WOULD HIGHLY RECOMMEND TO ALL! HAS GREAT PRESSURE!! 👍🏾 BATTERY LIFE IS LONG AS WELL. CAN TAKE SEVERAL SHOWERS 🚿 ON ONE CHARGE AND AL…"
+        },
+        {
+          "stars": 5,
+          "date": "2025-08-07",
+          "snippet": "…ded showers when camping, washing dog, absolutely love it. I had bought a prior where battery was submissive and went out shortly after. I love having the external bat…"
+        },
+        {
+          "stars": 5,
+          "date": "2025-12-17",
+          "snippet": "Works great, just get it.：Works perfectly and set up is quick and easy. We've used it for showering while camping and als…"
+        },
+        {
+          "stars": 5,
+          "date": "2025-11-22",
+          "snippet": "…one of my junk boxes and I must say this is a very nice shower! Works perfect"
+        },
+        {
+          "stars": 5,
+          "date": "2025-07-09",
+          "snippet": "works great：got this for my friend to go with the tent, matress pad, & lantern. he's currently temporarily homeless"
+        }
+      ],
+      "reviews": [
+        {
+          "stars": 5,
+          "date": "2025-07-09",
+          "vp": true,
+          "title": "works great",
+          "body": "got this for my friend to go with the tent, matress pad, & lantern. he's currently temporarily homeless"
+        },
+        {
+          "stars": 5,
+          "date": "2025-08-02",
+          "vp": true,
+          "title": "Works well !",
+          "body": "Great shower  pump"
+        },
+        {
+          "stars": 5,
+          "date": "2025-08-07",
+          "vp": false,
+          "title": "Must buy",
+          "body": "Amazing! A must for needed showers when camping, washing dog, absolutely  love it. I had bought  a prior where battery was submissive and went out shortly after. I love having the external batteries."
+        },
+        {
+          "stars": 5,
+          "date": "2025-11-22",
+          "vp": true,
+          "title": "Missing parts",
+          "body": "Mine didn't come with a USB charger cord but I was able to find a charger cord in one of my junk boxes and I must say this is a very nice shower! Works perfect"
+        },
+        {
+          "stars": 5,
+          "date": "2025-11-24",
+          "vp": true,
+          "title": "get it",
+          "body": "works as advertised. perfect find. highly recommend. not cheap crap, its quality."
+        },
+        {
+          "stars": 5,
+          "date": "2025-12-17",
+          "vp": true,
+          "title": "Works great, just get it.",
+          "body": "Works perfectly and set up is quick and easy. We've used it for showering while camping and also for washing dishes while camping. I've also used it for watering plants on my porch, works great."
+        },
+        {
+          "stars": 5,
+          "date": "2026-01-09",
+          "vp": true,
+          "title": "It is useful on hot days especially in the summer time for the kids to have.",
+          "body": "It works great"
+        },
+        {
+          "stars": 5,
+          "date": "2026-04-08",
+          "vp": true,
+          "title": "BEST SHOWER!!🚿",
+          "body": "The BEST SHOWER TO HAVE !!! CAN USE IT ANYWHERE FOR ANYTHING!!! 2ND ONE I BOUGHT AND WOULD HIGHLY RECOMMEND TO ALL! HAS GREAT PRESSURE!! 👍🏾 BATTERY LIFE IS LONG AS WELL. CAN TAKE SEVERAL SHOWERS 🚿  ON ONE CHARGE AND ALSO HOLDS CHARGE LONG TIME!! GREAT 👍🏾"
+        }
+      ]
+    }
+  ]
+}

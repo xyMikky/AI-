@@ -1,0 +1,60 @@
+{
+  "success": true,
+  "source_html": "fetched_page.html",
+  "source_url": "https://www.amazon.com/dp/B074ZK5K4P",
+  "asin": "B074ZK5K4P",
+  "title": "KEDSUM Portable Shower, Portable Camp Shower Pump with Rechargeable Battery, Portable Shower for Camping, Portable Outdoor Shower Head for Camping, Hiking, Traveling(+ Handheld Sprayer)",
+  "brand": "KEDSUM",
+  "rating": 4.4,
+  "rating_count": 4559,
+  "price": {
+    "current": 45.99,
+    "list": 45.99,
+    "currency": "USD",
+    "main_offer_status": "available",
+    "variant_from_price": 17.68,
+    "variant_from_currency": "USD"
+  },
+  "category_rank": [],
+  "variations": {
+    "colors": {
+      "count": 3,
+      "values": [
+        "Orange-2 Batteries",
+        "Black-2 Batteries",
+        "Green-2 Batteries"
+      ]
+    },
+    "sizes": {
+      "count": 0,
+      "values": []
+    }
+  },
+  "bullets": [
+    "▶ Model Number: GFS-1701 Upgraded Version: Come with TWO detachable USB rechargeable batteries, separated from the pump. External on/off switch feature, which is an improvement over previous design.No need to immerse the batteries into water,which can protect and enhance the batteries life.Additional",
+    "▶Durable and Powerful: We provide two batteries, one can work for up to 45-60 minutes with a full charge ,two for up to 90-120 minutes, which can make sure you will have a constant happy shower.The water flow is up to 1 gal/min (4 L /min),offers ideal and powerful water pressure to help make bathing easier.",
+    "▶Easy Assembly and Operation: Just fully submerse the pump in your bucket/tub of water and turn the motor on,it will pumps water from bucket into steady, gentle shower stream and you get a nice flowing shower, A new little sprayer was added，more water pressure, easy to adjust the flow.",
+    "▶Compact & Portable: Weighs only 25.2 ounce,easy to carry and store in luggage,backpack or car trunk,perfect for outdoors,camping,hiking,kid bathing,pet cleaning,car washing, plants watering, windows and backyard cleaning or wash the sand on the beach",
+    "▶Notes: PRODUCT OPERATE ONLY WITH WATER WITHIN THE TEMPERATURE RANGE 10°C to 50°C（50℉ to 122℉）,ONLY CHARGE THIS DEVICE WITH A 5V ADOPTER OR LESS. DO NOT CHARGE IT WITH AN ADAPTOR THAT’S MORE THAN 5 VOLTS!"
+  ],
+  "specs": [
+    {
+      "label": "Use cases",
+      "value": "camping, pet cleaning, car washing, plant watering, backyard cleaning"
+    }
+  ],
+  "reviews": {
+    "available": false,
+    "histogram": [],
+    "items": [],
+    "positive_count": 0,
+    "critical_count": 0
+  },
+  "media": {
+    "gallery_count": 6,
+    "aplus_module_count": 0,
+    "aplus_image_count": 0,
+    "video_cover_count": null,
+    "aplus_module_top_level": null
+  }
+}

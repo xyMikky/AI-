@@ -1,0 +1,26 @@
+{
+  "_comment": "Agent 产出模板：拆成 aspects.json（智能问题归类）与 keywords.json（中文策展词云）两个文件写入输出目录",
+  "aspects": {
+    "🔋 示例维度（问题）": {
+      "polarity": "neg",
+      "issues": {
+        "子问题名（一眼说清）": ["match substring 1", "match substring 2"],
+        "另一个子问题": ["wont charge", "dead battery"]
+      }
+    },
+    "👍 示例维度（好评）": {
+      "polarity": "pos",
+      "issues": {
+        "便携 / 无线": ["portable", "cordless", "lightweight"]
+      }
+    }
+  },
+  "keywords": {
+    "pos": [
+      {"term": "中文可读标签（词云显示）", "match": ["english substring in 4-5 star reviews"]}
+    ],
+    "neg": [
+      {"term": "别买 / 浪费钱", "match": ["waste your money", "waste of money", "dont waste"]}
+    ]
+  }
+}

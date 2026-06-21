@@ -1,0 +1,27 @@
+{
+  "asin": "B074ZK5K4P",
+  "composition": {
+    "nat": 0.8168,
+    "sp": 0.065,
+    "sb": 0.0,
+    "sbv": 0.0893,
+    "rec": 0.0578
+  },
+  "organic_share": 0.8168,
+  "paid_share": 0.1543,
+  "counts": {
+    "total_kw": 197,
+    "nf_count": 194,
+    "sp_count": 15,
+    "sb_count": null,
+    "sbv_count": 13,
+    "ac_count": 5
+  },
+  "period": {
+    "in": 55,
+    "out": 41,
+    "prev": 183
+  },
+  "exposure_score": 7372.34114447598,
+  "exposure_score_prev": 6020.907740964319
+}

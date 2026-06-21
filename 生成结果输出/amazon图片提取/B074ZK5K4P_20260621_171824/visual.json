@@ -1,0 +1,828 @@
+{
+  "hero": {
+    "title": "KEDSUM 便携式露营淋浴泵竞品分析",
+    "subtitle": "基于 Amazon 页面元数据、6 张套图、371 条目标 ASIN 评论样本、SIF 关键词与流量入口的单 ASIN 结构化分析。"
+  },
+  "summary": [
+    {
+      "icon": "ASIN",
+      "label": "目标 ASIN",
+      "value": "B074ZK5K4P"
+    },
+    {
+      "icon": "Score",
+      "label": "加权总分",
+      "value": "3.5 / 5.0"
+    },
+    {
+      "icon": "Rating",
+      "label": "Amazon 评分",
+      "value": "4.4 / 5.0"
+    },
+    {
+      "icon": "Review",
+      "label": "评价量",
+      "value": "4,559"
+    }
+  ],
+  "summary_notes": [
+    {
+      "icon": "Note",
+      "label": "评论口径",
+      "value": "LinkFox 抓取 422 条原始评论，按目标 ASIN 过滤后纳入 371 条；样本受星级配额影响，仅用于挖痛点，全局口碑以 Amazon 4.4 星为主。"
+    }
+  ],
+  "evidence": {
+    "logo_mentions": [
+      "标题品牌名",
+      "页面品牌字段",
+      "商品标题/变体区域"
+    ]
+  },
+  "sections": [
+    {
+      "type": "verdict-headline",
+      "title": "〇 · 问题本质",
+      "tag": "核心判断",
+      "accent": "info",
+      "headline": "这是一个靠==双电池续航==和==露营淋浴刚需==吃自然流量的成熟工具品，最大缺口是==电池可靠性==与质量信任叙事。"
+    },
+    {
+      "type": "kv-table",
+      "title": "一 · 基础信息卡",
+      "specs_from_metadata": true,
+      "rows": [
+        [
+          "ASIN",
+          "B074ZK5K4P"
+        ],
+        [
+          "品牌",
+          "KEDSUM"
+        ],
+        [
+          "品类定位",
+          "便携式露营淋浴泵 / 户外临时清洁工具"
+        ],
+        [
+          "当前价格",
+          "USD 45.99；页面变体起价 USD 17.68"
+        ],
+        [
+          "评分",
+          "4.4 星 / 4,559 条评价"
+        ],
+        [
+          "变体",
+          "3 个颜色/电池组合：Orange-2 Batteries、Black-2 Batteries、Green-2 Batteries"
+        ],
+        [
+          "素材抓取",
+          "套图 6 张；未检测到 A+ 模块"
+        ],
+        [
+          "评论样本",
+          "原始抓取 422 条；目标 ASIN 过滤后 371 条"
+        ],
+        [
+          "关键词流量",
+          "SIF 返回 197 个流量词；自然流量占比 81.68%"
+        ]
+      ]
+    },
+    {
+      "type": "tag-cards",
+      "title": "二 · 风格五标签 · 视觉摘要",
+      "items": [
+        {
+          "name": "色彩应用",
+          "pills": [
+            "橙黑工具感",
+            "白底说明",
+            "户外清洁"
+          ],
+          "swatches": [
+            "#f28c28",
+            "#111827",
+            "#f8fafc",
+            "#1f9d78"
+          ],
+          "desc": "页面主要靠产品橙色与黑色形成==工具识别==，不是强品牌色资产。"
+        },
+        {
+          "name": "模特/受众",
+          "pills": [
+            "露营人群",
+            "家庭应急",
+            "宠物/车辆清洁"
+          ],
+          "desc": "受众覆盖户外、家庭和轻清洁，核心不是时尚生活方式，而是==临时用水解决方案==。"
+        },
+        {
+          "name": "摄影风格",
+          "pills": [
+            "产品说明",
+            "配件展示",
+            "场景拼接"
+          ],
+          "desc": "套图承担安装、水流、配件和用途说明，偏==说明书式转化==。"
+        },
+        {
+          "name": "整体调性",
+          "pills": [
+            "实用工具",
+            "中价位",
+            "成熟评论资产"
+          ],
+          "desc": "4,559 条评价建立信任，但缺少 A+ 让质量背书不够系统。"
+        },
+        {
+          "name": "拍摄方式",
+          "pills": [
+            "白底主图",
+            "功能细节",
+            "用途扩展"
+          ],
+          "desc": "能快速说清“是什么”，但对==电池可靠性==的可视化证明不足。"
+        }
+      ]
+    },
+    {
+      "type": "step-ladder",
+      "title": "三-1 · 卖点排序 · 三层递进",
+      "items": [
+        {
+          "name": "第一层：双电池先建立购买理由",
+          "desc": "2 块可拆 USB 电池对应 90-120 分钟承诺，是页面最强的==转化钩子==。"
+        },
+        {
+          "name": "第二层：水流与喷头证明可用性",
+          "desc": "1 gal/min 与手持喷头强化==能洗澡==，但也埋下水压预期管理风险。"
+        },
+        {
+          "name": "第三层：多场景扩展客群",
+          "desc": "露营、宠物、洗车、浇花一起讲，扩大入口但削弱==专业露营装备==心智。"
+        }
+      ]
+    },
+    {
+      "type": "keyword-arch",
+      "title": "三-3 · 关键词架构",
+      "metrics": [
+        {
+          "label": "流量词数量",
+          "value": "197 个",
+          "status": "ok",
+          "hint": "SIF 反查结果"
+        },
+        {
+          "label": "头部词搜索量",
+          "value": "27,934",
+          "status": "ok",
+          "hint": "portable shower"
+        },
+        {
+          "label": "自然流量占比",
+          "value": "81.68%",
+          "status": "ok",
+          "hint": "主要靠自然位吃量"
+        },
+        {
+          "label": "付费流量占比",
+          "value": "15.43%",
+          "status": "warn",
+          "hint": "SP+视频广告补位"
+        }
+      ],
+      "keywords": [
+        {
+          "kw": "portable shower",
+          "kw_zh": "便携式淋浴器",
+          "nat_rank": 67,
+          "ad_rank": 12,
+          "search_vol": 27934,
+          "traffic_share_pct": 18.74,
+          "positions": [
+            "自然位",
+            "SP广告"
+          ],
+          "markers": [
+            "主词",
+            "精准词"
+          ]
+        },
+        {
+          "kw": "portable shower head",
+          "kw_zh": "便携式淋浴喷头",
+          "nat_rank": 42,
+          "ad_rank": null,
+          "search_vol": 3338,
+          "traffic_share_pct": 13.23,
+          "positions": [
+            "自然位",
+            "SP广告",
+            "视频广告",
+            "推荐位"
+          ],
+          "markers": [
+            "主词",
+            "长尾词"
+          ]
+        },
+        {
+          "kw": "camping shower",
+          "kw_zh": "露营淋浴器",
+          "nat_rank": 52,
+          "ad_rank": 22,
+          "search_vol": 22914,
+          "traffic_share_pct": 11.94,
+          "positions": [
+            "自然位",
+            "SP广告",
+            "推荐位"
+          ],
+          "markers": [
+            "主词",
+            "精准词"
+          ]
+        },
+        {
+          "kw": "portable shower pump",
+          "kw_zh": "便携式淋浴泵",
+          "nat_rank": 12,
+          "ad_rank": 20,
+          "search_vol": 2010,
+          "traffic_share_pct": 7.49,
+          "positions": [
+            "自然位",
+            "SP广告",
+            "视频广告",
+            "推荐位"
+          ],
+          "markers": [
+            "主词",
+            "长尾词"
+          ]
+        },
+        {
+          "kw": "portable shower for camping",
+          "kw_zh": "露营便携淋浴",
+          "nat_rank": 100,
+          "ad_rank": 20,
+          "search_vol": 11641,
+          "traffic_share_pct": 7.02,
+          "positions": [
+            "自然位",
+            "SP广告",
+            "推荐位"
+          ],
+          "markers": [
+            "主词",
+            "精准词"
+          ]
+        },
+        {
+          "kw": "camping shower pump",
+          "kw_zh": "露营淋浴泵",
+          "nat_rank": 8,
+          "ad_rank": null,
+          "search_vol": 2621,
+          "traffic_share_pct": 4.25,
+          "positions": [
+            "自然位",
+            "SP广告",
+            "推荐位"
+          ],
+          "markers": [
+            "长尾词"
+          ]
+        },
+        {
+          "kw": "camp shower",
+          "kw_zh": "营地淋浴",
+          "nat_rank": 44,
+          "ad_rank": null,
+          "search_vol": 8409,
+          "traffic_share_pct": 4.09,
+          "positions": [
+            "自然位"
+          ],
+          "markers": [
+            "精准词"
+          ]
+        },
+        {
+          "kw": "camp shower pump",
+          "kw_zh": "营地淋浴泵",
+          "nat_rank": 3,
+          "ad_rank": null,
+          "search_vol": 752,
+          "traffic_share_pct": 3.66,
+          "positions": [
+            "自然位"
+          ],
+          "markers": [
+            "长尾词"
+          ]
+        },
+        {
+          "kw": "portable camping shower",
+          "kw_zh": "便携露营淋浴",
+          "nat_rank": 42,
+          "ad_rank": 34,
+          "search_vol": 3782,
+          "traffic_share_pct": 3.25,
+          "positions": [
+            "自然位",
+            "SP广告",
+            "推荐位"
+          ],
+          "markers": [
+            "长尾词"
+          ]
+        },
+        {
+          "kw": "camping showers",
+          "kw_zh": "露营淋浴",
+          "nat_rank": 38,
+          "ad_rank": 24,
+          "search_vol": 2505,
+          "traffic_share_pct": 1.99,
+          "positions": [
+            "自然位",
+            "SP广告",
+            "推荐位"
+          ],
+          "markers": [
+            "精准词"
+          ]
+        },
+        {
+          "kw": "ducha portatil",
+          "kw_zh": "便携淋浴",
+          "nat_rank": 54,
+          "ad_rank": null,
+          "search_vol": 2242,
+          "traffic_share_pct": 1.69,
+          "positions": [
+            "自然位"
+          ],
+          "markers": [
+            "精准词"
+          ]
+        },
+        {
+          "kw": "koala gear portable shower kit",
+          "kw_zh": "考拉齿轮便携式淋浴套件",
+          "nat_rank": 13,
+          "ad_rank": 5,
+          "search_vol": 580,
+          "traffic_share_pct": 1.14,
+          "positions": [
+            "自然位",
+            "SP广告",
+            "视频广告",
+            "推荐位"
+          ],
+          "markers": [
+            "长尾词"
+          ]
+        }
+      ],
+      "note": "关键词集中在 portable shower / camping shower / portable shower pump，说明该品类主战场是==露营淋浴==与==便携泵==双入口。"
+    },
+    {
+      "type": "traffic-entry",
+      "title": "三-4 · 流量入口结构",
+      "composition": [
+        {
+          "label": "自然搜索",
+          "ratio": 0.8168,
+          "color": "#2fae8f"
+        },
+        {
+          "label": "SP 广告",
+          "ratio": 0.065,
+          "color": "#3b82c4"
+        },
+        {
+          "label": "视频广告",
+          "ratio": 0.0893,
+          "color": "#8b5cf6"
+        },
+        {
+          "label": "推荐位",
+          "ratio": 0.0578,
+          "color": "#f0a539"
+        }
+      ],
+      "metrics": [
+        {
+          "label": "曝光得分",
+          "value": "7372",
+          "status": "ok",
+          "hint": "较上期提升"
+        },
+        {
+          "label": "新进词",
+          "value": "55",
+          "status": "info"
+        },
+        {
+          "label": "退出词",
+          "value": "41",
+          "status": "warn"
+        },
+        {
+          "label": "自然词覆盖",
+          "value": "194 / 197",
+          "status": "ok"
+        }
+      ],
+      "period": {
+        "in": 55,
+        "out": 41,
+        "prev": 183
+      },
+      "note": "流量结构偏健康，但自然位强也意味着 Listing 内容和口碑风险会直接影响转化效率。"
+    },
+    {
+      "type": "best-for-grid",
+      "title": "四 · 适合谁 / 不适合谁",
+      "best_for": [
+        {
+          "label": "轻量露营/节日用户",
+          "hint": "需要从水桶抽水完成==临时洗澡==，看重便携和续航。"
+        },
+        {
+          "label": "宠物、车辆、后院轻清洁",
+          "hint": "需要温和水流，不追求高压冲洗。"
+        },
+        {
+          "label": "家庭应急备用人群",
+          "hint": "停水、户外水源、院子清洁等低频但明确需求。"
+        }
+      ],
+      "not_for": [
+        {
+          "label": "期待高压水枪的人",
+          "hint": "1 gal/min 更适合淋浴和冲洗，不适合==强力清洁==。"
+        },
+        {
+          "label": "长期固定浴室替代需求",
+          "hint": "没有加热、储水和固定安装系统。"
+        },
+        {
+          "label": "无法维护电池的人",
+          "hint": "评论显示电池充电和保存状态是关键风险点。"
+        }
+      ],
+      "note": "页面能筛进泛户外人群，但对“不适合谁”的边界说明不够主动。"
+    },
+    {
+      "type": "w5h2-grid",
+      "title": "四-Y · 5W2H 购买行为",
+      "items": [
+        {
+          "key": "who",
+          "label": "谁买",
+          "value": "露营、节日、房车、宠物清洁和家庭应急用户。"
+        },
+        {
+          "key": "what",
+          "label": "买什么",
+          "value": "一套能接水桶的==便携淋浴泵==，含双电池、软管、喷头和泵体。"
+        },
+        {
+          "key": "when",
+          "label": "何时用",
+          "value": "营地洗澡、停水备用、宠物回家前冲洗、车旁或后院临时清洁。"
+        },
+        {
+          "key": "where",
+          "label": "在哪里",
+          "value": "营地、海边、车旁、后院、临时水桶或水箱旁。"
+        },
+        {
+          "key": "why",
+          "label": "为什么买",
+          "value": "用中低预算获得==移动出水能力==，减少没有固定水龙头的麻烦。"
+        },
+        {
+          "key": "how",
+          "label": "怎么决策",
+          "value": "先看续航和水压，再看评价量、配件完整度、价格和差评里的失效风险。"
+        },
+        {
+          "key": "how much",
+          "label": "花多少",
+          "value": "主价 USD 45.99，处在愿意尝试但会期待耐用的工具价位。"
+        }
+      ]
+    },
+    {
+      "type": "persona-cards",
+      "title": "四-Z · 典型客户画像",
+      "items": [
+        {
+          "name": "周末露营家庭",
+          "tags": [
+            "露营",
+            "孩子",
+            "轻清洁"
+          ],
+          "demographic": "有户外出行习惯的家庭用户。",
+          "scenario": "营地洗澡、冲脚、洗餐具或冲掉沙土。",
+          "motivation": "希望用==双电池续航==和便携套装解决临时用水。",
+          "pain": "担心电池提前失效或水流不稳定。",
+          "quote": "This thing paid for itself in 2 days from the money I saved on paying for showers."
+        },
+        {
+          "name": "宠物/车辆清洁用户",
+          "tags": [
+            "宠物",
+            "车载",
+            "后院"
+          ],
+          "demographic": "有院子、车辆或宠物外出场景的人。",
+          "scenario": "回家前冲洗泥沙、车旁轻清洁、浇花。",
+          "motivation": "比固定水管更灵活，水压温和。",
+          "pain": "如果管线短或喷头不稳，体验会被快速拉低。"
+        },
+        {
+          "name": "家庭应急备用买家",
+          "tags": [
+            "备用",
+            "低频",
+            "停水"
+          ],
+          "demographic": "为突发停水或户外水源准备工具的人。",
+          "scenario": "长期收纳后突然启用。",
+          "motivation": "低频备用但希望关键时刻可用。",
+          "pain": "评论中“放一段时间后电池不充电”会直接打击这类需求。"
+        }
+      ]
+    },
+    {
+      "type": "kano-model",
+      "title": "四-K · Kano 真实需求",
+      "groups": [
+        {
+          "kano": "must-be",
+          "items": [
+            {
+              "need": "电池能充电、泵能稳定出水、配件不能缺。",
+              "evidence": "差评中==电池不充电==命中 83 条，==停止工作==命中 61 条。"
+            }
+          ]
+        },
+        {
+          "kano": "one-dimensional",
+          "items": [
+            {
+              "need": "水压、续航、管线长度越稳定越满意。",
+              "evidence": "好评集中在==水压够用==、==双电池续航==和==易安装使用==。"
+            }
+          ]
+        },
+        {
+          "kano": "attractive",
+          "items": [
+            {
+              "need": "一个工具覆盖露营、宠物、洗车、后院多场景。",
+              "evidence": "“露营洗澡”命中 56 条好评，多场景能扩大购买理由。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dev-watchpoints",
+      "title": "四-D · 产品开发注意点",
+      "items": [
+        {
+          "priority": "P0",
+          "category": "must-fix",
+          "point": "优先解决==电池不充电==和接口失效。",
+          "rationale": "负面证据最集中在电池、充电线、连接和泵体停止工作。"
+        },
+        {
+          "priority": "P1",
+          "category": "improve",
+          "point": "把水压边界、桶口适配和维护方式讲清。",
+          "rationale": "容器不适配、水流偏弱会引发预期错配。"
+        },
+        {
+          "priority": "P2",
+          "category": "innovate",
+          "point": "做成露营/宠物/应急套装方案。",
+          "rationale": "多场景已经被评论验证，但页面缺少系统化套装叙事。"
+        }
+      ]
+    },
+    {
+      "type": "metric-grid",
+      "title": "五 · 品牌沉淀现状",
+      "items": [
+        {
+          "label": "Logo 出现位置",
+          "value": "3 次（标题品牌名 / 品牌字段 / 标题区域）",
+          "status": "ok",
+          "hint": "品牌可见，但视觉资产记忆弱。"
+        },
+        {
+          "label": "评价体量",
+          "value": "4,559 条",
+          "status": "ok",
+          "hint": "货架信任较强。"
+        },
+        {
+          "label": "A+ 承接",
+          "value": "0 个模块",
+          "status": "bad",
+          "hint": "缺少==质量背书==和场景叙事深水区。"
+        },
+        {
+          "label": "变体宽度",
+          "value": "3 个颜色/电池组合",
+          "status": "warn",
+          "hint": "覆盖基础偏好，但差异化有限。"
+        }
+      ]
+    },
+    {
+      "type": "review-sentiment",
+      "title": "六 · 评论情感解析 · 数据印证",
+      "histogram": [],
+      "positive_keywords": [
+        {
+          "text": "露营洗澡",
+          "count": 56
+        },
+        {
+          "text": "易安装使用",
+          "count": 69
+        },
+        {
+          "text": "水压够用",
+          "count": 50
+        },
+        {
+          "text": "双电池续航",
+          "count": 46
+        },
+        {
+          "text": "便携省空间",
+          "count": 21
+        }
+      ],
+      "critical_keywords": [
+        {
+          "text": "电池不充电",
+          "count": 83
+        },
+        {
+          "text": "停止工作",
+          "count": 61
+        },
+        {
+          "text": "水压不足",
+          "count": 26
+        },
+        {
+          "text": "耐久疑虑",
+          "count": 23
+        },
+        {
+          "text": "容器不适配",
+          "count": 11
+        },
+        {
+          "text": "配件缺失",
+          "count": 3
+        }
+      ],
+      "gap_table": [
+        {
+          "page_says": "2 块电池支持 90-120 分钟",
+          "review_says": "样本里==电池不充电==与不保电是第一痛点。"
+        },
+        {
+          "page_says": "水流 1 gal/min，适合淋浴",
+          "review_says": "好评认可==水压够用==，但差评集中在水流弱或突然停泵。"
+        },
+        {
+          "page_says": "露营、宠物、洗车多用途",
+          "review_says": "多场景成立，但容器口径和配件完整度需要更明确。"
+        }
+      ],
+      "summary": "全局主口径：4.4 星 / 4,559 条；目标 ASIN 样本 371 条，样本均分 3.08 仅用于挖痛点。Amazon 小组件未返回可解析全局星级分布，报告不使用样本分布冒充全局分布。"
+    },
+    {
+      "type": "two-column-list",
+      "title": "六-B · 优缺点证据分布",
+      "columns": [
+        {
+          "title": "好评驱动",
+          "bullets": [
+            "==易安装使用==命中 69 条，证明低门槛是有效卖点。",
+            "==露营洗澡==命中 56 条，是最清晰的需求入口。",
+            "==水压够用==命中 50 条，可支撑温和淋浴定位。"
+          ]
+        },
+        {
+          "title": "差评风险",
+          "bullets": [
+            "==电池不充电==命中 83 条，是必须优先修复的 P0 风险。",
+            "==停止工作==命中 61 条，会破坏基本功能信任。",
+            "容器不适配和配件缺失命中较少，但会放大“关键时刻不能用”的负面感受。"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "score-cards",
+      "title": "七 · 关键评分（V2 六维 · 加权总分 3.5 / 5.0）",
+      "items": [
+        {
+          "name": "视觉一致性",
+          "score": "3.5 / 5.0",
+          "value": 3.5,
+          "comment": "套图可读性尚可，但==品牌识别==弱。"
+        },
+        {
+          "name": "信息层级",
+          "score": "3.7 / 5.0",
+          "value": 3.7,
+          "comment": "双电池和水流前置清楚，风险边界不足。"
+        },
+        {
+          "name": "图文契合度",
+          "score": "3.6 / 5.0",
+          "value": 3.6,
+          "comment": "图片与 bullet 方向一致，缺 A+ 深化证明。"
+        },
+        {
+          "name": "连贯叙事效率",
+          "score": "3.4 / 5.0",
+          "value": 3.4,
+          "comment": "场景多但故事线略散，==露营淋浴==应更聚焦。"
+        },
+        {
+          "name": "品牌沉淀",
+          "score": "3.1 / 5.0",
+          "value": 3.1,
+          "comment": "口碑资产强，品牌资产和售后背书偏弱。"
+        },
+        {
+          "name": "预期管理",
+          "score": "3.4 / 5.0",
+          "value": 3.4,
+          "comment": "对电池寿命、水压、桶口适配说明不够主动。"
+        }
+      ]
+    },
+    {
+      "type": "action-cards",
+      "title": "八 · 行动结论 · 优势 / 失误 / 借鉴 / 规避",
+      "items": [
+        {
+          "variant": "good",
+          "title": "优势亮点",
+          "bullets": [
+            "==双电池续航==是强转化入口。",
+            "4.4 星和 4,559 条评价提供基础信任。",
+            "自然流量占比 81.68%，说明 Listing 已吃到核心需求词。"
+          ]
+        },
+        {
+          "variant": "bad",
+          "title": "不足问题",
+          "bullets": [
+            "没有 A+，质量与场景叙事偏薄。",
+            "==电池可靠性==差评集中，直接伤害基本型需求。",
+            "多场景表达泛化，专业露营装备心智不够强。"
+          ]
+        },
+        {
+          "variant": "borrow",
+          "title": "可借鉴点",
+          "bullets": [
+            "主图/副图前段优先讲清续航、配件和水流。",
+            "用评论验证过的==露营洗澡==作为第一场景。",
+            "把自然词 portable shower / camping shower 写进标题和图文核心位置。"
+          ]
+        },
+        {
+          "variant": "avoid",
+          "title": "规避方向",
+          "bullets": [
+            "不要把温和水流包装成高压清洗。",
+            "不要只说双电池，必须给充电维护和失效兜底。",
+            "不要缺少桶口、软管长度、配件清单等边界信息。"
+          ]
+        }
+      ]
+    }
+  ]
+}

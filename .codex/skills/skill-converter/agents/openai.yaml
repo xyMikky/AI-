@@ -1,0 +1,4 @@
+interface:
+  display_name: "Skill Converter"
+  short_description: "Create, migrate, and maintain Codex skills"
+  default_prompt: "Use $skill-converter to convert this workflow into a Codex Agent Skill."

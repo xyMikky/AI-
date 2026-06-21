@@ -1,0 +1,374 @@
+{
+  "hero": {
+    "title": "Amazon 竞品分析 · innhom 便携露营淋浴泵",
+    "subtitle": "B07WGMDBDF · US · Camping Showers"
+  },
+  "summary": [
+    { "icon": "🏷", "label": "品牌", "value": "innhom" },
+    { "icon": "⭐", "label": "全局口碑", "value": "4.5 ★ / 2,801" },
+    { "icon": "💰", "label": "参考价", "value": "~$36.96" },
+    { "icon": "📉", "label": "加权总分", "value": "3.0 / 5.0" }
+  ],
+  "hide_full_markdown": true,
+  "evidence": { "logo_mentions": ["gallery/02_784280db7a.jpg"] },
+  "sections": [
+    {
+      "type": "verdict-headline",
+      "title": "〇 · 问题本质",
+      "accent": "warn",
+      "headline": "老品 **4.5★ 基准盘**靠双电池与多场景站稳 $37 价位，但规格与视觉已落后，且==durability/battery 边界未写清==导致样本差评集中。"
+    },
+    {
+      "type": "kv-table",
+      "title": "一 · 基础信息卡",
+      "specs_from_metadata": true,
+      "specs_title": "产品参数",
+      "rows": [
+        ["ASIN", "B07WGMDBDF"],
+        ["品牌 / 型号", "innhom · GFS-1701"],
+        ["全局口碑", "4.5 ★ / 2,801 评价"],
+        ["参考价格", "~$36.96（List $39.96）"],
+        ["套图 / A+", "6 / 0"],
+        ["核心水流", "0.9 gal/min（3.5 L/min）"],
+        ["电池", "2×2200mAh · USB · 单电约 45 min"]
+      ]
+    },
+    {
+      "type": "tag-cards",
+      "title": "二 · 风格五标签 · 视觉摘要",
+      "items": [
+        {
+          "name": "色彩应用",
+          "pills": ["天蓝主色", "灰白辅色", "功能信息图"],
+          "swatches": ["#4FC3F7", "#ECEFF1", "#FFFFFF"],
+          "desc": "高饱和工具蓝贯穿泵体/电池/花洒，背景大面积白，典型 2019 代亚马逊信息图审美。"
+        },
+        {
+          "name": "模特/受众",
+          "pills": ["露营者", "宠物主", "儿童洗澡"],
+          "desc": "无固定模特 IP，以场景拼图覆盖户外与家庭临时用水人群。"
+        },
+        {
+          "name": "摄影风格",
+          "pills": ["平铺全家福", "标注线信息图", "场景实拍"],
+          "desc": "产品图 + 功能标注为主，非高级 lifestyle 摄影。"
+        },
+        {
+          "name": "整体调性",
+          "pills": ["实用", "配件全", "低价可信"],
+          "desc": "强调「开箱即用」与认证保修，品牌高级感弱。"
+        },
+        {
+          "name": "拍摄方式",
+          "pills": ["6 图递进", "新旧对比", "四宫格场景"],
+          "desc": "从配件清单 → 规格 → 电池 → 对比 → 多用途 → 挂架，逻辑完整但重复。"
+        }
+      ]
+    },
+    {
+      "type": "step-ladder",
+      "title": "三-1 · 卖点排序 · 三层递进",
+      "items": [
+        { "badge": "1", "name": "双电池续航", "desc": "2×2200mAh、双电 90–120 min，页面第一 bullet 与图 3 整图 dedicated。" },
+        { "badge": "2", "name": "多场景便携", "desc": "露营/宠物/洗车/儿童/应急浴室，把桶泵卖成通用 outdoor rinse 工具。" },
+        { "badge": "3", "name": "轻便易用", "desc": "1.6 lb + 网袋 + 6 ft hose + 一键启动，降低非专业用户门槛。" }
+      ]
+    },
+    {
+      "type": "info-layers",
+      "title": "三-2 · 信息层级 · 套图分层拆解",
+      "items": [
+        { "layer": "第一层", "name": "信任与清单", "desc": "主图全配件平铺 + RoHS/EN 认证 + 1 年保修，回答「买到什么」。" },
+        { "layer": "第二层", "name": "规格与边界", "desc": "图 2–3 讲水流、滤芯、电池参数与 **Battery non-waterproof** 警示。" },
+        { "layer": "第三层", "name": "场景转化", "desc": "图 5–6 多用途 + 吸盘/挂钩，推动「我也用得上」。" }
+      ]
+    },
+    {
+      "type": "keyword-arch",
+      "title": "三-3 · 关键词架构 · SIF 流量词",
+      "metrics": [
+        { "label": "流量词总数", "value": "183", "status": "info" },
+        { "label": "有机占比", "value": "27.8%", "status": "warn" },
+        { "label": "付费占比", "value": "63.2%", "status": "warn" },
+        { "label": "Top SV 词", "value": "portable shower", "hint": "27,934/周" }
+      ],
+      "keywords": [
+        { "kw": "portable shower", "kw_zh": "便携式淋浴器", "nat_rank": 101, "ad_rank": 2, "search_vol": 27934, "traffic_share_pct": 22.36, "markers": ["主词"] },
+        { "kw": "camping shower", "kw_zh": "露营淋浴器", "nat_rank": 69, "ad_rank": 3, "search_vol": 22914, "traffic_share_pct": 17.62, "markers": ["主词"] },
+        { "kw": "camping shower pump", "kw_zh": "露营淋浴泵", "nat_rank": 16, "ad_rank": 3, "search_vol": 2621, "traffic_share_pct": 5.99, "markers": ["长尾"] },
+        { "kw": "camp shower pump", "kw_zh": "露营淋浴泵", "nat_rank": 12, "ad_rank": 13, "search_vol": 752, "traffic_share_pct": 2.63, "markers": [] },
+        { "kw": "shower pump", "kw_zh": "淋浴泵", "nat_rank": 7, "ad_rank": 3, "search_vol": 818, "traffic_share_pct": 2.1, "markers": ["精准"] }
+      ],
+      "note": "自然位多在 25–101，精准长尾 camp/camping shower pump 排名更靠前；流量高度依赖 SP/SBV。"
+    },
+    {
+      "type": "traffic-entry",
+      "title": "三-4 · 流量入口结构 · 自然 / 广告 / 推荐",
+      "composition": [
+        { "label": "自然搜索", "ratio": 0.278, "color": "#22c55e" },
+        { "label": "SP 广告", "ratio": 0.168, "color": "#f59e0b" },
+        { "label": "SB", "ratio": 0.044, "color": "#eab308" },
+        { "label": "SBV 视频", "ratio": 0.4197, "color": "#ef4444" },
+        { "label": "推荐位", "ratio": 0.1805, "color": "#6366f1" }
+      ],
+      "metrics": [
+        { "label": "曝光分", "value": "22,430", "hint": "较上期上升" },
+        { "label": "新进词", "value": "38", "status": "ok" },
+        { "label": "退出词", "value": "49", "status": "warn" }
+      ],
+      "period": { "in": 38, "out": 49, "prev": 194 },
+      "note": "SBV 占比约 42%，属于广告托底型老品；自然搜索仅约 28%。"
+    },
+    {
+      "type": "two-column-list",
+      "title": "四 · 用户视角 · 卖家话术 vs 消费者关注",
+      "columns": [
+        {
+          "title": "卖家话术",
+          "variant": "seller",
+          "bullets": [
+            "2 batteries · 90–120 min",
+            "Gentle 3.5 L/min stream",
+            "Indoor/outdoor multi-use",
+            "RoHS + 1 year warranty",
+            "Compact 1.6 lb with mesh bag"
+          ]
+        },
+        {
+          "title": "消费者关注（样本）",
+          "variant": "buyer",
+          "bullets": [
+            "Will it **stop working** after a few months?",
+            "Battery **won't charge** / no replacement",
+            "Battery pack **not waterproof** — cord too short",
+            "Is flow enough to rinse hair / dog?",
+            "Empties bucket too fast"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "best-for-grid",
+      "title": "四-X · 适合谁 / 不适合谁",
+      "best_for": [
+        { "label": "露营 / RV 温和冲洗", "hint": "桶装水 + 花洒够用" },
+        { "label": "洗狗 / 海滩冲沙", "hint": "便携 Setup 快" },
+        { "label": "装修临时浴室", "hint": "双电池轮换" }
+      ],
+      "not_for": [
+        { "label": "高压洗窗 / 洗泥", "hint": "仅 3.5 L/min" },
+        { "label": "长时连续淋浴", "hint": "水量消耗快" },
+        { "label": "极高耐用预期", "hint": "样本停泵/电池故障多" }
+      ],
+      "note": "页面应前置 NOT for pressure cleaning。"
+    },
+    {
+      "type": "w5h2-grid",
+      "title": "四-Y · 客户购买行为 5W2H",
+      "items": [
+        { "key": "Who", "zh": "谁买", "finding": "露营者、RV 用户、宠物主、临时浴室用户" },
+        { "key": "What", "zh": "买什么", "finding": "桶装潜水泵 + 手持花洒的 portable rinse 方案" },
+        { "key": "When", "zh": "何时", "finding": "周末露营、夏季洗狗、装修断水期" },
+        { "key": "Where", "zh": "何地", "finding": "Amazon US；核心词 camping/portable shower" },
+        { "key": "Why", "zh": "为何", "finding": "无固定水源也要冲汗/沙/泥，比瓢水方便" },
+        { "key": "How", "zh": "如何决策", "finding": "看星级评价数 → 比双电池与价格 → 扫停泵差评" },
+        { "key": "How much", "zh": "花多少", "finding": "约 $37，配件全，低决策成本" }
+      ]
+    },
+    {
+      "type": "persona-cards",
+      "title": "四-Z · 客户画像",
+      "items": [
+        {
+          "name": "周末露营者 Mike",
+          "emoji": "⛺",
+          "tags": ["camping", "weekend"],
+          "scenario": "帐篷外简单冲洗",
+          "motivation": "比湿巾/瓢水更干净",
+          "pain": "电池能否撑完整周末",
+          "quote": "Worked great for our camping trip… about 7 people in our group."
+        },
+        {
+          "name": "宠物主 Sarah",
+          "emoji": "🐕",
+          "tags": ["pet", "outdoor"],
+          "scenario": "散步后后院/车内洗狗",
+          "motivation": "快速冲 mud",
+          "pain": "流量不能太强吓狗，但要够用",
+          "quote": "Got this to hose down the dog… still on the first charge after two weeks."
+        }
+      ]
+    },
+    {
+      "type": "kano-model",
+      "title": "四-K · 卡诺真实需求",
+      "groups": [
+        {
+          "kano": "must-be",
+          "items": [
+            { "need": "通电即出水、配件齐全", "evidence": "easy to set up" },
+            { "need": "基本安全认证", "evidence": "RoHS bullet" }
+          ]
+        },
+        {
+          "kano": "one-dimensional",
+          "items": [
+            { "need": "双电池续航", "evidence": "battery life 高频好评" },
+            { "need": "稳定工作 ≥1 季", "evidence": "stopped working 高频差评" }
+          ]
+        },
+        {
+          "kano": "attractive",
+          "items": [
+            { "need": "解放双手挂架", "evidence": "Free Your Hands 套图" },
+            { "need": "新旧结构对比说服升级", "evidence": "Improvements 对比图" }
+          ]
+        },
+        {
+          "kano": "reverse",
+          "items": [
+            { "need": "当高压清洗机使用", "evidence": "pressure 争议 + 洗窗图" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dev-watchpoints",
+      "title": "四-D · 产品开发注意点",
+      "items": [
+        { "priority": "P0", "category": "must-fix", "point": "降低==泵体早期故障==率", "rationale": "样本 stopped working / not work 高频" },
+        { "priority": "P0", "category": "must-fix", "point": "==电池模块防水==与线长设计", "rationale": "non-waterproof + cord too short" },
+        { "priority": "P1", "category": "improve", "point": "6000mAh + Type-C + 数显", "rationale": "对标同页新款规格" },
+        { "priority": "P1", "category": "improve", "point": "页面前置 gentle rinse 边界", "rationale": "避免 pressure washer 预期" },
+        { "priority": "P2", "category": "innovate", "point": "可购替换电池/泵头 + 防干烧", "rationale": "对冲 durability 差评" }
+      ]
+    },
+    {
+      "type": "metric-grid",
+      "title": "五 · 品牌沉淀现状",
+      "items": [
+        { "label": "Logo 视觉锤", "value": "弱", "status": "warn", "hint": "靠配色非 Logo" },
+        { "label": "A+ 品牌层", "value": "0 模块", "status": "bad" },
+        { "label": "SBV 广告依赖", "value": "42%", "status": "warn", "hint": "==自然流量仅 27.8%==" },
+        { "label": "老品评价资产", "value": "2,801", "status": "ok" }
+      ]
+    },
+    {
+      "type": "review-sentiment",
+      "title": "六 · 评论情感解析 · 数据印证",
+      "summary": "全局 **4.5★ / 2,801**（主口径）｜目标 ASIN 样本 143 条均分 **2.42★**（仅挖抱怨，不可当综合分）",
+      "histogram": [
+        { "star": 5, "percent": 74.0 },
+        { "star": 4, "percent": 15.0 },
+        { "star": 3, "percent": 5.0 },
+        { "star": 2, "percent": 2.0 },
+        { "star": 1, "percent": 4.0 }
+      ],
+      "positive_keywords": [
+        { "text": "淋浴体验好 / 推荐 ×8" },
+        { "text": "露营淋浴好用 ×7" },
+        { "text": "安装简便 / 易用 ×3" },
+        { "text": "双电池续航 praised ×2" },
+        { "text": "便携 / 无线 ×1" }
+      ],
+      "critical_keywords": [
+        { "text": "退货 / 浪费钱 ×26" },
+        { "text": "停止工作 / 不工作 ×24" },
+        { "text": "喷头水管漏水 ×9" },
+        { "text": "电池故障 / 不充电 ×8" },
+        { "text": "电机 / 泵体问题 ×8" },
+        { "text": "出水弱 / 不出水 ×4" }
+      ],
+      "real_voice": [
+        { "stars": 5, "text": "Worked great for our camping trip… portable shower in a shower tent for about 7 people.", "variation": "Color: blue" },
+        { "stars": 1, "text": "The product stopped working after a month. The battery doesn't turn on and the pump stopped working.", "variation": "Color: blue-2 batteries" },
+        { "stars": 2, "text": "One of the batteries stopped working after 3 months. Replacement batteries aren't available.", "variation": "" },
+        { "stars": 3, "text": "Flow was too high. Empties a bucket quickly. Not high pressure, just high flow.", "variation": "" }
+      ],
+      "gap_table": [
+        { "page_says": "90–120 min dual battery", "review_says": "Battery dead after months / no replacement" },
+        { "page_says": "Gentle 3.5 L/min", "review_says": "No water / pump not reaching head OR drains bucket fast" },
+        { "page_says": "1 year warranty", "review_says": "Can't reach manufacturer" }
+      ]
+    },
+    {
+      "type": "two-column-list",
+      "title": "六-1 · 优缺点证据分布",
+      "columns": [
+        {
+          "title": "好评证据（4-5★）",
+          "bullets": [
+            "==淋浴体验好 / 推荐==：8 条 · 均分 5.0",
+            "==露营淋浴好用==：7 条 · 户外/帐篷场景",
+            "==安装简便 / 易用==：3 条 · 外置开关受好评",
+            "==双电池续航 praised==：2 条 · 长期露营用户"
+          ]
+        },
+        {
+          "title": "差评证据（1-2★）",
+          "bullets": [
+            "==退货 / 浪费钱==：26 条 · 100% 低星",
+            "==停止工作 / 不工作==：24 条 · 泵体早期故障",
+            "==电池故障 / 不充电==：8 条 · 无法充电/损坏",
+            "==电机 / 泵体问题==：8 条 · 空转不出水",
+            "==喷头水管漏水==：9 条 · 接头/软管分离"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "score-cards",
+      "title": "七 · 关键评分（六维 · 加权 3.0 / 5.0）",
+      "items": [
+        { "name": "视觉一致性", "score": 3.2, "value": 3.2, "max": 5, "comment": "天蓝体系统一，信息图风格**老化**。" },
+        { "name": "信息层级", "score": 3.0, "value": 3.0, "max": 5, "comment": "套图递进清楚，**无 A+** 深度层。" },
+        { "name": "图文契合度", "score": 3.4, "value": 3.4, "max": 5, "comment": "gentle stream 与参数一致；洗窗图略抬预期。" },
+        { "name": "连贯叙事效率", "score": 2.8, "value": 2.8, "max": 5, "comment": "反复讲电池/场景，**缺代际对比**。" },
+        { "name": "品牌沉淀", "score": 2.4, "value": 2.4, "max": 5, "comment": "Logo 弱，靠**评价数**托底。" },
+        { "name": "预期管理", "score": 3.5, "value": 3.5, "max": 5, "comment": "全局 4.5★ 但 durability 风险==未前置==。" }
+      ]
+    },
+    {
+      "type": "action-cards",
+      "title": "八 · 行动结论",
+      "items": [
+        {
+          "variant": "good",
+          "title": "优势亮点",
+          "bullets": [
+            "4.5★ 老品信任 + Camping Showers 类目权重",
+            "双电池 + 全配件在 ~$37 转化效率高",
+            "场景叙事宽，触达非露营人群"
+          ]
+        },
+        {
+          "variant": "bad",
+          "title": "不足问题",
+          "bullets": [
+            "==预期管理失误==：battery 不可进水 / 非高压 / durability 方差未写清",
+            "2×2200mAh + USB 规格落后于 6000mAh 新品",
+            "SBV 42% 广告依赖，自然位偏深"
+          ]
+        },
+        {
+          "variant": "borrow",
+          "title": "可借鉴",
+          "bullets": [
+            "套图「新旧结构对比」模块可直接迁移",
+            "Best For 文案：`Camp rinse · pet wash · temp shower — NOT pressure cleaning`",
+            "精准长尾 camping shower pump / camp shower pump 布局"
+          ]
+        },
+        {
+          "variant": "avoid",
+          "title": "规避",
+          "bullets": [
+            "勿把 3.5 L/min 包装成 power wash",
+            "勿隐藏 battery keep dry 限制",
+            "勿无替换件却强调 1 year warranty"
+          ]
+        }
+      ]
+    }
+  ]
+}
