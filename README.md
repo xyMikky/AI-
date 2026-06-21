@@ -2,7 +2,6 @@
 
 公司内部 AI 智能体与 Skill 工程文件仓库。这个项目把设计、电商、Amazon 竞品分析、品牌规范、图片生成、视频脚本、工作流沉淀等能力整理成一套可复用的本地 AI 工作助手。
 
-当前仓库主要面向 **Cursor / AI IDE 工作流** 使用，核心配置位于 `.cursor/skills` 和 `.cursor/rules`。
 
 ## 给普通同事：怎么用
 
@@ -17,8 +16,8 @@
 D:\AI工作助手
 ```
 
-3. 用 Cursor 打开这个文件夹。
-4. 等 Cursor 读取项目配置后，直接对 AI 说你的需求，例如：
+3. 用 Codex 打开这个文件夹。
+4. 等 Codex 读取项目配置后，直接对 AI 说你的需求，例如：
 
 ```text
 帮我分析这个 Amazon 竞品链接
@@ -35,14 +34,14 @@ D:\AI工作助手
 - 从公司共享盘复制最新版文件夹。
 - 如果维护者提供了“一键更新”脚本，双击运行即可。
 
-更新后建议重启 Cursor，让新的 Skill 和规则生效。
+更新后建议重启 Codex，让新的 Skill 和规则生效。
 
 ## 这个项目包含什么
 
 仓库当前包含：
 
-- `44` 个 Skill：位于 `.cursor/skills`
-- `14` 条全局规则：位于 `.cursor/rules`
+- `44` 个 Skill：位于 `.Codex/skills`
+- `14` 条全局规则：位于 `.Codex/rules`
 - 品牌规范、参考库、场景知识库等长期知识资产
 - Amazon 竞品分析、图片抓取、标题分析、评论分析、SIF / ABA 数据分析等电商能力
 - AI 图片提示词、图片审美评分、图片逻辑检查、视频提示词等生成式设计能力
@@ -88,10 +87,8 @@ D:\AI工作助手
 
 ```text
 AI工作助手/
-  .cursor/
-    rules/                 全局规则，控制 AI 的默认行为和工作流
+  .Codex/
     skills/                各类智能体 Skill
-    settings.json          Cursor 项目配置
 
   config/
     .env.example           环境变量模板
@@ -113,7 +110,7 @@ AI工作助手/
 普通同事通常只需要：
 
 - Windows 10 或更高版本
-- Cursor
+- Codex
 - 可以访问公司内部共享盘或维护者发布的压缩包
 
 部分高级能力可能需要：
@@ -150,7 +147,7 @@ config/.env
 2. 提交并推送到 GitHub，作为内部源仓库。
 3. 从 GitHub 下载 ZIP，或从本地打包一份干净版本。
 4. 发布到公司共享盘、飞书 / 企业微信文件、OneDrive 或 NAS。
-5. 通知同事下载最新版并重启 Cursor。
+5. 通知同事下载最新版并重启 Codex。
 
 建议发布包命名：
 
@@ -168,13 +165,13 @@ AI工作助手_v20260621.zip
 
 新增或修改 Skill 时，建议按下面顺序检查：
 
-1. 确认 Skill 位于 `.cursor/skills/[skill-name]/`。
+1. 确认 Skill 位于 `.Codex/skills/[skill-name]/`。
 2. 确认存在 `SKILL.md`。
 3. `SKILL.md` 的 description 要写清楚触发场景。
 4. 如有脚本，放入对应 Skill 的 `scripts/`。
 5. 如有参考资料，放入对应 Skill 的 `references/`。
 6. 如有图片、模板、示例，放入 `assets/`。
-7. 如果需要全局触发，更新 `.cursor/rules/` 中对应规则。
+7. 如果需要全局触发，更新 `.Codex/rules/` 中对应规则。
 8. 更新本 README 或内部发布说明。
 
 ## 常见问题
@@ -185,7 +182,7 @@ AI工作助手_v20260621.zip
 
 ### 为什么更新后 AI 没有识别新 Skill？
 
-通常是 Cursor 还没有重新加载项目。请关闭并重新打开 Cursor，或重新打开当前项目文件夹。
+通常是 Codex 还没有重新加载项目。请关闭并重新打开 Codex，或重新打开当前项目文件夹。
 
 ### 可以直接把整个仓库发给别人吗？
 
@@ -199,7 +196,7 @@ AI工作助手_v20260621.zip
 
 ### 这个项目能不能给 Codex 用？
 
-当前结构主要是 Cursor 项目结构。如果要作为 Codex Skill 分发，建议维护者额外制作安装脚本，把需要复用的 Skill 同步到用户本机的 Codex skills 目录。不要让普通同事手动处理这些路径。
+当前结构主要是 Codex 项目结构。如果要作为 Codex Skill 分发，建议维护者额外制作安装脚本，把需要复用的 Skill 同步到用户本机的 Codex skills 目录。不要让普通同事手动处理这些路径。
 
 ## 维护原则
 
