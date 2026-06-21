@@ -1,0 +1,168 @@
+---
+description: 任何对 .cursor/skills/ 下 Skill 文件夹的写入、移动、新增、改名操作前必读 skill-converter/references/STRUCTURE.md，并按规范放置文件（SKILL.md 主文件、references/ 参考文档、scripts/ 脚本、templates/ 模板、assets/ 资源），禁止在 Skill 根目录平铺非 SKILL.md 文件
+alwaysApply: true
+---
+
+# Skill 文件结构强制规范
+
+## 适用范围
+
+凡是要对 `.cursor/skills/[skill-name]/` 目录下文件做以下任一操作时，**强制执行本规则**：
+
+- 新增任何非 `SKILL.md` 的文件（参考资料、脚本、模板、资源、配置等）
+- 移动 / 改名 / 删除 Skill 文件夹内的文件
+- 修改 `SKILL.md` 中对其他文件的引用路径
+- 为已有 Skill 接入外部资料文件
+
+不包括：仅修改 `SKILL.md` 本体文本内容（如调整文案、追加章节、修订流程描述）。
+
+## 核心原则
+
+**Skill 必须自包含**：任何 Skill 依赖的资料 / 脚本 / 模板，必须放在该 Skill 文件夹内部，不得引用 Skill 外部绝对路径（如桌面、用户目录、其他 Skill 目录）。
+
+**结构必须按 STRUCTURE.md**：Skill 文件结构权威定义在 `.cursor/skills/skill-converter/references/STRUCTURE.md`。任何 Skill 修改前必读该文件，按其规范放置。
+
+## 强制流程
+
+### 步骤 1：动手前必读 STRUCTURE.md
+
+无论操作大小，**先执行**：
+
+```
+Read: .cursor/skills/skill-converter/references/STRUCTURE.md
+```
+
+不得凭印象、凭直觉、凭历史经验放置文件。
+
+### 步骤 2：按资料类型路由到对应子目录
+
+| 资料类型 | 必须放在 | 命名规范 |
+|---|---|---|
+| 主文件（必需） | Skill 根目录 | `SKILL.md`（全大写） |
+| 参考文档 / 知识资料 / 写作指南 / 案例集 | `references/` | `UPPER_SNAKE_CASE.md`（大写 + 下划线 + `.md`） |
+| 可执行脚本（Python / Shell / JS） | `scripts/` | `lower_snake_case.py` |
+| 模板文件（配置 / 输出 / 报告模板） | `templates/` | `lower_snake_case_template.{md,json,html}` |
+| 其他资源（JSON Schema / 图片 / 数据） | `assets/` | `lower_snake_case.{json,png,csv}` |
+
+### 步骤 3：外部资料归档处理
+
+如果资料文件位于 Skill 文件夹外部（桌面、用户目录、其他位置），**必须复制进 Skill 文件夹**，不得在 `SKILL.md` 中引用外部绝对路径。
+
+复制时必须重命名为符合上表命名规范的名称。原文件可保留作为来源备份，但 Skill 引用的是 Skill 文件夹内的副本。
+
+### 步骤 4：更新 SKILL.md 引用路径
+
+资料归档后，`SKILL.md` 中对该资料的引用**必须使用 Skill 内相对路径**：
+
+- ✅ 正确：`references/MASTER_SHOTS_CAMERA_BLOCKING.md`
+- ❌ 错误：`大师100镜头调度.txt`（Skill 根目录平铺）
+- ❌ 错误：`c:\Users\Administrator\Desktop\资料库\大师100镜头调度.txt`（外部绝对路径）
+- ❌ 错误：`../../其他skill/references/XXX.md`（跨 Skill 引用）
+
+### 步骤 4.5：协作型 Skill 共享脚本例外条款
+
+> 适用范围：**仅适用于 `scripts/` 下的脚本依赖**，不适用于 `references/` / `templates/` / `assets/`。
+
+通常 Skill 必须自包含，跨 Skill 引用脚本属于禁止行为。但当满足**全部以下条件**时，下游协作 Skill 可以**直接引用上游协作 Skill 的脚本**，无需复制冗余副本：
+
+1. **真实代码依赖**：脚本之间有真实的 `from xxx import ...` Python import 关系（不是单纯的命令行调用）；强行分离会导致 ImportError 或被迫复制大段公共函数
+2. **声明过的协作关系**：两个 Skill 的 SKILL.md 中已明确写明上下游 / 父子触发关系（如某下游 Skill 在上游 Skill 的询问钩子中被触发）
+3. **显式声明依赖**：下游 Skill 的 SKILL.md 必须在「相关脚本」或独立「上游协作 Skill 声明」段，**显式列出**所引用的上游 Skill 脚本路径 + 依赖原因
+4. **路由到合并归属**：当 N 个脚本之间有 import 链时，**整组同居在主脚本所在 Skill 的 `scripts/`**，不允许部分迁出导致 import 链断裂
+
+**协作型脚本归属判定流程**：
+
+```
+Step 1：识别脚本之间的 import 关系（rg "^(import|from)" scripts/*.py）
+Step 2：找出 import 链的根节点（被最多其他脚本依赖的脚本）
+Step 3：把根节点所在 Skill 作为这组脚本的归属 Skill，整组归档到该 Skill 的 scripts/
+Step 4：下游 Skill 在 SKILL.md 显式声明依赖（按下方模板）
+```
+
+**下游 Skill 声明模板**（强制在 SKILL.md 的「相关脚本」段或独立小节加入）：
+
+```markdown
+### 上游协作 Skill 声明
+
+> 按 `.cursor/rules/skill-file-structure.mdc` "协作型 Skill 共享脚本"例外条款，本 Skill 显式声明对以下上游 Skill 的脚本依赖：
+
+| 依赖路径 | 上游 Skill | 依赖原因 |
+|---|---|---|
+| `.cursor/skills/[upstream-skill]/scripts/xxx.py` | `[upstream-skill]` | [真实代码依赖的具体描述，如 `from yyy import ...` 复用 XX 工具函数] |
+```
+
+**典型案例（示意）**：若某下游沉淀 Skill 的渲染脚本 `render_xxx.py` 通过 `from render_report_html import CSS, SECTION_RENDERERS, ...` 复用上游主渲染器 71KB 工具函数，则该脚本必须与 `render_report_html.py` 同目录（归属上游 Skill 的 `scripts/`）才能正确 import，下游 Skill 按上方模板显式声明依赖即可。
+
+> ⚠️ 反之，若下游 Skill 自带独立渲染脚本（不 import 上游模块），则**必须自包含**——例如 `amazon-multi-asin-visual-synthesizer` 自带 `build_viz_dashboard.py` + `assets/echarts.min.js`，不共享上游脚本。
+
+**反例**（不适用本例外，必须复制到本 Skill）：
+
+- 只是命令行调用上游 Skill 的脚本（如 `python ../xxx/scripts/yyy.py`）—— 这种情况应在本 Skill 复制一份独立可执行的脚本，避免路径耦合
+- 引用上游 Skill 的 `references/` 知识资料 —— 必须复制到本 Skill 的 `references/`，永不例外
+- 引用上游 Skill 的 `templates/` —— 必须复制到本 Skill 的 `templates/`，永不例外
+
+### 步骤 5：归档后自检
+
+完成后用 `Glob` 列出该 Skill 文件夹结构，逐项核对：
+
+```
+.cursor/skills/[skill-name]/
+├── SKILL.md
+├── references/   ← 参考资料
+├── scripts/      ← 可执行脚本
+├── templates/    ← 模板
+└── assets/       ← 其他资源
+```
+
+确认：
+- [ ] 根目录除 `SKILL.md` 外没有平铺的资料文件
+- [ ] 资料文件已在正确子目录中
+- [ ] 命名符合 STRUCTURE.md 规范
+- [ ] `SKILL.md` 引用路径已更新且为 Skill 内相对路径
+- [ ] 没有引用 Skill 外部绝对路径
+
+## 触发关键词识别
+
+当用户说出以下任一表述时，应识别为 Skill 维护任务，按本规则执行：
+
+- "把这份资料加入到 XX skill 中"
+- "为 XX skill 添加 references / 脚本 / 模板"
+- "整理 XX skill 的文件结构"
+- "归档资料到 skill"
+- "XX skill 的资料库"
+
+识别后**先输出 1 行任务识别摘要**：
+
+```
+[Skill 维护任务] 目标：[skill-name] · 操作：[添加 references / 添加 scripts / ...] · 已读 STRUCTURE.md：✅
+```
+
+再开始执行步骤 2-5。
+
+## 与其他规则/Skill 的关系
+
+| 规则/Skill | 关系 |
+|---|---|
+| `skill-converter` | 本规则是 skill-converter 的强约束补充，凡涉及 Skill 文件结构的操作都应优先路由到 skill-converter 处理 |
+| `skill-converter/references/STRUCTURE.md` | 本规则的权威依据，必读文档 |
+| `ai-persona-architect` | 创建新角色/模块时按本规则放置文件 |
+| `design-must-use-main-control` | 主控中心规则 1 输出【调控中心决策】时，Skill 维护任务应识别为"系统维护"类，豁免 M13 引导但不豁免本规则 |
+
+## ❌ 禁止行为
+
+- 凭印象在 Skill 根目录平铺非 `SKILL.md` 文件（如 `.txt` / `data.json` / `temp.py`）
+- 在 `SKILL.md` 中引用 Skill 文件夹外部绝对路径
+- 跨 Skill 引用其他 Skill 文件夹内的**参考资料 / 模板 / assets**（应复制到本 Skill 对应子目录）
+- 跨 Skill 引用其他 Skill 的脚本时未满足步骤 4.5 的全部 4 个条件（特别是未在 SKILL.md 显式声明依赖）
+- 为了"避免跨 Skill 引用"而强行拆分有 import 关系的脚本组到不同 Skill，导致 ImportError 或被迫大段复制公共函数
+- 不读 STRUCTURE.md 就动手放文件
+- 使用错误的命名规范（如 `references/` 下用小写文件名、`scripts/` 下用大写文件名）
+- 将外部资料的桌面路径直接写进 `SKILL.md`，把"自包含"降级为"引用外部"
+
+## ✅ 正确行为
+
+- 任何 Skill 文件夹写入操作前先读 STRUCTURE.md
+- 资料按类型路由到 `references/` / `scripts/` / `templates/` / `assets/`
+- 外部资料先复制进 Skill 文件夹，再更新 `SKILL.md` 相对路径引用
+- 归档后用 `Glob` 自检目录结构
+- 输出任务识别摘要 + 归档清单，让用户可验证

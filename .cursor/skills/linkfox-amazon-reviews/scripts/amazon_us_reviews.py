@@ -1,0 +1,111 @@
+#!/usr/bin/env python3
+"""
+Amazon US Reviews List - LinkFox Skill
+Calls the amazon/usReviewsList API endpoint (US marketplace only)
+
+Usage:
+  python amazon_us_reviews.py '{"asin": "B08N5WRWNW", "allStarsNum": 10}'
+  python amazon_us_reviews.py '{"asin": "B08N5WRWNW", "positiveNum": 20, "criticalNum": 30}'
+"""
+
+import json
+import os
+import sys
+from urllib.request import urlopen, Request
+from urllib.error import HTTPError, URLError
+
+
+API_URL = "https://tool-gateway.linkfox.com/amazon/usReviewsList"
+PER_BUCKET_MAX = 100
+STAR_COUNT_KEYS = ("star1Num", "star2Num", "star3Num", "star4Num", "star5Num")
+US_COUNT_KEYS = STAR_COUNT_KEYS + ("allStarsNum", "positiveNum", "criticalNum")
+
+
+def get_api_key():
+    """Retrieve the API key from environment, with a friendly prompt if missing."""
+    key = os.environ.get("LINKFOXAGENT_API_KEY")
+    if not key:
+        print(
+            "API Key not configured. Please complete authorization first:\n"
+            "1. Visit https://yxgb3sicy7.feishu.cn/wiki/GIkkweGghiyzkqkRXQKc2n0Tnre to obtain your Key\n"
+            "2. Set the environment variable: export LINKFOXAGENT_API_KEY=your-key-here",
+            file=sys.stderr,
+        )
+        sys.exit(1)
+    return key
+
+
+def _clamp_count(value) -> int:
+    try:
+        count = int(value)
+    except (TypeError, ValueError):
+        return 0
+    return max(0, min(PER_BUCKET_MAX, count))
+
+
+def normalize_params(params: dict) -> dict:
+    """Default direct US review downloads to the API's maximum 500-review window."""
+    normalized = dict(params)
+    has_explicit_count = any(key in normalized for key in US_COUNT_KEYS)
+
+    if not has_explicit_count:
+        normalized.update({key: PER_BUCKET_MAX for key in STAR_COUNT_KEYS})
+        normalized["allStarsNum"] = 0
+    else:
+        for key in US_COUNT_KEYS:
+            if key in normalized:
+                normalized[key] = _clamp_count(normalized[key])
+
+    normalized["marketplace"] = "US"
+    normalized.setdefault("formatType", "all_formats")
+    return normalized
+
+
+def call_api(params: dict) -> dict:
+    """Call the tool gateway API."""
+    api_key = get_api_key()
+    normalized_params = normalize_params(params)
+    data = json.dumps(normalized_params).encode("utf-8")
+
+    req = Request(
+        API_URL,
+        data=data,
+        headers={
+            "Authorization": api_key,
+            "Content-Type": "application/json",
+            "User-Agent": "LinkFox-Skill/1.0",
+        },
+        method="POST",
+    )
+
+    try:
+        with urlopen(req, timeout=60) as response:
+            return json.loads(response.read().decode("utf-8"))
+    except HTTPError as e:
+        body = e.read().decode("utf-8") if e.fp else ""
+        return {"error": f"HTTP {e.code}: {e.reason}", "details": body}
+    except URLError as e:
+        return {"error": f"Connection failed: {e.reason}"}
+
+
+def main():
+    if len(sys.argv) < 2:
+        print("Usage: amazon_us_reviews.py '<JSON parameters>'", file=sys.stderr)
+        print(
+            'Example: amazon_us_reviews.py \'{"asin": "B08N5WRWNW", "allStarsNum": 10}\'',
+            file=sys.stderr,
+        )
+        sys.exit(1)
+
+    try:
+        params = json.loads(sys.argv[1])
+    except json.JSONDecodeError as e:
+        print(f"Invalid parameter format: {e}", file=sys.stderr)
+        sys.exit(1)
+
+    result = call_api(params)
+    print(json.dumps(result, indent=2, ensure_ascii=False))
+
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,298 @@
+# 品牌资产合成图（Brand Asset Sheet）— 生图前置规范
+
+## 触发条件
+
+**以下两个条件同时满足时，强制执行本规范：**
+
+1. 品牌上下文已激活（来自 `brand-spec-loading.mdc` 品牌检测协议）
+2. 当前任务将调用生图 API（`rh-image-pro-img2img` 或 `rh-image-pro-txt2img`）
+
+且满足以下任一子条件（**对号入座，无需主观判断**）：
+
+| 子条件 | 典型场景举例 | 是否触发 |
+|--------|------------|---------|
+| Prompt 计划包含品牌名文字（如 "NEBILITY"） | 促销图/主图/Banner/详情页标题 | ✅ 强制触发 |
+| Prompt 计划包含折扣/促销文字（如 "40% OFF"） | 大促Banner/闪购图/节日图 | ✅ 强制触发 |
+| Prompt 计划包含 Slogan / 卖点标签（如 "Tummy Control"）| 产品功能图/卖点图/标注图 | ✅ 强制触发 |
+| Prompt 计划包含 CTA 按钮文字（如 "Shop Now"） | 独立站促销图/落地页 | ✅ 强制触发 |
+| 画面需要呈现品牌 Logo 图形 | 独立站主图/Hero图/包装图 | ✅ 强制触发 |
+| 画面背景色/色块需精确匹配品牌色（如 #bf192e） | 品牌红全出血背景 | ✅ 强制触发 |
+| **纯背景替换、纯换装、无任何文字的生活场景图** | 仅换背景/换装，无文字 | ❌ 唯一豁免，改用文字约束块 |
+
+> ⚠️ **关键判断规则**：只要 Prompt 中预计出现任何可见文字（品牌名/折扣/Slogan/卖点/CTA），无论画面是否"看起来需要Logo"，都必须执行本规范。不得以"这张图主要是展示模特，Logo不是重点"为由跳过。
+>
+> **唯一豁免**：纯背景替换 / 纯换装 / 纯场景图，且 Prompt 中不包含任何文字指令。
+
+---
+
+## 核心原则
+
+**合成一张，节省编号**：Logo + 色卡 + 渲染文字统一合成为单张 PNG，只占用一个 `--images` 编号，不拆成多张独立图。
+
+脚本位置：`.cursor/skills/rh-image-pro-img2img/scripts/brand_asset_sheet.py`
+
+---
+
+## 完整执行流程
+
+### Step 1：扫描品牌原始素材目录
+
+```powershell
+$root = $PWD.Path
+$assetDir = Join-Path (Join-Path $root "品牌规范") "[品牌名]\原始素材"
+
+# 列出 Logo 文件
+[System.IO.Directory]::GetFiles($assetDir) | Where-Object { $_ -match "-LG-" } | ForEach-Object { [System.IO.Path]::GetFileName($_) }
+
+# 列出字体文件
+[System.IO.Directory]::GetFiles($assetDir) | Where-Object { $_ -match '\.ttf$|\.otf$' } | ForEach-Object { [System.IO.Path]::GetFileName($_) }
+```
+
+---
+
+### Step 2：决策三个区域的内容
+
+#### A. Logo 区
+
+| 画面背景色 | 选用 Logo 版本 | Logo 区底色（`--logo-bg`）|
+|-----------|--------------|--------------------------|
+| 浅色 / 白色 | 纯Logo黑字+红形（*-LG-005-*）| #ffffff（默认，可省略）|
+| 浅色 + 需要 Slogan | Logo+Slogan 组合版（*-LG-006-*）| #ffffff |
+| 深色 / 黑色 | 反白版（*-LG-002-*，黑底白字）| **#1a1a1a（必须指定）** |
+| 方形裁切版 | 方形 Logo（*-LG-004-*）| 按背景色选 |
+
+> ⚠️ 若品牌无反白 Logo 文件，深色背景任务仍传标准黑字版，但 `--logo-bg` 改用 `#f0f0f0`（浅灰），以保证 Logo 可见。
+
+#### B. 色卡区
+
+从品牌档案 / `视觉系统/色彩系统.txt` 提取：
+
+- 主色（Primary）：纳入
+- 辅色（Secondary）：纳入
+- 功能色（Accent）：按需纳入
+- 禁用色：**不纳入**（仅文字约束）
+
+格式：`#HEX:颜色名称`，多色以逗号分隔。
+
+#### C. 字体区（渲染当前画面的实际文字内容）
+
+| 文字类型 | 字号建议 | 字重选择 | 字间距 |
+|---------|---------|---------|--------|
+| Hero / Slogan / 大标题 | 100–120px | ExtraBold / Bold | 3–6 |
+| 副标题 / 产品卖点 | 72–90px | Bold / SemiBold | 2–4 |
+| 正文 / 标签 / CTA | 56–70px | Medium / Regular | 0–2 |
+
+**文字颜色与背景的对比规则**：
+
+| 文字颜色 | 适合背景 | `bg` 字段设置 |
+|---------|---------|--------------|
+| 深色（`#1a1a1a`）| 白色画布 | 不设置（默认白底）|
+| 品牌红（`#bf192e`）| 白色画布 | 不设置 |
+| 白色（`#ffffff`）| **必须指定深色底** | `"bg":"#1a1a1a"` |
+| 白色（`#ffffff`）| 品牌红底 | `"bg":"#bf192e"` |
+
+> 白色文字不加 `bg` 字段 = 白字在白底 = 完全不可见。**凡文字色为浅色，必须设置 `bg`。**
+
+---
+
+### Step 3：构造 texts JSON 并写入临时文件
+
+**必须用临时文件传参**（避免 PowerShell 引号嵌套导致解析失败）：
+
+```powershell
+$textsJson = @'
+[
+  {
+    "font": "品牌规范/[品牌名]/原始素材/[字体文件].ttf",
+    "text": "[画面中需要出现的实际文字]",
+    "size": 100,
+    "color": "#[文字颜色HEX]",
+    "bg": "#[底色HEX，文字为浅色时必填]",
+    "label": "[标签描述，如 Hero Title]",
+    "letter_spacing": 3
+  },
+  {
+    "font": "品牌规范/[品牌名]/原始素材/[字体文件2].ttf",
+    "text": "[第二段文字]",
+    "size": 72,
+    "color": "#[颜色]",
+    "label": "[标签]",
+    "letter_spacing": 0
+  }
+]
+'@
+$textsFile = Join-Path $env:TEMP "[品牌名]-texts.json"
+[System.IO.File]::WriteAllText($textsFile, $textsJson, (New-Object System.Text.UTF8Encoding $false))
+```
+
+> **字段说明**：
+> - `font`：相对于项目根目录的 TTF 文件路径
+> - `text`：画面中需要出现的**实际文字内容**（不是示例文字）
+> - `size`：字号（像素）
+> - `color`：文字颜色 HEX
+> - `bg`：（可选）该文字条目的底色 HEX，浅色文字必填
+> - `label`：合成图中的区域标注
+> - `letter_spacing`：字间距（像素），0 表示默认
+
+---
+
+### Step 4：调用脚本生成合成图
+
+```powershell
+python ".cursor/skills/rh-image-pro-img2img/scripts/brand_asset_sheet.py" `
+  --brand "[品牌名]" `
+  --logo "品牌规范/[品牌名]/原始素材/[Logo文件名]" `
+  --logo-bg "#[Logo区底色，深色Logo用#ffffff，浅色Logo用#1a1a1a]" `
+  --colors "#[主色]:[主色名],#[辅色]:[辅色名],#[其他色]:[名称]" `
+  --texts-file $textsFile `
+  --output "生成图片输出/brand_asset_sheets/[品牌名]-[场景标识]-assets.png"
+```
+
+**验证输出**（`sections` 必须包含所有已配置的区域）：
+
+```json
+{
+  "success": true,
+  "saved_path": "生成图片输出/brand_asset_sheets/[品牌名]-assets.png",
+  "sections": ["logo", "colors", "typography"]
+}
+```
+
+---
+
+### Step 5：构造 --images 编号分配
+
+| 优先级 | 素材类型 | 编号 |
+|--------|---------|------|
+| 1（最高）| 用户产品图 / 主素材 | image 1 |
+| 2 | **品牌资产合成图** | image 2 |
+| 3 | 人物库 / 场景库图片 | image 3 |
+| 4 | 参考库风格素材 | image 4+ |
+
+> 若无用户产品图（纯品牌宣传图），品牌资产合成图升为 image 1。
+
+---
+
+### Step 6：Prompt 中的引用句式
+
+在 Prompt 中必须用 `[BRAND ASSET REFERENCE]` 块明确描述合成图的三个区域各自的用途：
+
+```
+[品牌视觉资产参考 — image N]
+image N 是[品牌名]的品牌视觉资产合成图，按以下方式使用：
+
+第一区 — Logo（顶部区域）：
+完整还原 image N Logo 区域中展示的品牌标志。
+[具体描述 Logo 形状，如：黑色"Nebility"字标 + 实色红色右向五边形]
+Logo 放置位置：[左上 / 右上 / 底部居中 / 等]。
+Logo 的形状、颜色、比例和字形保持不变。
+
+第二区 — 色卡（中间区域）：
+image N 色卡区域展示了精确的品牌颜色，严格使用这些颜色。
+主色：[主色名]（色块 1）——用于[用途，如：CTA 按钮、强调色]。
+辅色：[辅色名]（色块 2）——用于[用途，如：背景、文字]。
+精确匹配这些颜色——不得替换或近似处理。
+
+第三区 — 字体（底部区域）：
+"[文字1]" → 使用 image N 第一段文字样本中展示的精确字体风格渲染。
+"[文字2]" → 使用 image N 第二段文字样本中展示的精确字体风格渲染。
+字形、字重和字间距完整复刻，不得替换为其他字体。
+[/品牌视觉资产参考]
+```
+
+---
+
+## NEBILITY 完整示例（浅色场景）
+
+```powershell
+$textsJson = @'
+[
+  {"font":"品牌规范/NEBILITY/原始素材/Figtree-ExtraBold.ttf","text":"Shape Your Style","size":100,"color":"#1a1a1a","label":"Hero Slogan","letter_spacing":4},
+  {"font":"品牌规范/NEBILITY/原始素材/figtree-bold.ttf","text":"TUMMY CONTROL SHAPEWEAR","size":72,"color":"#bf192e","label":"Product Callout","letter_spacing":5}
+]
+'@
+$textsFile = Join-Path $env:TEMP "NEBILITY-light-texts.json"
+[System.IO.File]::WriteAllText($textsFile, $textsJson, (New-Object System.Text.UTF8Encoding $false))
+
+python ".cursor/skills/rh-image-pro-img2img/scripts/brand_asset_sheet.py" `
+  --brand "NEBILITY" `
+  --logo "品牌规范/NEBILITY/原始素材/NEBILITY-LG-005-Logo-512w-BlackText-RedShape-20260331.png" `
+  --colors "#bf192e:Brand Red,#1a1a1a:Brand Black,#ffffff:White,#f5f5f5:Light Gray" `
+  --texts-file $textsFile `
+  --output "生成图片输出/brand_asset_sheets/NEBILITY-light-assets.png"
+```
+
+## NEBILITY 完整示例（深色场景）
+
+```powershell
+$textsJson = @'
+[
+  {"font":"品牌规范/NEBILITY/原始素材/Figtree-ExtraBold.ttf","text":"I'M YOUR HERO","size":110,"color":"#ffffff","bg":"#1a1a1a","label":"Dark Hero Slogan","letter_spacing":6},
+  {"font":"品牌规范/NEBILITY/原始素材/figtree-bold.ttf","text":"SHAPE YOUR STYLE","size":72,"color":"#bf192e","bg":"#1a1a1a","label":"Dark Scene Tagline","letter_spacing":4}
+]
+'@
+$textsFile = Join-Path $env:TEMP "NEBILITY-dark-texts.json"
+[System.IO.File]::WriteAllText($textsFile, $textsJson, (New-Object System.Text.UTF8Encoding $false))
+
+python ".cursor/skills/rh-image-pro-img2img/scripts/brand_asset_sheet.py" `
+  --brand "NEBILITY" `
+  --logo "品牌规范/NEBILITY/原始素材/NEBILITY-LG-005-Logo-512w-BlackText-RedShape-20260331.png" `
+  --logo-bg "#1a1a1a" `
+  --colors "#bf192e:Brand Red,#1a1a1a:Brand Black,#ffffff:White,#f5f5f5:Light Gray" `
+  --texts-file $textsFile `
+  --output "生成图片输出/brand_asset_sheets/NEBILITY-dark-assets.png"
+```
+
+---
+
+## 输出摘要格式（生图前必须输出）
+
+```
+【品牌资产合成图】
+━━━━━━━━━━━━━━━━━━━━━━━━━
+• 品牌：[品牌名]
+• 场景：[浅色场景 / 深色场景]
+• 合成图路径：生成图片输出/brand_asset_sheets/[文件名].png
+  → 传入编号：image N
+• Logo 区：[文件名]（[版本]）+ 底色 [HEX]
+• 色卡区：[颜色1 HEX:名称] / [颜色2 HEX:名称] / ...
+• 字体区：
+  - "[文字1]"（[字体文件]，[字号]px，[颜色]，[底色或白底]）
+  - "[文字2]"（[字体文件]，[字号]px，[颜色]，[底色或白底]）
+• 生成状态：✅ sections=[logo, colors, typography]
+━━━━━━━━━━━━━━━━━━━━━━━━━
+```
+
+---
+
+## ❌ 禁止行为
+
+- 将 Logo / 色卡 / 字体渲染图分成多张独立图分别传入 `--images`（浪费编号额度）
+- 画面需要 Logo 但仅在 Prompt 文字中描述，不传合成图（AI 会自由发明错误 Logo）
+- 将 TTF 字体文件直接作为 `--images` 参数（模型无法解析，必须先渲染成 PNG）
+- 白色文字未设置 `bg` 字段（白字在白底画布上完全不可见）
+- 深色背景任务但 Logo 区使用白色底板（在合成图中 Logo 虽可见，但向 AI 传达了错误的对比关系）
+- 传入合成图后在 Prompt 中仅写 `reference image N`，不分区域说明各自用途
+- **促销图/Banner/含文字生图任务中，以"这张图主要展示模特，Logo不是重点"为由跳过合成图步骤**（这是最常见的遗漏场景，只要 Prompt 含任何文字指令，就必须生成合成图）
+- **直接将单独的 Logo PNG 文件作为 `--images` 之一传入**，而不是先用 `brand_asset_sheet.py` 合成（Logo 单独传入时无色卡和字体约束信息，且占用独立编号槽位）
+
+## ✅ 正确行为
+
+- 检测到品牌 + 生图需要文字/Logo → 立即执行本规范生成合成图
+- Logo 区底色 `--logo-bg` 与画面背景色一致（浅色场景白底，深色场景深色底）
+- 字体区每段文字的 `bg` 与画面背景色一致（浅色文字加深底，深色文字不加底）
+- 合成图生成后在 Prompt 中用 `[BRAND ASSET REFERENCE]` 块分三节引用
+- 同一批次并发生图时，所有子任务共用同一张合成图（不重复生成）
+
+---
+
+## 与其他规则的关系
+
+| 规则 | 关系 |
+|------|------|
+| `brand-spec-loading` | 本规范是品牌规范加载协议的延伸，仅在品牌激活 + 生图同时触发时执行 |
+| `design-must-use-main-control` | 本规范在 ⑤.5 品牌视觉资产门执行，是 ⑥ 构造 Prompt 的前置步骤 |
+| `ref-image-must-include` | 品牌资产合成图（image 2）与参考库风格图（image 4+）并行，共享编号空间 |
+| `iterative-image-generation` | 迭代修正时合成图保持不变，不重新生成 |
+| `batch-image-concurrent` | 并发生图时共用同一张合成图，Prompt 各自含 `[BRAND ASSET REFERENCE]` 块 |
+| `image-logic-check` | Post-Gen 逻辑检查增加品牌一致性维度：Logo 形状/颜色/拼写是否与合成图一致 |

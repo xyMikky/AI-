@@ -1,0 +1,83 @@
+---
+description: 设计任务必须经过主控中心 V8.0 路由 + 业务 Skill 调度（不得直接调用生图工具或 Skill 跳过主控）
+alwaysApply: true
+---
+
+# 设计任务必须经过主控中心（V8.0 简化版）
+
+## 强制规则
+
+凡是用户发起**设计类任务**（设计海报/生成图片/制作 Banner/图片合成/风格转换/产品图/模特换装/视频/详情页等），**必须先读取 `主控中心.txt` V8.0 完成任务识别 + 业务 Skill 路由**，不得直接调用生图脚本或工具 Skill。
+
+## V8.0 标准流程
+
+```
+用户发起设计请求
+  ↓
+⓪ 视觉情境重建（Summary 恢复时强制）：对所有将使用的 --images 执行 Read，
+   核对视觉事实与 Summary 描述，发现不一致立即修正前序结论
+  ↓
+① 读取 主控中心.txt V8.0 → 输出【调控中心决策】
+   含主激活 Skill / 协同 Skill / 阶段执行规划
+  ↓
+② design-requirement-guide（除豁免外强制前置）
+   切换 Plan 模式 → AskQuestion Q&A 选项卡 → 用户确认 → 切回 Agent
+  ↓
+③ 品牌约束加载（如品牌激活，由 brand-spec-learner 沉淀的视觉系统提供）
+  ↓
+④ market-platform-analyzer（如有场景）→ 卡 A
+  ↓
+⑤ M2/M3/M5 Step 0 协同（如声明）
+   color-system-designer → 卡 D
+   typography-designer → 卡 E（先读卡 D）
+   print-poster-designer → 卡 F
+  ↓
+⑥ ai-image-prompt-builder（AI 静态生图唯一入口）
+   或 video-prompt-designer / detail-page-designer / 其他业务 Skill
+   ↓
+   含：参考精炼摘要 B（Vector-First 强制）/ 姿势设计 / 场景互动 /
+       人物库场景库优先 / 色卡门 / 版式分析门 / 品牌资产合成图
+  ↓
+⑦ ai-image-logic-checker Pre-Gen 12 项强制门
+  ↓
+⑧ rh-image-pro-img2img / txt2img 实际生图调用
+  ↓
+⑨ ai-image-logic-checker Post-Gen V1-V9 + Q1-Q5 评分
+  ↓
+⑩ ai-image-aesthetic-scorer 双轴评分 → 通过 / 迭代
+```
+
+## 关键阶段门
+
+- **⓪ 视觉情境重建门**：从 Summary 恢复会话时未对参考图执行 Read 不得进入 ①
+- **② 需求引导门**：豁免清单外不得跳过 design-requirement-guide
+- **⑤ 协同模块门**：声明的 M2/M3/M5 Step 0 必须按顺序输出对应交接卡
+- **⑦ Pre-Gen 门**：ai-image-logic-checker 12 项不通过不得进入 ⑧
+- **⑨ Post-Gen 门**：V1-V9 不通过需走迭代修正
+
+## 触发关键词（不限于）
+
+- "设计 / 帮我设计 / 做一个 / 生成 / 制作"
+- "海报 / Banner / 产品图 / 宣传图 / 封面 / 详情页 / 视频"
+- "换背景 / 换装 / 风格转换"
+
+## 豁免（直接跳过主控中心 ② 需求引导）
+
+1. 用户明确"跳过引导/直接开始/直接生成"
+2. 学习任务（reference-library-learner / brand-spec-learner）
+3. 系统维护（ai-persona-architect / logic-chain-diagnostic / skill-converter）
+4. 可视化任务（design-relation-visualizer）
+5. 同会话同任务的迭代修改
+
+## ❌ 禁止
+
+- 直接调用生图工具 Skill（rh-image-pro-img2img / txt2img）跳过 ai-image-prompt-builder
+- 直接调用 brand-asset-sheet / color-palette-generator 等工具 Skill 跳过业务 Skill 编排
+- 跳过 design-requirement-guide 直接进入业务 Skill（豁免清单外）
+- 跳过 ai-image-logic-checker Pre-Gen 直接调用生图 API
+
+## 详细参考
+
+- 主控中心 V8.0 五张矩阵 + 7 条调度规则：见 `主控中心.txt`
+- 各业务 Skill 内部流程：见对应 `.cursor/skills/[skill-name]/SKILL.md`
+- V7.9 时期长版本：见 `归档/v7.9/rules/design-must-use-main-control.mdc`（仅历史参考）

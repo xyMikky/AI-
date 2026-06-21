@@ -1,0 +1,46 @@
+---
+description: 设计需求引导强制前置——所有非学习/非维护/非诊断的设计任务必须先经过 design-requirement-guide Skill（V8.0 简化版）
+alwaysApply: true
+---
+
+# 设计需求引导强制前置（V8.0 简化版）
+
+## 核心规则
+
+**所有设计类任务**在被主控中心识别后，立即调度 `design-requirement-guide` Skill，进入 Plan 模式做需求引导。除豁免清单外，不得跳过本 Skill 直接进入业务 Skill。
+
+## 标准流程
+
+```
+用户请求 → 主控中心识别 → 路由调度 → design-requirement-guide
+                                          ↓
+                                   切换 Plan 模式
+                                          ↓
+                                   三档自适应：
+                                   ├─ Express（1 轮快速确认）
+                                   ├─ Standard（2-4 轮）
+                                   └─ Deep（5-8 轮）
+                                          ↓
+                                   AskQuestion Q&A 选项卡（强制）
+                                          ↓
+                                   用户确认 → 切回 Agent → 主控中心继续路由
+```
+
+## 豁免清单（命中任一则跳过引导）
+
+1. 学习任务：reference-library-learner / brand-spec-learner
+2. 系统维护：ai-persona-architect / logic-chain-diagnostic / skill-converter
+3. 可视化：design-relation-visualizer
+4. 同会话同任务的迭代修改
+5. 用户明确"跳过引导 / 直接开始 / 直接生成 / 不需要引导"
+
+## ❌ 禁止
+
+- 在 Agent 模式下执行需求引导（必须切换 Plan 模式）
+- Express 模式下完全不确认就开始执行（至少输出【快速需求确认】）
+- 仅用普通对话段落追问（必须用 AskQuestion 工具的 Q&A 选项卡）
+- Q&A 选项卡每道题不含"其他"兜底选项
+
+## 详细参考
+
+`design-requirement-guide` Skill 的 SKILL.md 含完整三档模板、Q&A 设计规范、深度选择判断表。

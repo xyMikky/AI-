@@ -1,0 +1,14 @@
+{
+  "target_issue": "26050",
+  "base_issue": "26049",
+  "charts": {
+    "trend_50": "trend-50.png",
+    "local_15": "local-trend-15.png"
+  },
+  "stats": "stats.txt",
+  "formats": [
+    "7+3",
+    "15+5"
+  ],
+  "status": "pending"
+}

@@ -1,0 +1,526 @@
+{
+  "run_id": "l2-100-single",
+  "created_at": "2026-06-19T04:57:02.886409+00:00",
+  "mode": "visual",
+  "periods_count": 100,
+  "issue_range": [
+    "25118",
+    "26067"
+  ],
+  "formats": {
+    "7+3": {
+      "front": 7,
+      "back": 3
+    },
+    "15+5": {
+      "front": 15,
+      "back": 5
+    }
+  },
+  "periods": [
+    {
+      "target_issue": "25118",
+      "base_issue": "25117",
+      "dir": "periods/25118"
+    },
+    {
+      "target_issue": "25119",
+      "base_issue": "25118",
+      "dir": "periods/25119"
+    },
+    {
+      "target_issue": "25120",
+      "base_issue": "25119",
+      "dir": "periods/25120"
+    },
+    {
+      "target_issue": "25121",
+      "base_issue": "25120",
+      "dir": "periods/25121"
+    },
+    {
+      "target_issue": "25122",
+      "base_issue": "25121",
+      "dir": "periods/25122"
+    },
+    {
+      "target_issue": "25123",
+      "base_issue": "25122",
+      "dir": "periods/25123"
+    },
+    {
+      "target_issue": "25124",
+      "base_issue": "25123",
+      "dir": "periods/25124"
+    },
+    {
+      "target_issue": "25125",
+      "base_issue": "25124",
+      "dir": "periods/25125"
+    },
+    {
+      "target_issue": "25126",
+      "base_issue": "25125",
+      "dir": "periods/25126"
+    },
+    {
+      "target_issue": "25127",
+      "base_issue": "25126",
+      "dir": "periods/25127"
+    },
+    {
+      "target_issue": "25128",
+      "base_issue": "25127",
+      "dir": "periods/25128"
+    },
+    {
+      "target_issue": "25129",
+      "base_issue": "25128",
+      "dir": "periods/25129"
+    },
+    {
+      "target_issue": "25130",
+      "base_issue": "25129",
+      "dir": "periods/25130"
+    },
+    {
+      "target_issue": "25131",
+      "base_issue": "25130",
+      "dir": "periods/25131"
+    },
+    {
+      "target_issue": "25132",
+      "base_issue": "25131",
+      "dir": "periods/25132"
+    },
+    {
+      "target_issue": "25133",
+      "base_issue": "25132",
+      "dir": "periods/25133"
+    },
+    {
+      "target_issue": "25134",
+      "base_issue": "25133",
+      "dir": "periods/25134"
+    },
+    {
+      "target_issue": "25135",
+      "base_issue": "25134",
+      "dir": "periods/25135"
+    },
+    {
+      "target_issue": "25136",
+      "base_issue": "25135",
+      "dir": "periods/25136"
+    },
+    {
+      "target_issue": "25137",
+      "base_issue": "25136",
+      "dir": "periods/25137"
+    },
+    {
+      "target_issue": "25138",
+      "base_issue": "25137",
+      "dir": "periods/25138"
+    },
+    {
+      "target_issue": "25139",
+      "base_issue": "25138",
+      "dir": "periods/25139"
+    },
+    {
+      "target_issue": "25140",
+      "base_issue": "25139",
+      "dir": "periods/25140"
+    },
+    {
+      "target_issue": "25141",
+      "base_issue": "25140",
+      "dir": "periods/25141"
+    },
+    {
+      "target_issue": "25142",
+      "base_issue": "25141",
+      "dir": "periods/25142"
+    },
+    {
+      "target_issue": "25143",
+      "base_issue": "25142",
+      "dir": "periods/25143"
+    },
+    {
+      "target_issue": "25144",
+      "base_issue": "25143",
+      "dir": "periods/25144"
+    },
+    {
+      "target_issue": "25145",
+      "base_issue": "25144",
+      "dir": "periods/25145"
+    },
+    {
+      "target_issue": "25146",
+      "base_issue": "25145",
+      "dir": "periods/25146"
+    },
+    {
+      "target_issue": "25147",
+      "base_issue": "25146",
+      "dir": "periods/25147"
+    },
+    {
+      "target_issue": "25148",
+      "base_issue": "25147",
+      "dir": "periods/25148"
+    },
+    {
+      "target_issue": "25149",
+      "base_issue": "25148",
+      "dir": "periods/25149"
+    },
+    {
+      "target_issue": "25150",
+      "base_issue": "25149",
+      "dir": "periods/25150"
+    },
+    {
+      "target_issue": "26001",
+      "base_issue": "25150",
+      "dir": "periods/26001"
+    },
+    {
+      "target_issue": "26002",
+      "base_issue": "26001",
+      "dir": "periods/26002"
+    },
+    {
+      "target_issue": "26003",
+      "base_issue": "26002",
+      "dir": "periods/26003"
+    },
+    {
+      "target_issue": "26004",
+      "base_issue": "26003",
+      "dir": "periods/26004"
+    },
+    {
+      "target_issue": "26005",
+      "base_issue": "26004",
+      "dir": "periods/26005"
+    },
+    {
+      "target_issue": "26006",
+      "base_issue": "26005",
+      "dir": "periods/26006"
+    },
+    {
+      "target_issue": "26007",
+      "base_issue": "26006",
+      "dir": "periods/26007"
+    },
+    {
+      "target_issue": "26008",
+      "base_issue": "26007",
+      "dir": "periods/26008"
+    },
+    {
+      "target_issue": "26009",
+      "base_issue": "26008",
+      "dir": "periods/26009"
+    },
+    {
+      "target_issue": "26010",
+      "base_issue": "26009",
+      "dir": "periods/26010"
+    },
+    {
+      "target_issue": "26011",
+      "base_issue": "26010",
+      "dir": "periods/26011"
+    },
+    {
+      "target_issue": "26012",
+      "base_issue": "26011",
+      "dir": "periods/26012"
+    },
+    {
+      "target_issue": "26013",
+      "base_issue": "26012",
+      "dir": "periods/26013"
+    },
+    {
+      "target_issue": "26014",
+      "base_issue": "26013",
+      "dir": "periods/26014"
+    },
+    {
+      "target_issue": "26015",
+      "base_issue": "26014",
+      "dir": "periods/26015"
+    },
+    {
+      "target_issue": "26016",
+      "base_issue": "26015",
+      "dir": "periods/26016"
+    },
+    {
+      "target_issue": "26017",
+      "base_issue": "26016",
+      "dir": "periods/26017"
+    },
+    {
+      "target_issue": "26018",
+      "base_issue": "26017",
+      "dir": "periods/26018"
+    },
+    {
+      "target_issue": "26019",
+      "base_issue": "26018",
+      "dir": "periods/26019"
+    },
+    {
+      "target_issue": "26020",
+      "base_issue": "26019",
+      "dir": "periods/26020"
+    },
+    {
+      "target_issue": "26021",
+      "base_issue": "26020",
+      "dir": "periods/26021"
+    },
+    {
+      "target_issue": "26022",
+      "base_issue": "26021",
+      "dir": "periods/26022"
+    },
+    {
+      "target_issue": "26023",
+      "base_issue": "26022",
+      "dir": "periods/26023"
+    },
+    {
+      "target_issue": "26024",
+      "base_issue": "26023",
+      "dir": "periods/26024"
+    },
+    {
+      "target_issue": "26025",
+      "base_issue": "26024",
+      "dir": "periods/26025"
+    },
+    {
+      "target_issue": "26026",
+      "base_issue": "26025",
+      "dir": "periods/26026"
+    },
+    {
+      "target_issue": "26027",
+      "base_issue": "26026",
+      "dir": "periods/26027"
+    },
+    {
+      "target_issue": "26028",
+      "base_issue": "26027",
+      "dir": "periods/26028"
+    },
+    {
+      "target_issue": "26029",
+      "base_issue": "26028",
+      "dir": "periods/26029"
+    },
+    {
+      "target_issue": "26030",
+      "base_issue": "26029",
+      "dir": "periods/26030"
+    },
+    {
+      "target_issue": "26031",
+      "base_issue": "26030",
+      "dir": "periods/26031"
+    },
+    {
+      "target_issue": "26032",
+      "base_issue": "26031",
+      "dir": "periods/26032"
+    },
+    {
+      "target_issue": "26033",
+      "base_issue": "26032",
+      "dir": "periods/26033"
+    },
+    {
+      "target_issue": "26034",
+      "base_issue": "26033",
+      "dir": "periods/26034"
+    },
+    {
+      "target_issue": "26035",
+      "base_issue": "26034",
+      "dir": "periods/26035"
+    },
+    {
+      "target_issue": "26036",
+      "base_issue": "26035",
+      "dir": "periods/26036"
+    },
+    {
+      "target_issue": "26037",
+      "base_issue": "26036",
+      "dir": "periods/26037"
+    },
+    {
+      "target_issue": "26038",
+      "base_issue": "26037",
+      "dir": "periods/26038"
+    },
+    {
+      "target_issue": "26039",
+      "base_issue": "26038",
+      "dir": "periods/26039"
+    },
+    {
+      "target_issue": "26040",
+      "base_issue": "26039",
+      "dir": "periods/26040"
+    },
+    {
+      "target_issue": "26041",
+      "base_issue": "26040",
+      "dir": "periods/26041"
+    },
+    {
+      "target_issue": "26042",
+      "base_issue": "26041",
+      "dir": "periods/26042"
+    },
+    {
+      "target_issue": "26043",
+      "base_issue": "26042",
+      "dir": "periods/26043"
+    },
+    {
+      "target_issue": "26044",
+      "base_issue": "26043",
+      "dir": "periods/26044"
+    },
+    {
+      "target_issue": "26045",
+      "base_issue": "26044",
+      "dir": "periods/26045"
+    },
+    {
+      "target_issue": "26046",
+      "base_issue": "26045",
+      "dir": "periods/26046"
+    },
+    {
+      "target_issue": "26047",
+      "base_issue": "26046",
+      "dir": "periods/26047"
+    },
+    {
+      "target_issue": "26048",
+      "base_issue": "26047",
+      "dir": "periods/26048"
+    },
+    {
+      "target_issue": "26049",
+      "base_issue": "26048",
+      "dir": "periods/26049"
+    },
+    {
+      "target_issue": "26050",
+      "base_issue": "26049",
+      "dir": "periods/26050"
+    },
+    {
+      "target_issue": "26051",
+      "base_issue": "26050",
+      "dir": "periods/26051"
+    },
+    {
+      "target_issue": "26052",
+      "base_issue": "26051",
+      "dir": "periods/26052"
+    },
+    {
+      "target_issue": "26053",
+      "base_issue": "26052",
+      "dir": "periods/26053"
+    },
+    {
+      "target_issue": "26054",
+      "base_issue": "26053",
+      "dir": "periods/26054"
+    },
+    {
+      "target_issue": "26055",
+      "base_issue": "26054",
+      "dir": "periods/26055"
+    },
+    {
+      "target_issue": "26056",
+      "base_issue": "26055",
+      "dir": "periods/26056"
+    },
+    {
+      "target_issue": "26057",
+      "base_issue": "26056",
+      "dir": "periods/26057"
+    },
+    {
+      "target_issue": "26058",
+      "base_issue": "26057",
+      "dir": "periods/26058"
+    },
+    {
+      "target_issue": "26059",
+      "base_issue": "26058",
+      "dir": "periods/26059"
+    },
+    {
+      "target_issue": "26060",
+      "base_issue": "26059",
+      "dir": "periods/26060"
+    },
+    {
+      "target_issue": "26061",
+      "base_issue": "26060",
+      "dir": "periods/26061"
+    },
+    {
+      "target_issue": "26062",
+      "base_issue": "26061",
+      "dir": "periods/26062"
+    },
+    {
+      "target_issue": "26063",
+      "base_issue": "26062",
+      "dir": "periods/26063"
+    },
+    {
+      "target_issue": "26064",
+      "base_issue": "26063",
+      "dir": "periods/26064"
+    },
+    {
+      "target_issue": "26065",
+      "base_issue": "26064",
+      "dir": "periods/26065"
+    },
+    {
+      "target_issue": "26066",
+      "base_issue": "26065",
+      "dir": "periods/26066"
+    },
+    {
+      "target_issue": "26067",
+      "base_issue": "26066",
+      "dir": "periods/26067"
+    }
+  ],
+  "instructions": {
+    "subagent": "readonly；只读 periods/<issue>/ 内文件；禁止读 answers_sealed.json",
+    "parent": "派子 agent 后调用 record；全部完成后 score"
+  }
+}

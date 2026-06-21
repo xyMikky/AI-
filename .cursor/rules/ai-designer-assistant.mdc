@@ -1,0 +1,183 @@
+---
+description: AI 工作助手（Design Agent Hub）V9.0 全局规则——默认中文输出、中文路径技术约束、Skill 触发词路由速查、个人中心+品牌规范双上下文、关键文件路径速查
+alwaysApply: true
+---
+
+# AI 工作助手项目规则（V9.0 · 原 AI 设计师助手）
+
+> **V9.0 定位**：全公司各部门、各岗位、每个人的可成长辅助助手。设计 / 生图 / 品牌能力完整保留；新增**个人中心**（档案 + 工作日志）作为常驻上下文层。
+
+## 项目根路径
+
+工作区根目录即为项目根路径（通过 `$PWD` 或工作区上下文获取），不使用硬编码绝对路径。
+
+## ⚡ 默认输出语言规范（全局最高优先级）
+
+用户是中文使用者。所有给用户看的内容、所有喂给生图模型的 Prompt，**默认用中文输出**。
+
+### 默认中文范围
+
+| 产物 | 语言 |
+|---|---|
+| 生图 Prompt 主体（`--prompt` 参数） | **中文** |
+| Pre-Gen / Post-Gen 报告、参考精炼摘要、配色/排版/构图决策卡 D/E/F | **全中文** |
+| 新入库的 P 域 `prompt.txt` 与 `meta.txt` | **中文** |
+| 面向用户的说明、追问、解释 | **中文** |
+
+### 必须保留原样的"技术锚点"
+
+| 类别 | 保留原样 |
+|---|---|
+| 参考图编号 | `image 1` / `image 2` / `image N` |
+| HEX 色号 | `#bf192e` / `#e8e4dd` |
+| API 参数 | `--aspect-ratio 3:4` / `--resolution 2k` |
+| 文件路径 | `参考库/人物库/欧美_白皙/XXX.png` |
+| 品牌名 / Logo 文字 | `NEBILITY` / `Popilush` |
+| 色彩硬约束词 | `BACKGROUND ONLY` / `PRODUCT ONLY` / `DECORATIVE ELEMENTS ONLY` / `TEXT ONLY` |
+| 摄影/视觉英文术语 | 中文翻译 + 英文括注，如 `低角度仰拍 (low-angle shot)` |
+
+### 例外
+
+- 可灵视频提示词遵循 `video-prompt-designer` Skill 内的"中文场景 + 英文台词"规则
+- 用户明确要求英文 → 切换英文
+- 复用 P 域存量英文案例 → 在【P 域复用摘要】展示英文骨架 + 实际提交中文
+
+## ⚠️ 中文路径技术约束
+
+工作区路径含中文（`AI设计师助手`），PowerShell `Get-ChildItem` 因编码问题可能返回空。
+**所有文件列举必须用 .NET IO 方法**：
+
+```powershell
+$root = $PWD.Path
+$src = Join-Path $root "参考库\00_待学习"
+[System.IO.Directory]::GetFiles($src)  # 列文件
+
+[System.IO.File]::Copy($source, $target, $true)  # 复制文件
+
+# ❌ 禁用
+# Get-ChildItem "含中文路径"
+```
+
+## V9.0 Skill 路由速查（业务层 20 + 工具层 9）
+
+### 个人中心 Skill（V9.0 新增）
+
+| 触发词 | Skill | 备注 |
+|---|---|---|
+| 初始化个人档案 / 更新我的信息 / 个人偏好 / 设置岗位 | `profile-spec-learner` | 镜像 brand-spec-learner |
+| 记录工作日志 / 归档日志 / 工作摘要 / 导入历史日志 | `work-log-manager` | 工作状态 + 待办感知 |
+| 我的待办 / 当前工作状态 | （只读）| 读取 `工作日志/工作摘要.txt` |
+
+## V8.0 设计 Skill 路由速查（业务层 18 + 工具层 9）
+
+### 业务层 Skill（按触发词路由）
+
+| 触发词 | Skill | 备注 |
+|---|---|---|
+| logo / 品牌 / VI / 视觉识别 / 商标 | `brand-logo-designer` | 从零创建 |
+| 配色 / 色彩 / 色板 / 色卡 / 调色板 | `color-system-designer` | 双模式 |
+| 字体 / 排版 / 字号 / 字重 | `typography-designer` | 双模式 |
+| APP / 界面 / 交互 / 原型 / 组件 | `ui-ux-designer` | UI/UX |
+| 印刷海报 / 折页 / 展架 / 易拉宝 / 名片 | `print-poster-designer` | 双模式（独立=印刷物料）|
+| 评审 / 改稿 / Figma 评审 / 印前 | `non-ai-design-reviewer` | 仅非 AI 稿 |
+| 提案 / 汇报 / PPT / 说服客户 | `design-proposal-writer` | — |
+| 生成 / 生图 / 海报 / Banner / 主图 / 模特图 / 换背景 / 换装 | `ai-image-prompt-builder` | AI 静态生图唯一入口 |
+| 评估这张图 / 审美评分 / 和我风格匹配吗 | `ai-image-aesthetic-scorer` | 仅 AI 生图结果 |
+| 开始学习 / 继续学习 / 处理待学习 | `reference-library-learner` | 参考库素材 |
+| 场景分析 / 目标市场 / 平台规范 / 受众 | `market-platform-analyzer` | — |
+| 可视化 / 关系图谱 / 知识图谱 / 设计地图 | `design-relation-visualizer` | HTML 图谱 |
+| 不知道怎么开始 / 帮我想想 / 需求不清楚 | `design-requirement-guide` | 自动激活 |
+| 视频 / 分镜 / 口播 / 可灵 / Kling / TikTok | `video-prompt-designer` | 视频专属 |
+| 详情页 / listing / A+ / 宝贝详情 | `detail-page-designer` | — |
+| 学习品牌 / 初始化品牌 / 创建品牌 | `brand-spec-learner` | 品牌素材 |
+| 检查系统 / 诊断链路 / 系统巡检 | `logic-chain-diagnostic` | 12 维诊断 |
+
+### 工具层 Skill（被业务 Skill 调用）
+
+| Skill | 调用方 |
+|---|---|
+| `rh-image-pro-img2img` / `rh-image-pro-txt2img` | ai-image-prompt-builder, detail-page-designer |
+| `nano-banana-prompt-guide` | ai-image-prompt-builder, video-prompt-designer |
+| `layout-reference-analyzer` | detail-page-designer, ai-image-prompt-builder |
+| `brand-asset-sheet` | ai-image-prompt-builder, detail-page-designer |
+| `color-palette-generator` | ai-image-prompt-builder, color-system-designer |
+| `ai-persona-architect` / `skill-converter` | 用户直接触发 |
+
+## 关键文件路径速查
+
+| 文件 | 路径 |
+|---|---|
+| 主控中心 V9.0 | `主控中心.txt` |
+| 个人中心主控 | `个人中心/个人中心主控.txt` |
+| 个人目录模板 | `个人中心/_个人目录模板/` |
+| 默认使用者档案 | `个人中心/默认用户/个人档案.txt` |
+| 工作摘要 | `个人中心/默认用户/工作日志/工作摘要.txt` |
+| 参考总索引 | `参考库/参考索引.txt` |
+| P 域索引（成功案例库）| `参考库/P_生图成功案例库/P_域索引.txt` |
+| X 域索引（失败案例库）| `参考库/X_生图失败案例库/X_域索引.txt` |
+| 通识原则索引 | `参考库/00_通识原则/通识原则索引.txt` |
+| 设计 DNA 档案 | `参考库/00_通识原则/设计DNA档案.txt` |
+| 品牌规范主控 | `品牌规范/品牌规范主控.txt` |
+| 品牌目录模板 | `品牌规范/_品牌目录模板/` |
+| 参考库主控助手 | `参考库/参考库主控助手.txt` |
+| 场景知识库主控 | `场景知识库/场景知识库主控.txt` |
+| V7.9 归档 | `归档/v7.9/` |
+
+## 数据闭环触发词
+
+| 用户语义 | 触发规则 |
+|---|---|
+| "保存这次生成" / "存入案例库" / "P 域入库" | `.cursor/rules/p-domain-save.mdc` 三轨执行 |
+| "这个翻车了" / "存入失败案例" / "X 域入库" | `.cursor/rules/x-domain-save.mdc` 三轨执行 |
+| "学习这张图"（参考素材）| `reference-library-learner` 单图模式 |
+| "初始化个人档案" / "更新我的信息" | `profile-spec-learner` |
+| "记录工作日志" / "归档日志" | `work-log-manager` |
+
+## 生图工具选择
+
+| 场景 | 工具 |
+|---|---|
+| 有参考图（编辑/转换/合成/换背景/换装）| `rh-image-pro-img2img` |
+| 无参考图 / 纯创意生成 | `rh-image-pro-txt2img` |
+| 用户明确"不参考图片/纯文字生成" | `rh-image-pro-txt2img` |
+| 迭代精修（已有上一轮结果）| `rh-image-pro-img2img` |
+
+## 生图默认参数
+
+| 参数 | 默认值 | 覆盖条件 |
+|---|---|---|
+| `--resolution` | `2k` | 用户明确"4k"升级 |
+| `--aspect-ratio` | `3:4`（图生图）/ `9:16`（文生图）| 用户指定覆盖 |
+| `--quality` | `medium`（GPT-image 2 文生图）| 用户明确指定 `low` / `high` |
+
+## V8.0 与 V7.9 兼容映射
+
+旧 @M 编号 → 新 Skill 名（用户用旧编号时系统内部映射）：
+
+| 旧 | 新 |
+|---|---|
+| @M1 | brand-logo-designer |
+| @M2 | color-system-designer |
+| @M3 | typography-designer |
+| @M4 | ui-ux-designer |
+| @M5 | print-poster-designer |
+| @M6 | non-ai-design-reviewer |
+| @M7 | design-proposal-writer |
+| @M8 | ai-image-prompt-builder |
+| @M9 | ai-image-aesthetic-scorer |
+| @M10 | reference-library-learner |
+| @M11 | market-platform-analyzer |
+| @M12 | design-relation-visualizer |
+| @M13 | design-requirement-guide |
+| @M14 | video-prompt-designer |
+| @M15 | detail-page-designer |
+| @M16 | ai-image-logic-checker |
+| @M17 | brand-spec-learner |
+| @M18 | logic-chain-diagnostic |
+| @M19 | profile-spec-learner |
+| @M20 | work-log-manager |
+
+## 详细参考
+
+- V7.9 时期完整规则：`归档/v7.9/rules/ai-designer-assistant.mdc`
+- 各 Skill 内部流程：`.cursor/skills/[skill-name]/SKILL.md`

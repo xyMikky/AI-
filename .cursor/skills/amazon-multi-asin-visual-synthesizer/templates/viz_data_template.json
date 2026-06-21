@@ -1,0 +1,66 @@
+{
+  "_说明": "本文件是「数据契约」模板兼可运行样例。上游 Agent 从各 ASIN 的 visual.json / metadata.json / 评论聚合中抽取后，按本结构填写一份 viz_data.json，再交给 scripts/build_viz_dashboard.py 渲染。下方为「车载磁吸手机支架 · 6 竞品」真实样例数据，可直接跑通。",
+
+  "title": "多 ASIN 综合分析 · 非常规可视化沉淀",
+  "category": "车载磁吸手机支架",
+
+  "dim_names": ["视觉一致性", "信息层级", "图文契合度", "连贯叙事效率", "品牌沉淀", "预期管理"],
+
+  "pains": ["吸盘脱落/粘不住", "表面适配限制", "手机掉落/磁力不足", "尺寸/角度/视线遮挡", "耐用/断裂/高温", "不值/退货/预期不符"],
+
+  "pos_kw": ["吸力强/固定稳", "磁吸稳定/MagSafe", "安装简便/使用方便", "角度调节/折叠便携", "做工/质感认可"],
+
+  "p_label": ["好评·吸力", "好评·磁吸", "好评·安装", "好评·角度/折叠", "好评·做工"],
+  "c_label": ["差评·吸盘脱落", "差评·表面适配", "差评·掉落磁力", "差评·尺寸遮挡", "差评·耐用", "差评·退货"],
+
+  "_competitors_说明": "tier 可选：'detail'(默认)=完整三件套，进图1-4+Kano+图5+卡片；'rough'=简析层(仅元数据+评论)，dims/total 可省略，只进图5(价格-口碑性价比矩阵)与顶部卡片。price=USD 数值(图5 X 轴)，详细层也应补上。traffic_mix{nat,sp,sb,sbv,rec}(曝光占比 0-1，来自 SIF asinSummary)驱动图6 流量入口结构；kw_arch{organic_share,paid_share,nf_count,ad_count,total_kw,top_kw_sv}(来自 SIF asinKeywords/asinSummary)驱动图7 关键词架构矩阵；二者仅详细层、可选。basics{...}=「竞品基础数据对比」表格的逐家数据(可选，detail/rough 都可填)：通用键 deal_price/list_price/discount_pct/monthly_sales/launch_date/color_variants/size_variants(星级/评价数/BSR/现价缺失时回退顶层 star/rc/bsr/price)，外加品类专属键(吸力/磁力/旋转/兼容…由顶层 basics_rows 声明标签与顺序)。值缺失填 '—' 或省略，表格自动显示破折号；整行所有竞品都缺则不渲染该行。",
+    "competitors": [
+    {"name": "ANDERY",   "asin": "B0DN1S1YLV", "tier": "detail", "star": 4.4, "rc": 21345, "bsr": 1,  "price": 25.58, "total": 3.2, "dims": [4.0,3.5,3.5,3.5,3.5,2.0], "sample": 495, "crit": [57,45,13,9,57,26], "pos_matrix": [17,29,21,20,39], "traffic_mix": {"nat": 0.80, "sp": 0.12, "sb": 0.0, "sbv": 0.03, "rec": 0.09}, "kw_arch": {"organic_share": 0.80, "paid_share": 0.15, "nf_count": 2040, "ad_count": 1100, "total_kw": 5707, "top_kw_sv": 117793}, "basics": {"deal_price": 25.58, "list_price": 35.99, "discount_pct": 29, "monthly_sales": "—", "launch_date": "—", "color_variants": 2, "size_variants": 0, "suction_power": "78 LBS", "magnetic_force": "2400 gf · 22×N55", "rotation": "360° 双轴", "weight_capacity": "75 lbs", "compatibility": "MagSafe · iPhone 17-12", "item_weight": "145 g", "warranty": "1 年"}},
+    {"name": "REOKILY",  "asin": "B0DRPCD2GZ", "tier": "detail", "star": 4.3, "rc": 3690,  "bsr": 12, "price": 23.98, "total": 3.0, "dims": [3.5,3.5,3.0,3.5,2.0,2.5], "sample": 460, "crit": [66,39,13,5,34,26], "pos_matrix": [10,22,29,27,46], "traffic_mix": {"nat": 0.62, "sp": 0.25, "sb": 0.02, "sbv": 0.05, "rec": 0.06}, "kw_arch": {"organic_share": 0.62, "paid_share": 0.32, "nf_count": 980, "ad_count": 1450, "total_kw": 3120, "top_kw_sv": 117793}, "basics": {"deal_price": 23.98, "list_price": 29.99, "discount_pct": 20, "monthly_sales": "—", "launch_date": "—", "color_variants": 3, "size_variants": 0, "suction_power": "96 LBS", "magnetic_force": "1500 gf", "rotation": "360°", "weight_capacity": "—", "compatibility": "MagSafe", "item_weight": "—", "warranty": "—"}},
+    {"name": "Jononser", "asin": "B0DSQ5DKFF", "tier": "detail", "star": 4.2, "rc": 3400,  "bsr": 11, "price": 23.99, "total": 3.2, "dims": [3.5,4.0,4.0,4.0,2.5,2.0], "sample": 360, "crit": [64,34,13,3,26,22], "pos_matrix": [6,19,22,19,44], "traffic_mix": {"nat": 0.55, "sp": 0.30, "sb": 0.03, "sbv": 0.06, "rec": 0.06}, "kw_arch": {"organic_share": 0.55, "paid_share": 0.38, "nf_count": 760, "ad_count": 1600, "total_kw": 2680, "top_kw_sv": 117793}},
+    {"name": "VICSEED",  "asin": "B0FNCGJK2W", "tier": "detail", "star": 4.4, "rc": 2862,  "bsr": 55, "price": 29.97, "total": 3.3, "dims": [4.0,3.0,4.0,3.5,3.0,2.5], "sample": 148, "crit": [11,12,1,3,4,5],    "pos_matrix": [9,18,16,8,27], "traffic_mix": {"nat": 0.70, "sp": 0.18, "sb": 0.02, "sbv": 0.04, "rec": 0.06}, "kw_arch": {"organic_share": 0.70, "paid_share": 0.24, "nf_count": 1320, "ad_count": 900, "total_kw": 3800, "top_kw_sv": 117793}},
+    {"name": "snanlen",  "asin": "B0F48C858F", "tier": "detail", "star": 4.4, "rc": 1903,  "bsr": 85, "price": 23.98, "total": 3.0, "dims": [4.0,3.5,3.5,3.5,2.0,2.0], "sample": 295, "crit": [42,32,6,6,16,22],  "pos_matrix": [7,17,11,11,19], "traffic_mix": {"nat": 0.58, "sp": 0.28, "sb": 0.02, "sbv": 0.06, "rec": 0.06}, "kw_arch": {"organic_share": 0.58, "paid_share": 0.36, "nf_count": 820, "ad_count": 1380, "total_kw": 2900, "top_kw_sv": 117793}},
+    {"name": "CARMOUNT", "asin": "B0FB9BYGSJ", "tier": "detail", "star": 4.2, "rc": 623,   "bsr": 38, "price": 39.99, "total": 3.1, "dims": [4.0,3.0,3.5,3.5,3.0,2.0], "sample": 224, "crit": [35,24,2,4,16,18],  "pos_matrix": [4,9,15,10,17], "traffic_mix": {"nat": 0.48, "sp": 0.35, "sb": 0.04, "sbv": 0.07, "rec": 0.06}, "kw_arch": {"organic_share": 0.48, "paid_share": 0.46, "nf_count": 540, "ad_count": 1720, "total_kw": 2100, "top_kw_sv": 95000}},
+
+    {"name": "TORRAS",   "asin": "B0FXMFZQPC", "tier": "rough", "star": 4.5, "rc": 308,  "bsr": 30, "price": 28.99, "sample": 131, "crit": [12,3,2,2,3,4],  "pos_matrix": [9,20,8,6,11], "basics": {"deal_price": 28.99, "list_price": 28.99, "discount_pct": 0, "color_variants": 1, "suction_power": "—", "magnetic_force": "N52", "rotation": "360°", "compatibility": "MagSafe"}},
+    {"name": "Ktryman",  "asin": "B0G1RGRD51", "tier": "rough", "star": 4.0, "rc": 300,  "bsr": 60, "price": 6.99,  "sample": 155, "crit": [14,2,5,3,4,9],  "pos_matrix": [5,9,6,4,7]},
+    {"name": "BOSILLEY", "asin": "B0GGBJLQPR", "tier": "rough", "star": 4.5, "rc": 175,  "bsr": 45, "price": 19.99, "sample": 110, "crit": [2,1,1,1,1,2],   "pos_matrix": [6,10,9,9,8]},
+    {"name": "MRGLAS",   "asin": "B0DSL9YPK1", "tier": "rough", "star": 4.3, "rc": 3045, "bsr": 20, "price": 26.99, "sample": 320, "crit": [61,8,10,9,32,30], "pos_matrix": [12,21,14,8,16]}
+  ],
+
+  "common_sells": ["强吸力 / 真空锁定", "MagSafe 磁吸", "360° 调节", "折叠便携 / 多场景"],
+  "gap_nodes": ["表面适配·前置筛选", "防掉落 / 承重保障", "充电支持说明", "大手机 / 尺寸适配", "品牌视觉锤"],
+  "hub_name": "本品机会切入",
+
+  "kano_band_labels": {"1": "基本型 Must-be", "2": "期望型 One-dim", "3": "兴奋型 Attractive"},
+  "_kano_def_说明": "band: 1=基本型/2=期望型/3=兴奋型；hit=命中竞品家数（决定气泡大小）；comps=信号构成 [类型,关键词下标,权重]，类型 c=差评(指向 pains/c_label)，p=好评(指向 pos_kw/p_label)。Y 轴信号强度=Σ(对应关键词全行业提及量×权重) 归一到 1.5–9.5。",
+  "kano_def": [
+    {"band": 1, "name": "吸盘吸附稳固·不脱落",   "hit": 6, "comps": [["c", 0, 1]]},
+    {"band": 1, "name": "仪表台/曲面表面适配",     "hit": 6, "comps": [["c", 1, 1]]},
+    {"band": 1, "name": "耐用·不断裂·耐高温",      "hit": 6, "comps": [["c", 4, 1]]},
+    {"band": 1, "name": "真实承重·大手机不掉",      "hit": 5, "comps": [["c", 2, 1]]},
+    {"band": 2, "name": "磁吸强度 / MagSafe 稳定", "hit": 6, "comps": [["p", 1, 1], ["c", 2, 1]]},
+    {"band": 2, "name": "吸力强度 (真空)",          "hit": 6, "comps": [["p", 0, 1], ["c", 0, 1]]},
+    {"band": 2, "name": "安装简便快速",            "hit": 6, "comps": [["p", 2, 1]]},
+    {"band": 2, "name": "角度 / 360° 调节",        "hit": 6, "comps": [["p", 3, 0.5], ["c", 3, 1]]},
+    {"band": 3, "name": "折叠便携 / 口袋尺寸",      "hit": 5, "comps": [["p", 3, 0.5]]},
+    {"band": 3, "name": "做工 / 质感高级感",        "hit": 6, "comps": [["p", 4, 1]]},
+    {"band": 3, "name": "多场景通用(窗/台/桌)",     "hit": 4, "comps": []}
+  ],
+
+  "_basics_rows_说明": "可选；声明「竞品基础数据对比」表格中『品类专属属性行』的 key 与显示标签及顺序（key 对应 competitors[].basics 里的键）。通用商业行(星级/评价数/BSR/现价/原价/折扣/月销/上架/颜色/尺寸变体)由脚本内置、无需声明。整行所有竞品都无值则自动跳过。",
+  "basics_rows": [
+    {"key": "suction_power",   "label": "吸力"},
+    {"key": "magnetic_force",  "label": "磁力"},
+    {"key": "rotation",        "label": "旋转/调节"},
+    {"key": "weight_capacity", "label": "承重"},
+    {"key": "compatibility",   "label": "兼容机型"},
+    {"key": "item_weight",     "label": "自重"},
+    {"key": "warranty",        "label": "质保"}
+  ],
+
+  "palette": ["#e8553b", "#f0a539", "#3fa372", "#3b82c4", "#8b5cf6", "#d6457f"],
+
+  "_summary_cards_说明": "可选；不填则脚本自动派生（竞品数/龙头/口碑带/共同盲区）。填则按 [图标,标签,值] 顺序覆盖。",
+  "summary_cards": []
+}

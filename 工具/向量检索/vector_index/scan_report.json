@@ -1,0 +1,88 @@
+{
+  "summary": {
+    "total_files": 37,
+    "skipped_files": 1,
+    "total_chunks": 173,
+    "total_chars": 95285,
+    "total_tokens": 78220,
+    "quality_ok": 173,
+    "quality_short": 0,
+    "quality_long": 0,
+    "quality_rate": 100.0
+  },
+  "domains": {
+    "根目录": {
+      "domain": "根目录",
+      "file_count": 4,
+      "chunk_count": 3,
+      "skipped_files": 1,
+      "total_chars": 5093,
+      "total_tokens": 4314,
+      "quality_short": 0,
+      "quality_ok": 3,
+      "quality_long": 0,
+      "by_type": {
+        "INDEX": 3
+      }
+    },
+    "00_通识原则": {
+      "domain": "00_通识原则",
+      "file_count": 9,
+      "chunk_count": 110,
+      "skipped_files": 0,
+      "total_chars": 52142,
+      "total_tokens": 43016,
+      "quality_short": 0,
+      "quality_ok": 110,
+      "quality_long": 0,
+      "by_type": {
+        "PRINCIPLE": 109,
+        "INDEX": 1
+      }
+    },
+    "品牌规范": {
+      "domain": "品牌规范",
+      "file_count": 10,
+      "chunk_count": 18,
+      "skipped_files": 0,
+      "total_chars": 13338,
+      "total_tokens": 11138,
+      "quality_short": 0,
+      "quality_ok": 18,
+      "quality_long": 0,
+      "by_type": {
+        "INDEX": 2,
+        "BRAND": 16
+      }
+    },
+    "场景知识库": {
+      "domain": "场景知识库",
+      "file_count": 14,
+      "chunk_count": 42,
+      "skipped_files": 0,
+      "total_chars": 24712,
+      "total_tokens": 19752,
+      "quality_short": 0,
+      "quality_ok": 42,
+      "quality_long": 0,
+      "by_type": {
+        "INDEX": 1,
+        "SCENE_KB": 41
+      }
+    }
+  },
+  "type_distribution": {
+    "INDEX": 7,
+    "PRINCIPLE": 109,
+    "BRAND": 16,
+    "SCENE_KB": 41
+  },
+  "cost_estimate": {
+    "total_tokens": 78220,
+    "total_million_tokens": 0.0782,
+    "price_per_m_tokens_cny": 0.28,
+    "est_cost_cny": 0.0219,
+    "est_api_calls_batch10": 16,
+    "est_duration_seconds": 10
+  }
+}

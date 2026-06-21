@@ -1,0 +1,5 @@
+sudachipy
+sudachidict_core
+imageio-ffmpeg
+pycantonese
+opencc-python-reimplemented

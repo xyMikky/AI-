@@ -1,0 +1,176 @@
+{
+  "visual": {
+    "7+3": [
+      {
+        "issue": "26065",
+        "base": "26064",
+        "front_hits": 2,
+        "back_hits": 0,
+        "tier": 0,
+        "baseline_front_hits": 0.9913333333333333,
+        "baseline_back_hits": 0.462,
+        "baseline_prize_rate": 0.15266666666666667,
+        "actual_main": [
+          4,
+          11,
+          12,
+          13,
+          25
+        ],
+        "actual_bonus": [
+          4,
+          8
+        ]
+      },
+      {
+        "issue": "26066",
+        "base": "26065",
+        "front_hits": 2,
+        "back_hits": 0,
+        "tier": 0,
+        "baseline_front_hits": 0.9813333333333333,
+        "baseline_back_hits": 0.49866666666666665,
+        "baseline_prize_rate": 0.16333333333333333,
+        "actual_main": [
+          10,
+          13,
+          19,
+          21,
+          30
+        ],
+        "actual_bonus": [
+          4,
+          5
+        ]
+      },
+      {
+        "issue": "26067",
+        "base": "26066",
+        "front_hits": 1,
+        "back_hits": 0,
+        "tier": 0,
+        "baseline_front_hits": 0.9486666666666667,
+        "baseline_back_hits": 0.49266666666666664,
+        "baseline_prize_rate": 0.16,
+        "actual_main": [
+          6,
+          16,
+          18,
+          19,
+          28
+        ],
+        "actual_bonus": [
+          7,
+          11
+        ]
+      }
+    ],
+    "15+5": [
+      {
+        "issue": "26065",
+        "base": "26064",
+        "front_hits": 3,
+        "back_hits": 0,
+        "tier": 9,
+        "baseline_front_hits": 2.1566666666666667,
+        "baseline_back_hits": 0.8333333333333334,
+        "baseline_prize_rate": 0.6633333333333333,
+        "actual_main": [
+          4,
+          11,
+          12,
+          13,
+          25
+        ],
+        "actual_bonus": [
+          4,
+          8
+        ]
+      },
+      {
+        "issue": "26066",
+        "base": "26065",
+        "front_hits": 3,
+        "back_hits": 1,
+        "tier": 8,
+        "baseline_front_hits": 2.1333333333333333,
+        "baseline_back_hits": 0.8566666666666667,
+        "baseline_prize_rate": 0.6553333333333333,
+        "actual_main": [
+          10,
+          13,
+          19,
+          21,
+          30
+        ],
+        "actual_bonus": [
+          4,
+          5
+        ]
+      },
+      {
+        "issue": "26067",
+        "base": "26066",
+        "front_hits": 2,
+        "back_hits": 0,
+        "tier": 0,
+        "baseline_front_hits": 2.1866666666666665,
+        "baseline_back_hits": 0.8166666666666667,
+        "baseline_prize_rate": 0.6613333333333333,
+        "actual_main": [
+          6,
+          16,
+          18,
+          19,
+          28
+        ],
+        "actual_bonus": [
+          7,
+          11
+        ]
+      }
+    ]
+  },
+  "algo": {
+    "7+3": [
+      {
+        "issue": "26065",
+        "front_hits": 1,
+        "back_hits": 0,
+        "tier": 0
+      },
+      {
+        "issue": "26066",
+        "front_hits": 1,
+        "back_hits": 1,
+        "tier": 0
+      },
+      {
+        "issue": "26067",
+        "front_hits": 2,
+        "back_hits": 0,
+        "tier": 0
+      }
+    ],
+    "15+5": [
+      {
+        "issue": "26065",
+        "front_hits": 3,
+        "back_hits": 0,
+        "tier": 9
+      },
+      {
+        "issue": "26066",
+        "front_hits": 2,
+        "back_hits": 1,
+        "tier": 9
+      },
+      {
+        "issue": "26067",
+        "front_hits": 3,
+        "back_hits": 0,
+        "tier": 9
+      }
+    ]
+  }
+}
